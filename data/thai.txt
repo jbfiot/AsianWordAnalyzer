@@ -1,0 +1,2891 @@
+(ก็)เป็นได้ ,"possibly, likely, maybe, perhaps",,
+(คุณ)พ่อ,"father, papa, daddy",คน,"people, family"
+(คุณ)แม่,mother,คน,"people, family"
+(คุณ)ลุง,uncle  (older brother of father or mother),คน,"people, family"
+(ตอน)เที่ยง,at noon,,time word
+(ตัว)เลข,"number, figure, digit",ตัว,number word
+(ตัว)อักษร,alphabet,ตัว,
+(ทวีป)ยุโรป,Europe,ทวีป,continent
+(ทวีป)อเมริกา,America,ทวีป,continent
+(ทวีป)อเมริกาใต้,South America,ทวีป,continent
+(ทวีป)อเมริกาเหนือ,North America,ทวีป,continent
+(ทวีป)ออสเตรเลีย,Australia,ทวีป,continent
+(ทวีป)เอเชีย ,Asia,ทวีป,continent
+(ทวีป)แอฟริกา ,Africa,ทวีป,continent
+(ทาง)ขวามือ,on the right (hand side),,location word
+(ทาง)ซ้ายมือ,on the left (hand side),,location word
+(ทิศ)ทาง,"direction, way",ทิศ,location word
+(เบียร์)สิงห์,Singha Beer,ขวด ,"food, drink"
+(ใบ)กระเพรา,holy basil,ใบ,food
+(ใบ)โหระพา,basil leaf,ใบ,"food, herb"
+(ประเทศ)ไทย,Thailand,ประเทศ,Country
+(ประเทศ)อเมริกา,America,ประเทศ,Country
+(ประเทศ)อังกฤษ,England,ประเทศ,Country
+(วัน)จันทร์,Monday,วัน,"time, days"
+(วัน)พฤหัส,Thursday,วัน,"time, days"
+(วัน)พุธ,Wednesday,วัน,"time, days"
+(วัน)ศุกร์,Friday,วัน,"time, days"
+(วัน)เสาร์,Saturday,วัน,"time, days"
+(วัน)เสาร์(วัน)อาทิตย์,weekend,วัน,"time, days"
+(วัน)อังคาร,Tuesday,วัน,"time, days"
+(วัน)อาทิตย์,Sunday,วัน,"time, days"
+(สี)ขาว,white,สี,colour
+(สี)ชมพู,pink,สี,colour
+(สี)ดำ,black,สี,colour
+(สี)แดง,red,สี,colour
+(สี)ม่วง,purple,สี,colour
+(สี)เหลือง,yellow,สี,colour
+(สี)ีเขียว,green,สี,colour
+(สี)ีเทา,grey,สี,colour
+(สี)ีน้ำเงิน,navy blue,สี,colour
+(สี)ีน้ำตาล,brown,สี,colour
+(สี)ีเบจ,beige,สี,colour
+(อากาศ)หนาว,cold,,
+x วันก่อน,X days ago,วัน,time word
+ก็ … (ด้วย),"then, also, too, consequently; connective particle",,"particle, linking words"
+กงสุล,consul (loanword),คน,"people, occupation"
+กฎหมาย,"law, statute, enactment, rule",ฉบับ,law
+ก็ได้,"all right, OK, fine; any (used with thing, where, one, etc); can also possibly (used at end of sentence)",,
+ก้น,buttocks,ก้น,"people, body parts"
+กบ,frog,ตัว,"critter, amphibian"
+กรกฎาคม,July,เดือน,"time, month"
+กรรไกร,scissors,ด้าม,
+กรอบ,crispy,,food word (mostly)
+กระจก,"mirror, window pane, glass",บาน,house word
+กระจาย,"to spread, expand, extend, disperse",,
+กระดาน,"board, plank",แผ่น,house word
+กระดานดำ,blackboard,แผ่น,education word
+กระดาษ,paper,แผ่น,
+กระดิ่ง,bell,"ใบ, กระดิ่ง, อัน",
+กระดุม,button,เม็ด,clothes
+กระดูก,bone,ชี่,body parts
+กระโดด,to jump,,action word
+กระต่าย,rabbit,ตัว,animal
+กระทะ,"saucepan, frying pan",ใบ,"house, kitchen"
+กระเทียม,garlic,กลีบ,"food, cooking"
+กระป๋อง,"can, tin can",ใบ,
+กระเป๋า,"bag, pocket, shopping bag, suitcase, purse",ใบ,"clothes, accessories"
+กระเป๋าเดินทาง ,"suitcase, luggage",ใบ,travel
+กระเป๋าถือ,handbag,ใบ,"clothes, accessories"
+กระเป๋าสตางค์,wallet,ใบ,"clothes, accessories"
+กระโปรง,skirt,ตัว,clothes
+กรัม,gram (metric system) (loanword),,measurement
+กรุงเทพฯ,Bangkok,,location
+กรุ๊ป,group,หมู่,"people, things"
+กลม,"round, circular, large bottle whisky",,
+กล้วย,banana,ใบ,"food, fruit"
+กล้วยไม้,orchid,ดอก,"plant, flower"
+กล้วยหอม,bananas (fragrant),ใบ,"food, fruit"
+กล่อง,"box, case, casket",ใบ,container
+กล้องถ่ายรูป,camera,กล้อง,hobby
+กล่องเล็กๆ ,case or box (small) ,กลัก,container
+กลับ,to return,,action word
+กลับถึง,to return,,action word
+กลับบ้าน,to go home,,action word
+กลับไป,go back,,action word
+กลับมา,"come back, return",,action word
+กลับรถ,"to turn the car around, u-turn",,transportation word
+กลัว,"to fear, scared, afraid of",,emotion
+กล้า,"dare to, be brave, bold",,
+กลาง,"center, middle, intermediate, moderate (not said on its own)",,
+กลางคืน,night time (7 pm - 3 am),,time word
+กลางเดือน,middle of the month,,time word
+กลางวัน,"daytime, by day, midday",,time word
+กล้าม,muscle,มัด,"people, body parts"
+กลิ่น,"smell, odor",กลิ่น,
+กลืน,to swallow,,action word
+กลุ้มใจ,"to worry, be depressed, distress",,emotion
+ก๋วยเตี๋ยว,noodles,เส้น,food
+กว่า,"more, more than; till, until, by the time, as (not said on its own)",,comparing
+กว่ากัน,more than,,comparing
+กว้าง,"to be wide, be broad, be vast",,
+กวาด,to sweep,,
+ก๊อกน้ำ,faucet,อัน,house word
+กอง,"pile, heap, stack; classifier for pile of something",,
+กอด,to hug,,action word
+ก่อน,"before, first",,
+ก่อนถึง  ,before a place,,location word
+ก่อนที่,before,,
+ก่อนอาหาร,before meals,,food word
+ก๊อปปี้ ,photocopy,"ฉบับ, ใบ",
+กอล์ฟ,golf,ลูก,sports
+ก่อสร้าง,"to build, construct",,house word
+กะทิ,coconut milk,"ช้อน, ล็ตร","food, cooking"
+กะเพรา,basil,ใบ,"food, herb"
+กะหล่ำดอก,cauliflower,ดอก,"food, vegetable"
+กะหล่ำปลี,cabbage,หัว,"food, vegetable"
+กังวล,to worry,,emotion
+กัด,to bite,,action word
+กัน,"together, one another, each other",,
+กันยายน,September,,"time, month"
+กับ,"with, by, at, and",,
+กับแกล้ม,food eaten while drinking (alcohol),อย่าง,food word
+กับข้าว,side dishes eaten with rice,อย่าง,food word
+กา,"crow, kettle, teapot; make a mark, make a sign","ตัว, ใบ",
+กางเกง,"trousers, pants",ตัว,clothes
+กางเกงขาสั้น,shorts,ตัว,clothes
+กางเกงใน,underwear,ตัว,clothes
+กาน้ำชา,teapot,ใบ,"house, kitchen"
+กาแฟ,coffee,"ช้อน, ถ้วย","food, drink"
+กาแฟเย็น,iced coffee,แก้ว,"food, drink"
+กาแฟร้อน,hot coffee,แก้ว,"food, drink"
+การ,prefix + verb (eg: การงาน) = noun (not used on its own),,
+การเที่ยวชม,sightseeing,,
+การบ้าน,homework,อย่าง,education word
+การประชุม,"meeting, conference, session",,
+การพูด,"talking, speech",,
+การเรียน,"education, study, learning",,
+การศึกษา,education,,education word
+การสอน,teaching (the activity of),,
+การอ่าน,reading,,
+ก้าวหน้า,"to progress, advance, forward",,
+กำจัด,dispose of,,
+กำนัน,kamnan (chief of the tambon),คน,"people, occupation"
+กำแพง,wall (enclosing a yard or city),แห่ง,
+กำไร,profit,,
+กำลัง … (อยู่),in the process of...,,
+กำลังจะ,"to be about to, on the point of",,
+กำลังพอดี,just right,,
+กิน,"to eat, drink, consume, have",,
+กินข้าว,to have a meal,,
+กินยา,to take medicine,,
+กินเล่น,to snack (eat for fun),,food word
+กินเลี้ยง ,to party,,
+กินเหล้า,to drink (liquor),,"food, drink"
+กิโล(กรัม),kilogram (metric system),,measurement
+กิโลเมตร,kilometer (metric system),,measurement
+กี่,"how many, how much (question word)",,
+กี่ปี,how many years?,,time word
+กี่โมง,what time,,time word
+กี่วัน,how many days?,,time word
+กีฬา,"sport(s), athletics","ชนิต, อย่าง",sports
+กุ้ง,"prawn, shrimp",ตัว,"food, fish"
+กุญแจ,"key, lock",ดอก,
+กุมภาพันธ์,February,เดือน,"time, month"
+กุหลาบ,rose,ดอก,"plant, flower"
+เก๊,fake,,
+เก่ง,"expert, skillful (at doing something)",,
+เก็บ,"to collect, keep, store",,
+เก็บเงิน,to save money,,money word
+เก็บโต๊ะ,to clear the table,,
+เก็บไว้,to keep,,
+เกรงใจ,"to be (too) courteous, considerate, afraid of offending",,
+เกลียด,to hate,,
+เกลือ,salt,เม็ด,"food, spices"
+เกษียณ,to retire,,
+เกา,"to scratch, scrape",,
+เก่า,"old (of things), former, previous",,
+เก้า ๙,nine (9),,number
+เก้าสิบ,ninety (90),,number
+เก้าสิบเอ็ด,ninety-one (91),,number
+เกาหลี ,"Korea, Korean ","ประเทศ, คน",Country
+เกาหลีใต้,South Korea,"ประเทศ, คน",Country
+เก้าอี้,chair,ตัว,"house, furniture"
+เกาะ,"island, isle","เกาะ, แห่ง",location
+เกิด,to be born,,
+เกิดขึ้น,to occur,,
+เกินไป,"too much, excessively",,
+เกี่ยวกับ,"about, relating to, concerning",,
+เกี่ยวข้อง,"to relate, concern, involve, connect",,
+เกือบ,"nearly, almost, shortly, closely",,
+แก่,"to be old (opposite of young); dark (color), to, for",,
+แก้,"to repair, mend fix (a problem) + object",,
+แก้ไข,to revise,,
+แกง,curry,อย่าง,"food, dish"
+แกงเขียวหวาน,green curry,"ถุง, ถ้วย","food, dish"
+แกงมัสมั่น,massaman curry,"ถุง, ถ้วย","food, dish"
+แกงเหลือง,yellow curry,"ถุง, ถ้วย",
+แก้ตัว,"excuse oneself, make excuses ",,
+แก้ม,cheek,แก้ม,"people, body parts"
+แกล้ง,"to tease, bully, trick",,
+แก้ว,"glass, cup, crystal; parrot",ใบ,"house, dishes"
+แก้วไวน์,wine glass,ใบ,"house, dishes"
+แกะ,sheep,ตัว,animal
+แกะสลัก,to sculpt (carve),,
+โกโก้,cocoa,"แก้ว, ถุง","food, drink"
+โกง,"deceitful, cheat",,
+โกน,to shave,,
+โกนหนวด,to get a shave,,
+โกรธ,angry,,
+โกหก,to lie,,
+ใกล้,"to be near, close",,location word
+ใกล้ๆ,quite near,,location word
+ใกล้ๆกัน,near each other (in this instance),,location word
+ใกล้กัน ,near each other (in this instance),,location word
+ใกล้จะ,nearly,,
+ใกล้จะหมดอายุ,just about to expire,,
+ไก่,"chicken, hen, cock",ตัว,"animal, bird"
+ไก่งวง,turkey,ตัว,"animal, bird"
+ไกล,far,,location word
+ขณะที่,while,,
+ขณะนี้,present time,,time word
+ขน,"hair, fur, feather, wool, down",เส้น,"people, body parts"
+ขนม,"pastry, sweets, dessert",อย่าง,"food, dessert"
+ขนมจีน,Thai vermicelli,จับ,food
+ขนมปัง,bread,"แผ่น, ก้อน",food
+ขนส่ง,"to transport, bus station (transport send)",,transportation
+ขนาด,size,,
+ขนุน,jackfruit,"ใบ, ลูก","food, fruit"
+ขม,bitter,,food word
+ขโมย,"to steal, thief, robber",,
+ขยะ,"rubbish, trash",ชิ้น,
+ขยัน,hardworking,,
+ขยาย,to expand,,
+ขวด,bottle; classifier for things in bottles,ใบ,
+ขวบ,"year, of age (for people under 14 years)",,
+ขวา,right (side),,location word
+ขอ,"to request, ask",,
+ขอ … หน่อย,I'd like...,,
+ข้อความ,message,ข้อความ,
+ของ,"of, belonging to",,
+ของขวัญ,present,ชิ้น,
+ของเขา,"hers, his",,people
+ของคุณ,"your, yours",,people
+ของใคร,whose,,
+ของจริง,real thing,,
+ของฉัน,"my, mine (female)",,people
+ของใช้,"appliance, utensils, wares","ชิ้น, อย่าง",house word
+ของนอก,products made outside of Thailand or in country,,
+ของปลอม,false/fake thing,ชิ้น,
+ของผม,"my, mine (m)",,people
+ของพวกเขา,"their, theirs",,people
+ของหวาน,dessert,ชนิด,"food, dessert"
+ขอเชิญ,to invite,,
+ข้อเท้า,ankle,,"people, body parts"
+ขอโทษ,"excuse me, I'm sorry",,
+ขอบคุณ,thank you,,
+ขอบใจ,"""thank you"" (superior to inferior)",,
+ขอม,Khmer,คน,"people, nationality"
+ข้อมือ,wrist,ข้อ,"people, body parts"
+ข้อมูล,"data, information",เรื่อง,
+ขอยืม,to borrow,,
+ขอร้อง,to implore,,
+ข้อศอก,elbow,ข้อ,"people, body parts"
+ขอให้,(I) wish you ...,,
+ขับ(รถ),to drive (a car),,
+ขา,leg,ขา,"people, body parts"
+ข่า,galangal,หัว,"food, spices"
+ขากรรไกร,jaw,ชี่,"people, body parts"
+ขาเข้า,"arrivals, inbound",,transportation
+ข้างๆ,"next to (something or someone), beside",,location word
+ข้างขวา (มือ),right (hand) side,,
+ข้างนอก,outside,,location word
+ข้างใน,inside,,location word
+ข้างบน,"above, on, on top of, above, upstairs",,location word
+ข้างล่าง,"below, beneath, under, the area below",,location word
+ข้างหน้า,"in front of, ahead",,location word
+ข้างหลัง,behind,,location word
+ขาด,"to be torn, broken, lacking",,
+ข้าม,"to skip, jump over, cross",,
+ขาย,to sell,,shopping
+ขายของ,to sell things,,shopping
+ข้าราชการ,"government officer, government employee",คน,government
+ขาว,"fair, light complexion, white ",,
+ข่าว,"information, news",ชิ้น,
+ข้าว,rice ,เม็ด,food
+ข้าวเช้า,breakfast,มื้อ,"time, food"
+ข้าวเที่ยง,lunch,มื้อ,"time, food"
+ข้าวผัด,fried rice,,food
+ข้าวเย็น,dinner,มื้อ,food word
+ข้าวเหนียว,sticky rice,,food
+ขาออก,"departures, outbound",,transportation
+ขิง,ginger,"แง่ง, หัว","food, spices"
+ขี้,"poop, excrement, characterised by",ก้อน,
+ขี้เกียจ,to be lazy,,
+ขีด,"to scratch, 100 grams",,
+ขี้มูก,"mucus, snot",ก้อน,health
+ขี้เมา,"a drunkard, an alcoholic",,health
+ขี้เหนียว,"to be stingy, sticky excrement",,
+ขี้อาย,shy,,
+ขึ้น,"to go up, get on",,
+ขึ้นอยู่กับ,"to depend on, rely on",,
+ขื้นเงิน,cash a check,,money word
+เข็ม,needle,ด้าม,
+เข้ม,"to be dark (colour + เข้ม), dark",,colour word
+เข็มกลัด,"safety pin, brooch",อัน,
+เข็มขัด,belt,เสัน,"clothes, accessories"
+เข้มแข็ง,"dynamic, (as leader)",,
+เข็มฉีดยา,syringe,เข็ม,health
+เขมร ,"Cambodia, Cambodian ",คน,"Country, nationality"
+เข่า,knees,เข่า,"people, body parts"
+เข้า,to enter,,
+"เขา, เค้า","she, he, him, her, they",,"people, pronoun"
+เข้ากัน,harmonize (as colours),,
+เข้าใจ,"to understand, understood",,
+เข้าใจ(ว่า),to understand that,,
+เข้าใจผิด,misunderstood,,
+เข้านอน,to go to bed,,
+เข้าไป,to enter,,location word
+เข้ามา,to enter,,location word
+เขาเอง,"themselves, ourselves",,peoples
+เขี่ย,"to remove, throw away; to stir, scratch",,
+เขียง,chopping board,เขียง,"house, kitchen"
+เขียน,to write,,
+แขก,"guests, dark skinned people (Indians, Muslims, etc)",คน,people
+แข็ง,to be hard (not soft),,
+แข่งขัน,to compete,,
+แข็งแรง,strong,,
+แขน,"arm, sleeve","แขน, ข้าง","people, body parts"
+แขวน,to hang,,
+ไข,"animal fat, tallow; unlock, to wind a clock",,"food, cooking"
+ไข่,eggs,ฟอง,food
+ไข้,fever ,,
+ไข่กวน,scrambled egg,,"food, dish"
+ไข่เจียว,omelette,"ฟอง, ลูก","food, dish"
+ไข่ดาว,fried eggs,"ฟอง, ลูก","food, dish"
+ไข่แดง,yolk,"ฟอง, ลูก",food
+ไข่ต้ม,boiled eggs,"ฟอง, ลูก","food, dish"
+ไข้เลือดออก,dengue fever,,health
+ไข้หวัด,"flu, cold (to have)",,health
+ไข้หวัดใหญ่,flu,,health
+ฃอง,"something, things, stuff, possessions",ชิ้น,
+คง,"most likely, sure to, bound to",,
+คงจะ,probably,,
+คดี,"case, lawsuit ",คดี,law
+คน,person (classifier for person),คน,people
+ค้น,"search (for something/someone), look (for something/someone)",,
+คนแก่,old people,คน,people
+คนขับรถ,"chauffeur, driver",คน,"people, occupation"
+คนขาย,vendor,คน,"people, occupation"
+คนขายของ,salesman,คน,"people, occupation"
+คนไข้,patient,คน,health
+คนงาน,workman,คน,people
+คนใช้,servant,คน,"people, occupation"
+คนเดียว,"alone, one person",,people
+คนโดยสาร,passenger,คน,people
+คนต่างประเทศ,foreigner,,people
+คนโต,oldest one (of children),คน,people
+คนไทย,Thai person,คน,people
+คนนั้น,"that person, those people (further away)",คน,"people, pronoun"
+คนนี้,"this person, these people (near you)",คน,"people, pronoun"
+คนโน้น,"that person, those people (way over there)",คน,"people, pronoun"
+คนพวกนี้,these people,คน,people
+คนยุโรป,European,คน,people
+คนเล็ก,youngest one (of children),คน,people
+คนสุดท้าย,youngest one (of children),คน,people
+คนโสด,"single person, bachelor, spinster",คน,people
+คนหนึ่ง ,one person,คน,people
+ค้นหา,to search,,
+คนอื่น,"someone else, others",คน,
+คม,to be sharp,,
+ครก,mortar,ใบ,house word
+ครบ,"complete (in quantity), to include all the members of a limited set of items",,
+ครอบครัว,family,ครอบครัว,"people, family"
+ครั้ง ,"times, occasions; classifier for time",,time word
+ครั้งที่สอง,the second time,,time word
+ครั้งนี้,this time,,time word
+ครั้งแรก,first time,,time word
+ครับ,"polite particle (male), yes",,
+ครัว,kitchen,"ห้อง, แห่ง, ที่","house, kitchen"
+คราวหน้า,next time,,time word
+ครีม,cream,,"food, dairy"
+ครึ่ง(หนึ่ง),one half,,measurement
+ครึ่งชั่วโมง,half an hour,,
+ครู,teacher,คน,"people, occupation"
+ครู่,"short period of time, awhile",,time word
+ครูฝึก,coach,คน,"people, occupation"
+คลอง,canal,คลอง,location
+คลอดลูก,to give birth,,health
+คล้ายกัน,to look like,,
+คลินิก,clinic (loanword),แห่ง คลินิก,"health, building"
+ควร(จะ),"should, ought to",,
+ความ,"prefix: -ness,-ity; ความ + adjective = noun (hot becomes heat)",,
+ความคิด(เห็น) ,"opinion, idea",,
+ความจริง,"truthfully, actually",,
+ความเชื่อ,belief,,
+ความดี,"goodness, virtue, merit",,
+ความปลอดภัย,"safety, security",,
+ความรัก,love,,emotion
+ความรู้,knowledge,,education word
+ความรู้สึก,feeling,,emotion
+ความเร็ว,speed,,
+ความสำคัญ,importance,,
+ความสำเร็จ,success,,
+ความสุข,happiness,,emotion
+ความสูง,height,,measurement
+ความหมาย,meaning,,
+ความหวัง,"hope, wish, expectation",,
+ความอยาก,lust,,emotion
+ควาย,water buffalo,ตัว,animal
+คอ,"neck, throat, collar",คอ,"people, body parts"
+ค้อน,hammer,,house word
+ค่อนข้าง,rather,,
+คอนเสิร์ต,concert (loanword),วง,entertainment
+คอม(พิวเตอร์),computer (loanword),เครื่อง,computer
+คอย,to wait,,
+ค่อย,"softly, low (of sound)",,
+คะ,"polite particle (female), question by a female",,particle
+ค่ะ,"polite particle, statement by a female",,particle
+คะแนน,"grade, score point(s)",,education word
+คัดจมูก,stuffy nose,,health
+คั้น,to squeeze,,
+คับ,tight,,
+ค่า,"fee, cost, price, value",,money
+ค้าขาย,trade,,"people, occupation word"
+คาง,chin,คาง,"people, body parts"
+ค้างคืน,stay overnight,,
+ค่าจ้าง,"wage, wages, pay",บาท,money word
+ค่าเช่า,rent,บาท,money word
+ค่าใช้จ่าย,costs,บาท,money word
+ค่าโดยสาร,fare,บาท,money word
+ค่าธรรมเนียม,fee,บาท,money word
+ค่าปรับ,fine (monetary penalty for breach of law),,
+ค่าย,camp,"แห่ง, ค่าย",
+ค่ารถ,carfare,บาท,money word
+คำ,word,คำ,
+ค่ำ,6 pm  - 7pm,,time word
+คำตอบ,answer,คำตอบ,
+คำถาม,question,คำถาม,
+คำแนะนำ,"suggestion, advice",อย่าง,
+คำพูด,"speech, words, discourse, remark, vocable, utterance","คำ, แบบ, อย่าง",
+คำศัพท์,vocabulary,คำ,
+คำสั่ง,"command, order, word of command","ข้อ, อย่าง",
+คิด,"to think, think of, figure or reckon",,
+คิดดู,"consider, think about ",,
+คิดถึง,to think about someone (to miss someone),,
+คิดถึงบ้าน,homesick,,
+คิดว่า,to think that ...,,
+คิ้ว,eyebrow,คิ้ว,"people, body parts"
+คิวรถ,bus station (transportation queue),"คิว, ที่",location
+คืน,"to return (something borrowed), restore",,
+คืนนี้,tonight,,
+คือ,"to be, is, am, are, mean ( formal, written) ",,
+คุณ,"you, คุณ + name",,"people, pronoun"
+คุณพ่อคุณแม่,parents (polite usage), คน,"people, family"
+คุณภาพ,quality,,
+คุณล่ะ,"and you, what about you ",,
+คุณสมบัติ,qualifications,อย่าง,
+คุณเอง,yourself,,people
+คุ้ม,to be worthwhile,,
+คุย,"to talk, to converse; to brag, boast, swagger, bluster",,
+คุยกัน,chat together,,
+คุยการ,conversation,,
+คู่,pair,,measurement
+คู่หมั้น,fiancee,คน,people
+เค็ม,salty,,food word
+เคย,used to,,
+เคย … มาก่อน,to have ever done something,,
+เคยชิน,to get used to,,
+เครา,beard,,"people, body parts"
+เครื่อง,"machine, tool, engine",เครื่อง,tools
+เครื่องซักผ้า,washing machine,เครื่อง,"house, appliance"
+เครื่องดื่ม,drinks,ชนิด,"food, drink"
+เครื่องดูดฝุ่น,vacuum cleaner,เครื่อง,"house, appliance"
+เครื่องบิน,airplane,เครื่อง,transportation
+เครื่องมือ,tool,ชิ้น,tools
+เครื่องเรือน,furniture (formal),ชิ้น,"house, furniture"
+เคล็ดขัดยอก  ,sprain,,health
+เคลื่อน,"to move, displace, progress",,
+เคารพ,to respect,,
+เคี้ยว,to chew,,food word
+แค่,"just, only, only a small amount",,
+แคนาดา,Canada,ประเทศ,Country
+แค่นี้,"only, just, solely",,
+แคบ,narrow,,measurement
+แคร์,to care about,,
+แครอท,carrot,หัว,"food, vegetable"
+แค่ไหน,however much,,
+โคมไฟ,"lamp, lantern, light","โคม, อ้น",
+โครง,frame,,"people, body parts"
+โครงการ,project,โครงการ,
+ใคร,"who, what (in some constructions)",,question word
+ใครก็ได้,anyone,คน,"people, pronoun"
+ใครคนหนึ่ง,someone,คน,"people, pronoun"
+ฆ่า,to kill,,
+โฆษณา,to advertise,ตัว,
+งง,"to be dazed, confused",,
+งบประมาณ,budget,ก้อน,
+ง่วง(นอน),to be sleepy,,health
+งั้น,"in that case, so, then, therefore (shortened from ถ้ายังงั้น)",,
+งา,ivory,"กิ่ง, งา",
+งาน,work,"ชิ้น, อย่าง","people, occupation word"
+งานแต่งงาน,wedding,งาน,occasion
+งานเลี้ยง,party (entertainment),งาน,occasion
+งาม,"be beautiful, be good-looking, be pretty",,
+ง่าย,to be easy,,
+ง่ายกว่า,easier,,
+งู,snake,ตัว,"critter, reptile"
+งูเขียว,green snake,ตัว,"critter, reptile"
+งูเห่า,cobra,ตัว,"critter, reptile"
+เงาะ,rambuttan ,"ใบ, ลูก, ผล","food, fruit"
+เงิน,"money, silver",บาท,money word
+เงินเดือน,salary,บาท,money word
+เงินใต้โต๊ะ,tea money,บาท,money word
+เงินทอน,change (money returned),บาท,money word
+เงินสด,cash,บาท,money word
+เงียบ,to be quiet,,
+โง่,stupid,,
+ไง,"how (form of อย่างไร, ยังไง)",,question word
+จด,"to write, record, take note, copy; to be contiguous, adjoin, border",,
+จดทะเบียน,"to register, create an official record ",,
+จดหมาย,"letter, mail",ฉบับ,communication
+จน,to be poor (in wealth) ,,
+จน(กระทั่ง),until,,
+จนกว่า,until,,
+จนถึง,until,,
+จมน้ำ,"drown, sink",,health
+จมูก,nose,จมูก,"people, body parts"
+จระเข้,alligator,ตัว,"critter, reptile"
+จราจร,"traffic, movement of vehicles",,
+จริง,"to be true, true, really",,
+จริงๆ,"true, really",,
+จริงใจ,sincere,,
+จอง,to reserve,,
+จอด,"to stop, to park",,
+จะ,"will, shall, shows future tense",,
+จักรยาน,bicycle,คัน,
+จังเลย,intensifier,,
+จังหวัด,province,จังหวัด,location
+จัด,to arrange,,
+จัดการ,to manage,,
+จันทร์,"Monday, moon",,"time, day"
+จับ,"to catch, grab",,
+จาก,from,,
+จ้าง,"to employ, hire",,
+จาน,plate; classifier for plates of food,ใบ,"house, kitchen"
+จาน(ข้าว),dinner plate (informal),ใบ,"house, kitchen"
+จานรองถ้วย,saucer,ใบ,"house, kitchen"
+จาม,to sneeze,,health
+จ่าย,"to pay, spend",,money word
+จ่ายเงิน,to pay ,,money word
+จำ,"to remember, recognize",,
+จำได้,to remember,,
+จำเป็น,to be necessary,,
+จิ้งจก,house lizard,ตัว,"critter, reptile"
+จิ้งหรีด,cricket,ตัว,"critter, insect"
+จี้,to mug,,
+จีน ,"China, Chinese ",,Country
+จีบ,"to pleat, to flirt",,
+จืด,"to be tasteless, bland",,
+จูบ,kiss,,
+จูบปาก,to kiss on the mouth,,
+เจ็ด,seven (7),,number
+เจ็ดสิบ,seventy (70),,number
+เจ็บ,"to hurt, be hurt",,
+เจ็บคอ,sore throat,,health
+เจอ,meet with unexpectedly,,
+เจอกัน,"to meet, encounter, see",,
+เจ้าของ,owner,คน,people
+เจ้าของบ้าน,landlord,คน,"people, occupation"
+เจ้าของร้าน,shop owner,คน,"people, occupation"
+เจ้าบ่าว,bridegroom,คน,people
+เจ้าสาว,bride,คน,people
+เจ้าหน้าที่,"authorities, government",คน,people
+เจ้าหนี้,creditor,คน,people
+แจก,to distribute,,
+แจ้ง,"to make known, inform, report",,
+โจร,robber,คน,"people, profession"
+ใจ,"heart, mind, spirit",,emotion
+ใจกว้าง,generous,,emotion
+ใจแคบ,"to be narrow-minded, selfish",,
+ใจดำ,mean,,emotion
+ใจดี,kind,,emotion
+ใจเย็น,"calm, cool-headed",,emotion
+ใจเย็นเย็น,have a relaxed view of life,,emotion
+ใจร้อน,"to be hot-tempered, short-tempered, quick-tempered, impatient",,emotion
+ฉบับ,"copy, issue, edition; classifier for letters or newspapers",ฉบับ,classifier
+ฉลาด,smart,,emotion
+ฉัน,"I, me (usually female, possibly male speaking to person of inferior status)",คน,people
+ฉันเอง,myself (female),คน,"people, pronoun"
+ฉาย,to shine a light,,
+ฉีด(ยา),"to inject, to get an injection",,health
+เฉพาะ,"especially, exclusively for",,
+เฉย,"to be calm, still, passive, indifferent",,emotion
+เฉยๆ,"so-so, just, to be indifferent, have a relaxed view of life",,emotion
+ชกมวย,box,,
+ชน,"to hit, bump into",,
+ชนบท,"rural area, countryside (polite)","แห่ง, ที่",location
+ชนะ,to win,,
+ชนิด,"kind, type (emphasis on type)",,
+ชม,"to look at, admire, praise",,
+ชมพู่,rose apple,"ใบ, ลูก, ผล","food, fruit"
+ช่วงนี้,lately,,time word
+ชวน,"to invite, urge, persuade someone to do something",,
+ช่วย,"to help, please",,
+ช่วยด้วย,help!,,
+ช็อกโกแลต,chocolate (loanword),ชิ้น,"food, dessert"
+ช้อน,spoon,คัน,"house, kitchen"
+ช้อนกลาง,serving spoon,คัน,"house, kitchen"
+ช้อนชา,teaspoon,คัน,"house, kitchen"
+ช้อนส้อม,spoon and fork,คัน,"house, kitchen"
+ชอบ,"to like, be fond of",,emotion
+ชอบ … มากกว่า,prefer,,
+ชอบใจ,"to be pleased, satisfied",,
+ชั่ง,to weigh,,measurement
+ชั่งน้ำหนัก,to weigh (formal),,measurement
+ชัด,"plain(ly), clear(ly), distinct(ly)",,
+ชั้น,"class, rank, grade, floor (in a building)",,
+ชั้นบน,upstairs,,house
+ชั้นล่าง,"downstairs, ground floor",,house
+ชั้นสอง,second floor,,house
+ชั้นหนึ่ง,"first floor, first class",,house
+ชั่วคราว,temporary,,time word
+ชั่วโมง,"hour, 60 minutes (measure of time)",,time word
+ชา,tea (the product or drink),"ถ้วย, ที่","food, drink"
+"ช้า, ช้าๆ",slow(ly),,
+ช่าง,"technician, mechanic",คน,"people, occupation"
+ช้าง,elephant,เชือก,animal
+ช่างตัดผม,barber,คน,"people, occupation"
+ช่างตัดเสื้อ,tailor,คน,"people, occupation"
+ช่างไฟฟ้า,electrician,คน,"people, occupation"
+ช่างภาพ,photographer,คน,"people, occupation"
+ช่างยนต์,engine mechanic,คน,"people, occupation"
+ชาติ,nationality,,people
+ช้าไป,slow,,movement
+ชาม,bowl,ใบ,"house, kitchen"
+ชาย,male,คน,people
+ชายแก่,old man,คน,people
+ชายแดน,"frontier, border, boundary",,
+ชายทะเล,beach,แห่ง,location
+ชายโสด,bachelor,คน,people
+ชายหญิง,men and women,คน,people
+ชายหาด,beach,"แห่ง, ที่",location
+ชาว,"city people, townspeople, urban population",,people
+ชาวต่างประเทศ,"foreigner, alien",คน,people
+ชาวนา,farmer (rice),คน,"people, occupation"
+ชาวประมง,fisherman,คน,"people, occupation"
+ชาวเอเชีย,Asian,คน,"people, nationality"
+ชิด,close (touching),,
+ชิน,"to be be accustomed to, used to, familiar with",,
+ชิม,to taste,,
+ชีวิต,life,ชีวิต,
+ชื่นใจ,"to feel sweet, cordial",,emotion
+ชื่อ,"name, to be named",ชื่อ,
+ชื่อเล่น,nickname,ชื่อ,
+ชุด,"suit, dress, uniform, clothing; class: set, group, series",ชุด,clothes
+ชุดชั้นใน,lingerie,ตัว,clothes
+ชุดนอน,pajamas,ตัว,clothes
+ชุดสากล,"style of clothes (formal, casual, etc)",ชุด,
+เช็ค,"to check, cheque (loanword)",ฉบับ,
+เช็คเดินทาง,traveller's cheque,ฉบับ,
+เช็คบิล,can I have the bill?,,
+เช็ด,to wipe,,
+เช่น,such as,,
+เช่นกัน,same here,,
+เช่นเดียวกับ,"the same as, in like manner",,
+เช่า,to rent,,money word
+เช้า,"morning, a.m. (6am - 11am)",,time word
+เช้านี้,this morning,,time word
+เช้ามืด,early morning,,time word
+เช้าวันอาทิตย์,Sunday morning,,time word
+เชิญ,"to invite, go ahead, please do, help yourself",,
+เชื่อ,"to believe (in), have faith (in)",,
+เชือก,"rope, cord; classifier for elephants (domestic)",เส้น,
+เชื่อฟัง,to obey,,
+เชื้อโรค,germ,ตัว,health
+แช่,"soak, steep in liquid",,
+โชคดี,good luck!,,
+โชคร้าย,bad luck,,
+ใช่,yes,,
+ใช้,"to use, be used for",,
+ใช้เงิน,to spend money,,money word
+ใช้ได้,"reasonable, acceptable",,
+ใช้หมด,"finished, used up ",,
+ใช่ไหม,"isn't it so, isn't it the one?",,
+ไชโย,hurrah! (for giving toasts),,
+ซวย,bad luck,,
+ซองจดหมาย,envelope,ชอง,
+ซ่อน,to hide,,
+ซอฟต์แวร์,software,"ตัว, ชิ้น",computer
+ซ่อม,to repair,,
+ซอย,"lane, narrow street",ชอย,
+ซัก,"to wash (clothes only); to launder, a little, bit",,house word
+ซักน้ำ,"to wash in water, to rinse",,house word
+ซักผ้า,to do the laundry,,house word
+ซักแห้ง,to dry-clean,,house word
+ซ้าย,left (side),,
+ซาอุดีอาระเบีย,Saudi Arabia,ประเทศ,Country
+ซิ,particle used to show emphasis ,,particle
+ซิ่,particle used to show emphasis,,particle
+ซิป,zipper,ตัว,clothes
+ซีด,"to pale, be pallid, be wan",,
+ซีดี,CD (loanword),แผ่น,computer
+ซีอิ๊ว,soy sauce,"ช้อน, ขวด",food
+ซื่อ,honest,,
+ซื้อ,"to buy, to shop ",,shopping
+ซื้อของ,to shop,,shopping
+ซื่อตรง,honest,ป้าย,
+ซุป,soup (loanword),ชนิด,food
+ซุปเปอร์มาร์เก็ต,supermarket (loanword),แห่ง,building
+เซ็ง,to be very bored,,
+เซ็น(ชื่อ),to sign name,,
+โซดา,soda water,ขวด,"food, drink"
+ญาติ,relative(s),คน,"people, family"
+ญี่ปุ่น ,"Japan, Japanese ","ประเทศ, คน","Country, nationality"
+ดนตรี,music,ชนิด,music
+ดม,to smell (active),,
+ดวงจันทร์,moon,ดวง,planets
+ดวงอาทิตย์,sun,ดวง,planets
+ด่วน,"to be urgent, express",,
+ด้วย,"also, too, as well",,
+ด้วยกัน,together,,
+ด้วยความยินดี,"with pleasure, you're welcome",,
+ด้วยตัวเอง,by oneself,,
+ดอก,flower,ดอก,"plant, flower"
+ดอกบัว,lotus flower,ดอก,"plant, flower"
+ดอกเบี้ย,interest,บาท,
+ดอกไม้,flower,ดอก,"plant, flower"
+ดอง,pickled,,food
+ดอย,"hill, mountain",,location
+ดอลลาร์,dollar,แบงค์,money word
+ดัง,loud,,
+ดังนั้น ,therefore,,
+ดัน,to push,,
+ดับ,"to switch off, turn off, put out",,
+ด่า,"to curse, scold",,
+ด้าน,"field, line (of research, study or work)",,
+ด้าย,"thread, string, cord",เส้น,
+ดาว,star,ดวง,planets
+ดิก,dictionary (loanword),เส่ม,education word
+"ดิฉัน, ฉัน","I, me (female speaker)",คน,people
+ดิน,"earth, land, ground",ก้อน,location
+ดินสอ,pencil,แท่ง,education word
+ดิบ,"unripe, raw",,food word
+ดี,good (to be),,comparing
+ดีกว่า,better than,,comparing
+ดีขึ้น,"improved, better than before",,comparing
+ดีใจ,glad,,emotion
+ดีที่สุด,best,,comparing
+ดีมาก,very good,,comparing
+ดีเยี่ยม - วิเศษ - เด็ด,"to be excellent, superb (slang) ",,comparing
+ดึก,"11 pm - 3 am, late at night",,time word
+ดึง,to pull,,
+ดื่ม,to drink,,food word
+ดู,to look at,,
+ดูแล - บำรุง,"to care for, nourish, maintain",,
+ดูเหมือน,looks like,,
+เด็ก,child,คน,people
+เด็ก(ผู้)ชาย,boy,คน,people
+เด็ก(ผู้)หญิง,girl,คน,people
+เดนมาร์ก,Denmark,ประเทศ,Country
+เดิน,to walk ,,
+เดินทาง,to travel ,,
+เดินผ่าน,to pass,,
+เดินเล่น,"to take a walk, go for a walk",,
+เดียว,"one only, only",,
+เดี๋ยว,"soon, otherwise, or else, in just a minute, in just a moment",,
+เดียวกัน,"same, identical",,
+เดี๋ยวนี้,right now,,
+เดือด,"to be angry, boiling mad",,
+เดือน,month,เดือน,"time, month"
+เดือนที่แล้ว,last month,,"time, month"
+เดือนนี้,this month,,"time, month"
+เดือนหน้า,next month,,"time, month"
+แดด,"sunlight, sunshine",,
+แดดเผา,sunburn,,health
+โดย,by (means of transportation),,
+โดยเฉพาะ,especially,,
+โดยเร็ว,"fast, quickly ",,
+ได้,"can, could, be able, get, obtain, procure",,
+ได้เงิน,to make money,,money word
+ได้ยิน,to hear ,,
+ได้รับ,to receive,,
+ได้ไหม,"can (you), could (you), are (you) able to?",,
+"ได้ไหม, ได้มั้ย",can? Is it possible?,,question phrase
+ตก,to fall,,
+ตกใจ,startled,,
+ตกปลา,"to fish, fishing",,
+ตกลง,"right, O.K., to agree (to something)",,
+ต้น,"stem, trunk",,
+ต้นเดือน,beginning of the month,,time word
+ต้นปี,beginning of the year,,time word
+ต้นไม้,trees,ต้น,plant
+ตบ,to slap,,
+ต้ม,to boil something,,food word
+ตรง,straight,,
+ตรงข้าม(กัน),opposite (location),,location word
+ตรงข้ามกับ ,"right across from, just opposite to",,location word
+ตรงนี้,"over here, right here",,location word
+ตรงไป,to go straight,,
+ตรงมา,come directly,,
+ตรวจ,to inspect,,
+ตรวจสอบ,to investigate,,
+ตลก,"to be funny, comical, amusing",,
+ตลอด,"throughout, always, continually",,
+ตลอดคืน,all night long,,
+ตลอดไป,"forever, always, from now on",,time word
+ตลอดวัน,all day,,time word
+ตลอดเวลา,all the time,,time word
+ตลาด,market,แห่ง,shopping
+ตลาดนัด,morning market,"แห่ง, ที่",shopping
+ตลาดน้ำ,floating market,,
+ต่อ,"to join on to, continue oil, connect, next, after this, further",,
+ต้อง,"to have to, must",,
+ต้องการ,"to want, need",,
+ต้องไม่,must not,,
+ต่อโทรศัพท์,"to call up, telephone, phone",,
+ตอน,"sometime, time, part of (something) - not used on its own",,
+ตอน(กลางคืน),night,,time word
+ตอน(กลางวัน),"daytime, during the day, in ",,time word
+ตอนค่ำ,at night,,time word
+ตอนเช้า,morning,,time word
+ตอนดึก,late at night,,time word
+ตอนที่,"when, while, as",,time word
+ตอนนั้น,then,,time word
+ตอนนี้,"now, presently",,time word
+ตอนบ่าย,afternoon,,time word
+ตอนเย็น,evening,,time word
+ต้อนรับ,"to receive, welcome",,
+ตอนแรก,at first,,
+ตอนสาย,late morning,,time word
+ตอบ,to answer,,
+ต่อไป,"next, latter, later",,
+ต่อไปนี้,as follows,,
+ต่อผิด,wrong number,,
+ต่อมา,later on,,
+ต่อย,to punch,,
+ต่อราคา,to bargain,,shopping
+ตะเกียบ,chopsticks,คู่,food word
+ตะไคร้,lemon grass,ต้น,"food, plant"
+ตะปู,"nail, spike",ตัว,building words
+ตะโพก,hips,ตะโพก,"people, body parts"
+ตะวันตก,west,,direction 
+ตะวันออก,east,,direction 
+ตัก,to scoop,,
+ตั๊กแตน,grasshopper,ตัว,"critter, insect"
+ตั้ง,"to set, to settle",,
+ตั้งใจ,to intend,,
+ตั้งแต่,"from (such and such a time or starting point), since",,
+ตั้งแต่เมื่อไร,since when,,
+ตั้งท้อง,be pregnant,,health
+ตัด,to cut ,,
+ตัดผม,to cut hair,,
+ตัดสินใจ,to decide,,
+ตัดเสื้อ,"to tailor, make or adjust clothes",,
+ตับ,liver,ชิ้น,"food, body parts"
+ตัว,"body, physique; classifier for animals, objects with legs",,"people, body parts"
+ตั๋ว,ticket,ใบ,
+ตัวเขาเอง,he (himself),,people
+ตั๋วไปกลับ,round-trip ticket,ใบ,
+ตัวผู้,animal (male),ตัว,animal word
+ตัวเมีย,animal (female),ตัว,animal word
+ตัวหนังสือ ,letter (of the alphabet),ตัว,
+ตัวอย่าง,"sample, example",ตัวอย่าง,
+ตัวเอง,one's self,,people
+ตา,"grandfather (mother’s father and men of that age), eye","คน, ดวง","people, family, body parts"
+ตากแดด,dry in the sun,,
+ต่างๆ,various,,
+ต่างจังหวัด,"outside of Bangkok, upcountry",,location
+ต่างชาติ,"abroad, overseas",,location
+ต่างประเทศ,"foreign, foreign countries, abroad",,location
+ต่างหู,earring,คู่,"clothes, accessories"
+ตาม,"along, after; to follow",,
+ตามใจ,as you like,,
+ตาย,to die,,health
+ตารางวา,square wa (4 square meters),,measurement
+ตำบล,"sub-district, precinct, subdivision of an amphoe",แห่ง,location
+ตำรวจ,"police, policeman",คน,"people, occupation"
+ตำรวจจราจร,traffic police,คน,
+ตำแหน่ง,position (rank),ตำแหน่ง,military
+ติด,"to be attached to, to attach, addicted to ",,
+ติดกัน,adjacent to,,location
+ติดกับ,next to,,location word
+ติดต่อ,"to contact, get in touch with",,
+ติดต่อกัน,to contact or get in touch with someone,,
+ติดตัว,"on you, with you",,
+ติดแอร์,to be air-conditioned,,
+ตี,to hit,,
+ตีตั๋ว,to buy a ticket,,
+ตีหนึ่ง,one o'clock in the morning; 1 a.m. ,,time word
+ตีห้า,five o'clock in the morning; 5 a.m. ,,time word
+ตึก,building made of masonry,หลัง,building words
+ตึง,tight,,
+ตื่น,to wake up,,
+ตื่นเต้น,to be excited,,
+ตื่นนอน,to wake up,,
+ตุ๊กแก,gecko,ตัว,"critter, reptile"
+ตุ๊กตา,doll,ตัว,
+ตุ๊กตุ๊ก,tuk tuk,เครือง,transportation
+ตุรกี,Turkey (the country),ประเทศ,Country
+ตุลาคม,October,,"time, month"
+ตู้,"chest of drawers, cabinets, bookcase ",ใบ,"house, furniture"
+ตู้นอน,sleeping compartment on train,ตุ้,
+ตู้ไปรษณีย์,"letterbox (public, for sending)",ตุ้,
+ตู้ยามตำรวจ,police box,ตุ้,
+ตู้เย็น,refrigerator,เครือง,house word
+ตู้เสื้อผ้า,wardrobe,ตุ้,house word
+ตู้หนังสือ,bookcase,ตุ้,house word
+ตู้เอทีเอ็ม,ATM (loanword),ตุ้,money word
+เต้นรำ,to dance,,hobby
+เต็ม,"to be full (bottle, hotel)",,
+เต็มใจ,willingly,,
+เตรียม,to prepare,,
+เตะ,to kick,,
+เตา,stove,เตา,house word
+เต่า,turtle,ตัว,"critter, insect"
+เตาไฟฟ้า,electric stove,เตา,house word
+เตารีด,iron (for clothing),อัน,house word
+เตาอบ,oven,เครือง,house word
+เติม,"to add to, fill",,
+เตี้ย,to be short in height,,measurement
+เตียงนอน,bed,เตียง,house word
+เตือน,"to remind, warn",,
+แต่,but,,
+แตก,"to be broken,  shatter (fragile things breaking into many pieces)",,
+แตกต่าง,"to differ, to be different, separate",,
+แต่ง,"decorate, adorn",,house
+แตงกวา,cucumber,ลูก,"food, vegetable"
+แต่งงาน,"to marry, married",,people word
+แต่งตัว,"to dress, apply cosmetics, etc",,
+แตงโม,watermelon,"ใบ, ลูก","food, fruit"
+แต่เช้า,early morning,,time word
+แต่ละ,each,,
+โต,"big, large, mature",,
+โต๊ะ,"table, desk",ตัว,"house, furniture"
+โต๊ะเครื่องแป้ง,dressing table,ตัว,"house, furniture"
+โต๊ะทำงาน,desk,ตัว,"house, furniture"
+ใต้,"south, under (for objects)",,location
+ไต,kidney,ไต,"food, body parts"
+ไต้หวัน,Taiwan,ประเทศ,Country
+ถนน,road,สาย,location
+ถนนใหญ่,main road,สาย,location
+ถ้วย,"cup, small bowl",ใบ,"house, kitchen"
+ถ้วยกาแฟ,coffee cup,ใบ,"house, kitchen"
+ถ้วยชาม,dishes,ใบ,"house, kitchen"
+ถอด,"to take off, remove, unscrew",,
+ถอน,withdraw,,
+ถอย,to back up,,
+ถัง,pail,ใบ,
+ถังขยะ,"rubbish bin, trash can","ถัง, ใบ",house word
+ถั่ว,"beans, peas, nuts",เม็ด,food
+ถั่วลิสง,peanuts,เม็ด,food
+ถั่วเหลือง,soybean,เม์ด,food
+ถ้า,if,,
+ถาด,tray,ใบ,
+ถ่าน,charcoal,ก้อน,
+ถ่านไฟฉาย,flashlight battery,ก้อน,
+ถาม,to ask (a question),,
+ถ้าไม่,unless (if you don't…),,
+ถ่ายรูป,to take a picture,,photography
+ถ่ายเอกสาร,to photocopy,,
+ถ้ายังงั้น,"in that case, if that's how it is (informal)",,
+ถ้าอย่างนั้น,if that’s the case (formal),,
+ถ้ำ,cave,แห่ง,location
+ถึง,to arrive,,
+ถึงแม้ว่า,although,,
+ถือ,to hold,,
+ถุง,"sack, bag, food in bags",ใบ,
+ถุงเท้า,stockings,คู่,clothes
+ถุงมือ,gloves,คู่,clothes
+ถุงยาง,condom,ชิ้น,
+ถู,to scrub,,
+ถูก,"right, correct, cheap",,
+ถูกต้อง,"accurate, correct ",,
+ถูกแล้ว,"accurate, correct ",,
+เถอะ (เถิด),"why not, let's",,
+เถียง,"to dispute, debate, argue",,
+แถว,row,,
+แถวนั้น,"over there, that area",,location word
+แถวนี้,"around here, in this area",,location word
+ทดลอง,to experiment,,
+ทดสอบ,"to test, examine",,
+ทน,"to endure, stand, tolerate",,
+ทนายความ,lawyer,คน,"people, occupation"
+ทรัพยากร,resource(s),อย่าง,
+ทราบ,"to know (formal, polite)",,
+ทราย,sand,เม็ด,
+ทวง,to ask for (something owed),,
+ท่วม,to overflow ,,
+ทวีป,continent,"ทวีป, แห่ง",location
+ทหาร,soldier,คน,"people, military"
+ทหารเรือ,navy,คน,military
+ทหารอากาศ,air force,คน,military
+ทอ,to weave,,
+ท่อ,"pipe, ditch, sewer","เส้น, อัน",
+ทอง,gold,ก้อน,
+ท่อง,to recite,,
+ท้อง,"abdomen, stomach, intestinal area",ท้อง,"people, body parts"
+ท่องจำ,to memorize,,
+ท่องเที่ยว,"to tour, travel for pleasure",,
+ท้องเสีย,"to have diarrhea, have diarrhoea",,health
+ทองเหลือง,brass,,
+ท้องอืด ,flatulence,,health
+ทอด,"to fry (in large pieces), fried, deep fried",,"food, cooking"
+ทอนเงิน,to give change,,money word
+ท่อน้ำ,water pipe,เส้น,
+ทะเบียน,"register, list, record",ฉบับ,
+ทะเล,sea,แห่ง,location
+ทะเลทราย,desert,แห่ง,location
+ทะเลสาบ,lake,แห่ง,location
+ทั้ง … และ ...,both … and ...,,
+ทั้งคืน,all night,,time word
+ทั้งวัน,all day,,time word
+ทั้งสอง,both,,
+ทั้งหมด,altogether (common),,
+ทัน,"to overtake, catch up with, be on time ",,
+ทันที,"immediately, at once, right away",,
+ทันเวลา,in time,,
+ทันสมัย,"modern, up-to-date",,
+ทับ,"slash (used in addresses), to superimpose, lay on top, run over",,
+ทับทิม,pomegranate,ใบ,"food, fruit"
+ทั่ว,"to be all over, throughout",,
+ทั่วไป,"to be general, common, ordinary",,
+ทัวร์,tour (loanword),,
+ท่า,port,แห่ง,location
+ทาง,"way, path, direction, means, way",,
+ทางเข้า,"way in, entrance",,location
+ทางด่วน,expressway,แห่ง,location
+ทางใต้,"southern part, south",,
+ทางเท้า,"sidewalk, walkway",,
+ทางนั้น,that way,,location word
+ทางนี้,this way,,location word
+ทางโน้น,that over there,,location word
+ทางม้าลาย,pedestrian crossing,"แห่ง, ที่",transportation word
+ทางรถไฟ,railway,สาย,location
+ทางเรือ,by sea,,location
+ทางเลือก,"alternative, option",ทาง,
+ทางหลวง,highway,สาย,location
+ทางไหน,which way,,location word
+ทางออก,"way out, exit",,location word
+ทางอากาศ,by air,,
+ทาน,"to eat, drink (elegant term) ",,food word
+ทานข้าว,"to have a meal, to eat rice",,food word
+ทาย,to guess,,
+ท่ารถ,bus station,"แห่ง, ที่",transportation
+ท่ารถทัวร์,bus station (between provinces),"แห่ง, ที่",location
+ท่าเรือ,"pier, harbour, wharf, port",ท่า,location
+ทำ,"to do, make",,
+ทำกับข้าว,to cook ,,"food, cooking"
+ทำการบ้าน,to do homework,,
+ทำความสะอาด,to clean,,
+ทำงาน,to work,,
+ทำงานให้,to work for …,,
+ทำด้วย …,to be made of,,
+ทำโทษ,to punish,,
+ทำนา,to farm,,
+ทำบุญ,to make merit,,
+ทำไม,why (question word),,
+ทำลาย,"to destroy, demolish, damage",,
+ทำเวลา,"to make time, perform at the required time",,
+ทำสวน,"to garden, grow tree crops, plant",,
+ทำหาย,to lose,,
+ทำให้สะอาด,to clean,,
+ทำอาหาร,to cook,,food word
+ทิ้ง,to throw away,,
+ทิชชู่,"tissue, napkins","ม้วน, แผ่น",
+ที,a time,,
+ที่,"at, that, which, times, occasions; general classifier for orders of food",,
+ที่เก็บของ,storage place,ที่,
+ที่เขี่ยบุหรี่,ash tray,อัน,
+ที่จอดรถ,"parking place, parking lot","แห่ง, ที่",location
+ที่ดิน,land (din means dirt or soil),แห่ง,location
+ที่ตีไข่,egg beater (ordinary),อัน,"house, kitchen"
+ที่ทำงาน,"workplace, office","แห่ง, ที่",building
+ที่เที่ยว,"tourist attraction, place to tour, go","แห่ง, ที่",location
+ที่นอน,mattress,ผืน,"house, bedroom"
+ที่นั่ง,"seat, place to sit",ที่,house word
+ที่นั่น,"there, that place",,location word
+ที่นี่,"here, this place",,location word
+"ที่โน่น, ที่โน้น",way over there (further),,location word
+ที่พัก,"lodging, resting place, a place to stay","แห่ง, ที่",building
+ทีม,"team, group (loanword)",ทีม,people
+ที่ราบ,"plain, lowland, flatlands",,
+ที่ราบสูง,"highland, plateau",แห่ง,
+ทีแรก,"first time, at first",แห่ง,
+ทีละคน,one by one (people),,people word
+ที่แล้ว,"last, previous",,
+ที่ว่าง,unoccupied space/place,,
+ทีวี,"TV, television (loanword)",เครื่อง,house word
+ที่สอง,second,,number word
+ที่สาม,third,,number word
+ที่สุด,"the most, extremely",,
+ที่หนึ่ง,first,,number word
+ทีหลัง,"afterwards, later",,
+ที่เหลือ,the rest,,
+ทีไหน,"where, anywhere (in negative statement)",ที่,question phrase
+ที่ไหนก็ได้,anywhere,ที่,place
+ที่อยู่,"address, place to live","แห่ง, ที่",location
+ที่อื่น,"elsewhere, somewhere else, some other place",,place
+ทุก,"every, each",,
+ทุกคน,"everybody, everyone",,people
+ทุกครั้ง,every time,,time word
+ทุกคืน,every night,,time word
+ทุกเช้า,every morning,,time word
+ทุกเดือน,every month,,time word
+ทุกที,every time,,time word
+ทุกที่,"anywhere, everywhere",,
+ทุกปี,every year,,time word
+ทุกเย็น,every evening,,time word
+ทุกวัน,"daily, every day",,time word
+ทุกวันนี้,nowadays,,time word
+ทุกอย่าง,"everything (spoken), every kind","ชิ้น, อัน",
+ทุกอาทิตย์,every week,,time word
+ทุ่ม,o'clock (7 pm - 11 pm),,time word
+ทุเรียน,durian ,ลูก,"food, fruit"
+ทูต,"ambassador, diplomat, envoy, representative ",คน,"people, occupation"
+เท,"to pour, pour out",,
+เทคโนโลยี,technology,"ชนิด, อย่าง",computer
+เทนนิส,tennis,,sports
+เทป,tape (loanword),ม้วน,
+เท้า,"feet, foot",เท้า,"people, body parts"
+เท่ากัน,"the same, equal (quantity and size)",,
+เท่าที่,"as much as, to the extent that",,
+"เท่าไร, เท่าไหร่","how many, how much (question word)",,money word
+เที่ยงครึ่ง,12.30 a.m.,,time word
+เที่ยงคืน,midnight,,time word
+เที่ยงวัน,"midday, noon",,time word
+เทียน,candle,เล่ม,
+เที่ยว,"to go out, travel, tour, for pleasure",,
+เที่ยวเดียว,one-way,,
+แท้,"true, real, genuine",,
+แท็กซี่,taxi (loanword),คัน,transportation
+แทง,to stab,,
+แทน(ที่),to replace,,
+แทบ,nearly,,
+โทร(ศัพท์),"phone, telephone, to call",เครื่อง,
+โทรทัศน์,T.V.,เครื่อง,house word
+โทรทางไกล,long distance,,
+โทรไป,calling out,,
+โทษ,"to blame, punishment",,
+ไทย,Thai,,"people, nationality"
+ธง,flag,ผืน,
+ธนาคาร,bank,แห่ง,money word
+ธรรมชาติ,"nature, natural, creation",,
+ธรรมดา,"usually, normally, regular, normal",,
+ธรรมเนียม,"custom, tradition, manner","แบบ, อย่าง",
+ธันวาคม,December,,"time, month"
+ธุรกิจ,business,อย่าง,
+ธุระ,"business, affairs, errands",อย่าง,
+เธอ,"you (to intimates or inferiors), her",คน,"people, pronoun"
+นก,bird,ตัว,"animal, bird"
+นกแก้ว,parrot,ตัว,"animal, bird"
+นกฮูก,owl,ตัว,"animal, bird"
+นม,"milk, cream, breasts","ถ้วย, แก้ว","food, body parts"
+นมพร่องมันเนย,low-fat milk ,"กล่อง, กระป๋อง","food, drink"
+นโยบาย,"policy, principle, plan",นโยบาย,
+นวด,massage,,
+นอก,outside (not used on its own),,
+นอกจาก,except,,
+นอกเมือง,out of the city,"แห่ง, ที่",
+น้อง,"younger (he, she, you), younger brother or sister",คน,people
+น้องๆ,waiter!,คน,"people, occupation"
+น้องเขย,brother-in-law,คน,"people, family"
+น้องชาย,younger brother,คน,"people, family"
+น้องสะใภ้,sister-in-law,คน,"people, family"
+น้องสาว,younger sister,คน,"people, family"
+นอน(หลับ),to sleep,,
+นอนไม่หลับ,"insomnia, to be sleepless",,health
+นอนเล่น,to lie down and relax,,
+น้อย,"little, small, less, slight (in quantity) ",,measurement
+น้อยกว่า,"little, few (adj)",,measurement
+น้อยลง,less (than before),,measurement
+น้อยหน่า,custard apple,"ลูก, ใบ","food, fruit"
+นอร์เวย์,Norway,ประเทศ,Country
+นะ,"polite particle, softener: used to make the question sound less abrupt",,polite particles
+นัก,"so, so much, a person who…",,
+นักการเมือง,politician,คน,"people, occupation"
+นักกีฬา,athlete,คน,"people, occupation"
+นักเขียน,writer,คน,"people, occupation"
+นักดนตรี,musician,คน,"people, occupation"
+นักท่องเที่ยว,tourist,คน,people
+นักธุรกิจ,"businessman, businessperson",คน,"people, occupation"
+นักประพันธ์,writer (formal),คน,"people, occupation"
+นักแปล,translator,คน,"people, occupation"
+นักร้อง,singer,คน,"people, occupation"
+นักเรียน,"student, learner (junior or high school)",คน,"people, occupation"
+นักศึกษา,student (above high school),คน,"people, occupation"
+นั่ง,to sit,,
+นั่งรถ,to go by car,,
+นั่งเล่น,to sit down and relax,,
+นัด,to make an appointment,,
+นั่น,that,,
+นั้น,that (determiner),,
+นับ,to count,,
+นับถือ,to believe in (a religion),,
+นา,rice field,"ผืน, แห่ง",location
+น่า,–able (forms verb compounds); -worthy; should...; ought to...; had better…,,
+น้า,"aunt, uncle (younger brother/sister)",คน,"people, family"
+น่ากลัว,"frightful, scary, horrible",,emotion
+น่ากิน,good to eat,,food word
+น่าเกลียด,"to be ugly, disgusting, repulsive, detestable",,
+นาง,mrs,,people
+นางพยาบาล,nurse (n),คน,"people, occupation"
+นางสาว,miss + name,คน,people
+น่าซื้อ,nice to buy,,
+น่าดู,"interesting to look at, should be seen",,
+น่าทาน,looks delicious,,food word
+นาที,minutes,,time word
+นาน,long (in time),,time word
+น่าเบื่อ,"to be boring, dull, be tedious, be tiresome",,
+น่าฟัง,interesting to listen to,,
+นามบัตร,business card,ใบ,
+นามสกุล,family name,นามสกุล,people
+นาย,"mr, master, boss",คน,people
+นายกรัฐมนตรี,prime minister,คน,"people, government"
+นายจ้าง,employer,คน,people
+น่ารัก,"lovable, cute",,
+น่ารำคาญ,annoying,,
+น่ารู้,worth learning,,education word
+น่าลอง,worth trying,,
+น่าไว้ใจ,trustworthy,,
+น่าสนใจ,interesting,,
+น่าเสียใจ,"regrettable, worthy of sorry ",,
+น่าเสียดาย,"to be unfortunate, unlucky, unfavorable",,
+นาฬิกา,"watch, clock, hour (time)","เรือน, นาฬิกา",time word
+นาฬิกาปลุก,alarm clock,เรือน,time word
+น่าอยู่,"to be cozy, livable, a good place to live, a good place to be at",,
+น่าอ่าน,interesting to read,,education word
+น่าอาย,to be ashamed,,
+นำ,"bring, take, fetch, come with; lead, guide, conduct",,
+น้ำ,"water, liquid, juice, fluid","แก้ว, ขวด","food, drink"
+นำเข้า,"to import, introduce, bring in",,
+น้ำแข็ง,ice,ก้อน,food
+น้ำใจ,"kindness, spirit, heart",,
+น้ำชา,tea,"ถ้วย, ที่","food, drink"
+น้ำเชื่อม,syrup,ช้อน,food
+น้ำโซดา,soda water,ขวด,"food, drink"
+น้ำดื่ม,drinking water,ขวด,"food, drink"
+น้ำตา,tears,หยด,emotion
+น้ำตาล,sugar,เม็ด,food
+น้ำตาลเทียม,saccharin,"เม็ด, ชอง",food
+น้ำท่วม,flood,,weather
+น้ำประปา,"water supply, tap water, city hydrant water",,
+น้ำปลา,fish sauce,"ช้อน, ขวด",food
+น้ำเปล่า,plain water (bottled water),"แก้ว, ขวด","food, drink"
+น้ำผลไม้,fruit juice,แก้ว,"food, drink"
+น้ำมะนาว,lemonade,แก้ว,"food, drink"
+น้ำมัน,"oil, gasoline",ลิตร,transportation
+น้ำมันพืช,vegetable oil,"ช้อน, ขวด",food
+น้ำมันมะกอก,olive oil,"ช้อน, ขวด",food
+น้ำมูกไหล ,runny nose (snot to flow),,health
+น้ำเย็น,cold water,"แก้ว, ขวด","food, drink"
+น้ำแร่,mineral water,,
+น้ำส้ม,orange juice,"ขวด, แก้ว, ถุง","food, drink"
+น้ำส้มสายชู,vinegar,"ช้อน, ขวด","food, condiments"
+น้ำหนัก,weight,กิโลกรัม,measurement
+น้ำหอม,perfume,"หยด, ขวด",
+นิดเดียว,little (only a),,
+นิดหน่อย,a little bit  (for actions),,measurement
+นิดหนึ่ง,a little bit,,
+นิทาน,"fable, tale, story",เรื่อง,
+"นินทา, ซุบซิบ",to gossip,,
+นิ้ว,"finger, inch (English system)",นิ้ว,
+นิวซีแลนด์,New Zealand,ประเทศ,Country
+นิ้วเท้า,toe,นิ้ว,"people, body parts"
+นิ้วมือ,finger,นิ้ว,"people, body parts"
+นิสัย,habit,,
+นิสัยดี,well-behaved,,
+นี่,"this, these (determiner)",,
+นี้,this (determiner),,
+นี่ค่ะ/ครับ,"here it is, here you are",,
+นี่อะไร,what's this?,,
+นี่เอง,"this is it, here it is",,
+นึก,to think,,
+นึกถึง,to consider,,
+นึง,used at end of sentence (spoken),,
+นึ่ง,to steam,,food word
+นุ่ม,soft,,
+เนเธอร์แลนด์,Netherlands,ประเทศ,Country
+เน้น,"to emphasize, to stress, to underscore, to focus on",,
+เนย,butter,ช้อน,"food, dairy"
+เนยแข็ง,cheese,ก้อน,"food, dairy"
+เน่า,rotten,,food word
+เนื้อ,"meat, beef",ชิ้น,"food, meat"
+เนื้อผ้า,texture of cloth,,
+เนื้อวัว,beef,ชิ้น,"food, meat"
+เนื้อหมู,pork,ชิ้น,"food, meat"
+แน่ใจ,"to be certain, sure ",,
+แน่น,"securely, tightly, solidly",,
+แน่นอน,"certain, sure; certainly, surely, definitely",,
+แนะนำ,"introduce, advise, suggest",,
+โน้ตบุ๊ก,notebook,เครื่อง,education word
+โน่น,"that (one) over there, over there",,location word
+โน้น,that (farther away than นั้น),,location word
+ใน,"in, of, within (casual)",,location word
+ในที่สุด,finally,,
+ในเมือง,"in the city, downtown",,
+ในไม่ช้า,"soon, shortly",,time word
+ในระหว่าง,"between, during, amongst",,location word
+ในเร็วๆนี้,soon,,
+ในอนาคต,in the future,,time word
+ไนท์คลับ,night-club (loanword),,
+บ.ข.ส. บริษัทขนส่ง,bus station,แห่ง,location
+บก,land (as opposed to sea),,location
+บท,"lesson in a textbook, text or lines of a play",,education word
+บทเรียน,lesson,บท,education word
+บน,"above, on top of",,location word
+บรั่นดี,brandy (loanword),"แก้ว, ขวด","food, drink, alcohol"
+บราซิล,Brazil,ประเทศ,Country
+บริการ,service,,
+บริเวณ,"area, vicinity, zone, precinct, surroundings",,
+บริษัท,"company, business",แห่ง,
+บริสุทธิ์,to be virgin; be chaste,,
+บริหาร,to administrate; manage; administer; direct ,,
+บวม,"swollen, inflamed",,
+บอก,"to tell, to say",,
+บ่อย,often,,
+บ่อยๆ,frequent,,
+บะหมี่,noodles,เส้น,food
+บังกาโล,bungalow (loanword),หลัง,
+บังคับ,to force,,
+บังเอิญ,"by chance, accidentally",,
+บัญชี,account,บัญชี,
+บัตร,"ticket, card",ใบ,money word
+บัตร A.T.M.,A.T.M. card,ใบ,money word
+บัตรเครดิต,credit card,ใบ,money word
+บัตรเชิญ,invitation card,ใบ,
+บัตรประจำตัว,I.D. card (general),ใบ,
+บัตรประชาชน,national I.D. card,ใบ,government
+บัตรผ่าน,pass,ใบ,
+บันได,"stairs, stairway",ขั้น,house word
+บันไดเลื่อน,escalator,ตัว,
+บันทึก," to record (sound), to note",บันทึก,
+"บัว, ดอกบัว",lotus,ดอก,plant
+บ้า,crazy,,health
+บาง,to be thin,,health
+บ้าง,"some, somehow",,
+บางคน,"someone, somebody, some",,
+บางครั้ง,sometimes,,
+บางที,"perhaps, sometimes, maybe",,
+บางอย่าง,something,,
+บาด,to cut or wound,,health
+บาดเจ็บ,injured,,health
+บาท,"baht, ticals (the monetary unit of Thailand)","ใบ, เหรียญ",money
+บาน,to bloom; classifier for doors,,classifier
+บ้าน,"house, home",หลัง,building
+บ้านเช่า,house to rent,หลัง,building
+บ้านนอก,"rural, countryside (sometimes not polite)",,location
+บ้านเลขที่,house number,เลขที่,building words
+"บ่าย, บ่ายๆ",afternoon (1 pm - 4 pm),,time
+บ่ายนี้,this afternoon (early),,time
+บิดามารดา,parents (formal),คน,"people, family"
+บิน,to fly ,,
+บีทีเอส,skytrain,สาย,transportation
+บีบ,to squeeze,,
+บุรุษไปรษณีย์,postman,คน,"people, occupation"
+บุหรี่,cigarette,มวน,health
+บูด,"spoiled (for rice, curry, or soup)",,food word
+เบคอน,bacon,ชิ้น,"food, meat"
+เบนซิน,petrol,ลิตร,transportation
+เบลเยี่ยม,Belgium,ประเทศ,Country
+เบอร์,"number (for room, telephone, cloth size, etc)",เบอร์,number
+เบอร์โทรศัพท์,telephone number,เบอร์,number word
+เบา,to be light in weight,,
+เบาใจ,relieved,,
+เบาะ,cushion,"ที่, เบาะ",house word
+เบิก,"to withdraw (money), to requisition (as from a storeroom)",,money
+เบิกเงิน,to get money (from the bank),,money
+เบียร์,beer,"แก้ว, ขวด, กระป๋อง","food, drink, alcohol"
+เบื่อ,to be bored,,emotion
+แบ่ง,"to divide up, allot, share",ใบ,
+แบ่ง,divide,,
+แบงค์,"banknote, bank (loanword)",ใบ,money
+แบ๊งค์ย่อย,small bills,ใบ,money
+แบ่งออกเป็น,to be divided into…,,
+แบตเตอรี่,battery (rechargeable) (loanword),ตัว,
+แบน,small bottle whisky (flat) (slang),,"food, drink, alcohol"
+แบบ,"kind, type, style",,
+แบบนี้,"this kind, like this",,
+แบบฟอร์ม,form (document),ใบ,
+แบบไหน,what type? (phrase),,
+โบราณ,"old-fashioned, outdated, ancient, artifact ",,
+โบว์ลิ่ง,bowling,,hobby
+โบสถ์,church,แห่ง,religion
+ใบ,"classifier for picture, etc.",,classifier
+ใบขับขี่,driver's license,ใบ,transportation word
+ใบตอง,banana leaf,ใบ,"food, fruit"
+ใบมะกรูด,kaffir lime leaf,ใม,food
+ใบไม้,leaf,ก้อน,plant
+ใบร้อย,one hundred bill,ใบ,money
+ใบละร้อย,one hundred bill,ใบ,money
+ใบละห้า,5 baht bank note,ใบ,money
+ใบสั่งยา,prescription,ใบ,health
+ใบเสร็จ,receipt,ใบ,money word
+ปกติ,"normally, ordinarily (more formal)",,
+ปฏิทิน,calendar,,
+ปฏิเสธ,"decline, (turn down), deny, reject",,
+ปน(กัน),mix,,
+ประกัน,"to guarantee, insure, assure",,
+ประกาศ,to announce,,
+ประจำ,"always, regularly",,time word
+ประจำเดือน,monthly,,time word
+ประจำวัน,daily,,time word
+ประชุม,"to meet (in a group), to hold a meeting, meeting, assemble",,
+ประตู,"door, gate",บาน,house word
+ประตูหน้า,front door,บาน,house word
+ประเทศ,"country, nation",ประเทศ,location
+ประธาน,"president, chairman",คน,"people, occupation"
+ประเพณี,custom,"ประเพณี, แบบ",
+ประมาณ,"about, to approximate, to estimate",,
+ประเมิน(ผล),"to evaluate, assess, estimate",,
+ประโยค,sentence,ประโยค,
+ประโยชน์,"use, usefulness",อย่าง,
+ประวัติศาสตร์,history,,
+ประสงค์,"to wish, desire, want, intend, mean, purpose, aim ",อย่าง,
+ประสบการณ์,experience,อย่าง,
+ประหยัด,"to economize, save, be thrifty",,
+ประหลาด,"to be strange, uncommon, unusual",,
+ปรับ,"to fine, impose a fine",,
+ปรับปรุง,"to adjust, improve, make an adjustment",,
+ปรับอากาศ,air-conditioned,เครื่อง,
+ปริมาณ,"quantity, amount, number",,
+ปรึกษา,"talk it over, consult",,
+ปลอกหมอน,pillow case,ใบ,house word
+ปลอดภัย,"safe, out of danger",,
+ปลอม,to forge,,
+ปล่อย,"to release, let go, set free",,
+ปลา,fish,ตัว,"food, seafood"
+ปลาย,the end of …,,time word
+ปลายเดือน ,the end of month เดือน ,,time word
+ปลายปี,the end of year ,,time word
+ปลาสเตอร์,"plaster, bandage (loanword)",,health
+ปลาหมึก,squid,ตัว,"food, animal"
+ปลุก,to wake someone up,,
+ปลูก,to plant crops,,
+ปวด,"to ache, have a pain",,health
+ปวดฉี่ ,"to pee, urinate",,health
+ปวดท้อง,stomachache,,health
+ปวดฟัน,toothache,,health
+ปวดหลัง,backache,,health
+ปวดหัว,headache,,health
+ปวดอึ,"to poop (not too vulgar, not recommended in polite company)",,health
+ปวดเอว ,lower back pain,,health
+ป่วย,"to be sick, ill, get ill",,health
+ป้องกัน,"protect, defend, prevent",,
+ป้อน,to feed someone,,food word
+ปอนด์,pound (weight),,measurement
+ปัญหา,"problem, question, trouble",ข้อ,
+ปั่น,"to spin (transitive), to blend",,
+ปั้น,"to mold, sculpt, form",,
+ปั๊ม,pump (loanword),,
+ปั๊ม(น้ำมัน),"gas pump, a gas station",แห่ง,transportation word
+ป่า,"forest, jungle","แห่ง, ที่",
+ป้า,aunt (parent’s older sisters and women of that age),คน,"people, family"
+ปาก,mouth,ปาก,"people, body parts"
+ปากกา,pen,ด้าม,education word
+ปากซอย,entrance into a lane (top of soi - mouth of the soi),ที่่ี่,transportation word
+ปากีสถาน,Pakistan,ประเทศ,Country
+ปานกลาง,"moderately, middlingly, averagely",,
+ปานามา,Panama,ประเทศ,Country
+ป่าไม้,forest,แห่ง,location
+ป้าย,"stop sign (traffic), tag, sign, poster, ",ป้าย,transportation word
+ป้ายรถเมล์ ,"bus stop, bus sign",ป้าย,transportation word
+ปิ้ง,"to toast, bake",,"food, cooking"
+ปิด,"close, turn off (lights)",,
+ปี,year,,time word
+ปี่,wind instrument,"ตัว, เลา",music
+ปีที่แล้ว,last year,,time word
+ปีนี้,this year,,time word
+ปีหน้า,next year,,time word
+ปืน,gun,กระบอก,
+ปู่,"grandfather (father's father), father-in-law (husband's father), crab","คน, ตัว","people, family"
+ปู่ย่าตายาย,grandparents,คน,"people, family"
+เป็ด,duck,ตัว,"animal, bird"
+เป็น,"to be able to, be capable of, know how to ",,
+เป็นไข้,fever (to have),,health
+เป็นบางครั้ง,"sometimes, now and then, occasionally",,
+เป็นไปได้,"to be possible, be feasible",,
+เป็นไปไม่ได้,to be impossible,,
+เป็นพิษ,poisonous,,health
+เป็นมิตร,friendly,,emotion
+เป็นลม,to faint,,
+เป็นโสด,single,,
+เป็นหนี้,owe,,
+เป็นห่วง,"worried, anxious about",,
+เป็นหวัด,cold (to have),,health
+เป็นอย่างไร,to matter,,
+เป็นอะไร,"to have something wrong, have a problem",,
+เป๊ปซี่,Pepsi,,
+เปรียบ(เทียบ),to compare,,
+เปรี้ยว,sour,,food word
+เปรี้ยวหวาน,sweet and sour,,food word
+เปล่า,"no, not",,
+เปลี่ยน,"to vary, alter, vary, transform, change ",,
+เปลี่ยนแปลง,"to change to, become, transform, alter, turn into",,
+เปลี่ยนเสื้อผ้า,change clothes,,
+เปลือก,"shell, case, husk",เปลือก,
+เปอร์เซนต์,percent (loanword),,number word
+เปิด,"to open, turn on (lights)",,
+เปิดบัญชี,to open an account,,
+เปิดเผย,reveal,,
+เปียก,wet,,
+แป้ง,"powder, flour, starch","ตลับ, กระป๋อง",food
+แปด ๘,eight (8),,number
+แปดสิบ,eighty (80),,number
+แปรง,brush,"ด้าม, อัน",bathroom: toiletries
+แปรงฟัน,to brush teeth,,bathroom: toiletries
+แปรงสีฟัน,toothbrush,ด้าม,
+แปล,to translate,,
+แปลก,to be strange; be odd; ,,
+แปลกใจ,surprised,,
+แปลว่า,to be translated ...,,
+แปลว่าอะไร,what does … mean?,,
+โปรแกรม,program (loan word),โปรแกรม,
+โปรตุเกส,Portugal,ประเทศ,Country
+โปสการ์ด,postcard,ใบ,communication
+ไป,"to go, too (implied)",,
+ไป … มา,have been…,,
+ไปกลับ,round trip,,
+ไปก่อน,"to go first, to go ahead",,
+ไปช้อปปิ้ง,to go shopping,,
+ไปซื้อของ,to go shopping,,
+ไปด้วยกัน,to go together,,
+ไปถึง,arrive (away from the speaker),,
+ไปทางไหน,which way is it to...?,,question phrase
+ไปเที่ยว,"to go out for pleasure, to travel, tour, go out",,
+ไปธุระ,to go out on business,,
+ไปนอน,go to bed ,,
+ไปเยี่ยม,to go visit a person,,
+ไปรษณีย์,post office,"แห่ง, ที่",building
+ไปรับ,to go pick up someone ,,
+ไปส่ง,"to see someone off, to take or send a person (general use)",,
+ไปหน่อย,a little too...,,
+ไปหา,"go to see (go to look for), visit a person",,
+ไปไหน,where are you going?,,question phrase
+ไปไหนมา,where have you been?,,question phrase
+ผงกะหรี่,curry powder,ช้อน,food
+ผงชูรส,MSG,ช้อน,food
+ผงซักฟอก,detergent,"ถุง, ช้อน ","house, cleaning"
+ผม,"I (male speaker), hair (on head)","คน, เส้น","people, pronoun"
+ผมเอง,myself (m),คน,"people, pronoun"
+ผล,classifier for fruit,,classifier
+ผลกระทบ,"effect, affectation, influence",อย่าง,
+ผลไม้,fruit,"อย่าง, ชนิด","food, fruit"
+ผลัก,to push (away),,action
+ผลิตภัณฑ์,"product, merchandise, goods",ชิ้น,
+ผสม,"to mix, blend, mingle",,
+ผอม,to be thin,,health
+ผัก,leaf vegetables,ชนิด,"food, vegetable"
+ผักกาด(หอม),lettuce,ใบ,"food, vegetable"
+ผักขม,spinach,"ใบ, ต้น","food, vegetable"
+ผักชี(ฝรั่ง),parsley,,"food, herb"
+ผัด,"to stir fry, a fried mixture",,food word
+ผัดไทย,pad thai,จาน,"food, dish"
+ผับ,pub (loanword),"แห่ง, ที่",building
+ผัว,husband (informal),คน,"people, family"
+ผ่า,to slice open,,
+ผ้า,cloth,ผืน,cloth
+ผ้ากันเปื้อน,apron,ผืน,clothes
+ผ้าเช็ดตัว,towel,ชิ้น,"house, kitchen"
+ผ้าเช็ดมือ,"handtowel, napkin",ผืน,"house, kitchen"
+ผ่าตัด,to have an operation,,health
+ผ่าน,"to pass, to go past, pass through",,
+ผ่าน (ไป),to pass by,,
+ผ้านวม,quilt,ผืน,
+ผ้าใบ,canvas,ผืน,
+ผ้าปูโต๊ะ,tablecloth,ผืน,"house, kitchen"
+ผ้าปูที่นอน,bed sheets,ผืน,house word
+ผ้าฝ้าย,cotton,ผืน,cloth
+ผ้าพันแผล,bandage,ผืน,health
+ผ้าม่าน,curtains,ผืน,house word
+ผ้าห่ม,blanket,ผืน,house word
+ผ้าไหม,silk,ผืน,cloth
+ผิด,"incorrect, a mistake",,
+ผิดกฎหมาย,illegal,,
+ผิดหวัง,disappointed,,emotion
+ผิว,skin,,"people, body parts"
+ผิวไหม้,sunburn,,health
+ผี,ghost,ตัว,
+ผีเสื้อ,butterfly,ตัว,"critter, insect"
+ผึ้ง,bee,ตัว,"critter, insect"
+ผู้,person (rarely used alone),,people
+ผูก,to tie,,
+ผู้จัดการ,manager,คน,"people, occupation"
+ผู้ชาย,"boy, man, assistant",คน,people
+ผู้เช่า,tenant,คน,people
+ผู้แต่ง,author (of a work),คน,"people, occupation"
+ผู้ปกครอง,guardian,คน,"people, occupation"
+ผู้ผลิต,"producer, manufacturer, maker",คน,"people, occupation"
+ผู้พิพากษา,judge,คน,"people, occupation"
+ผู้หญิง,"girl, woman",คน,people
+ผู้ใหญ่,adult,คน,people
+เผ็ด,"to be hot (peppery), spicy",,food word
+เผา,to burn something,,
+เผือก,taro,หัว,
+เผื่อว่า,in case,,
+แผ่น,"classifier for map, picture, paper, sheet-like",,classifier
+แผนก,department,แผนก,
+แผ่นดิน,"land, territory, country",ผืน,location
+แผนที่,map,ใบ,location
+แผล,"cut, wound, or sore",ที่,health
+ฝน,rain,เม็ด,weather
+ฝนตก,"to rain, raining",,
+ฝรั่ง,"European, American, Australian, etc., Occidental",คน,people
+ฝรั่งเศส ,"France, French ","ประเทศ, คน","Country, nationality"
+ฝัง,"to bury, inter",,
+ฝั่ง,"bank (of a river, street), side (canal, sea)",,location
+ฝั่งทะเล,"seashore, coast, coastline",แห่ง,
+ฝัน,"to dream, imagine",,
+ฝา,lid,ฝา,
+ฝาก,"deposit, entrust, leave with somebody parts ",,
+ฝากเงิน,deposit money (in the bank),,
+ฝาผนัง,wall (of a room or house),"ด้าน, ที่",house word
+ฝ่าย,"side, party, sector",ฝ่าย,
+ฝ้าย,cotton,"ต้น, ดอก",cloth
+ฝิ่น,opium,"ดอก, ต้น","health, drugs"
+ฝี,"abscess, boil, pock",ก้อน,health
+ฝีมือ,"manual skill, craftsmanship",,"people, occupation word"
+ฝึก(หัด),"to practice, drill, train, exercise",,
+เฝ้า,"to guard, watch, keep an eye on",,
+พ.ศ.,Buddhist era (abbreviation of พุทธศักราช),,"religion, Buddhism"
+พก,to carry (on one's person),,
+พจนานุกรม,dictionary,เล่ม,education word
+พ่น,to spray,,
+พนักงาน,cashier,คน,"people, occupation"
+พนักงานเสิร์ฟ,waiter,คน,"people, occupation"
+พบ,"meet, run into (someone)",,
+พบ(กัน),to meet each other,,
+พม่า ,"Burma, Burmese ","ประเทศ, คน","Country, nationality"
+พยัญชนะ,consonant,ตัว,
+พยางค์,syllable,ตัว,
+พยาธิ,worms (intestinal),ตัว,health
+พยาน,witness,คน,people
+พยาบาล,"nurse, to tend, to nurse",คน,"people, occupation"
+พยายาม,"to try, make an attempt",,
+พรม,rug,ผืน,house word
+พร้อม,"ready, set, completed",,
+พร้อม(กัน),"together, at the same time, altogether",,
+พระ,"leading actor, hero; monk, abbot, Buddha image",รูป,
+พระจันทร์,moon,ดวง,planets
+พระพุทธรูป,Buddha image,องค์,"religion, Buddhism"
+พระอาทิตย์,sun,ดวง,
+พริก,"chili peppers, chilies",เม็ด,food
+พริกไทย,pepper,เม็ด,food
+พรุ่งนี้,tomorrow,,time word
+พรุ่งนี้เช้า,tomorrow morning,,time word
+พฤศจิกายน,November,,"time, month"
+พฤษภาคม,May,,"time, month"
+พลาสติก,plastic,แผ่น,
+พลาสเตอร์,"band-aid, plaster",แผ่น,health
+พลิก,to turn; turn over ,,
+พวก,"of people, animals, numerical classifier for group (not used alone)",,people
+พวกเขา(เอง),"they, them, themselves, ourselves",คน,"people, pronoun"
+พวกนี้,these people,คน,"people, pronoun"
+พอ + verb + ได้ ,"adequate, fair",,
+พอ(แล้ว),"enough, sufficient",,
+พอใจ,to be satisfied,,
+พอใช้ได้,"good enough to use, passable",,
+พอดี,just right,,
+พ่อตา,father-in-law (wife's father),คน,"people, family"
+พ่อม่าย,widower,คน,"people, family"
+พ่อแม่,parents,คน,"people, family"
+พ่อเลี้ยง,stepfather,คน,"people, family"
+พัก,"stay at, to stop at (hotel, etc.)",,
+พักผ่อน,to rest ,,
+พักร้อน,to take a vacation,,
+พัด,to blow (as the wind),,
+พัดลม,electric fan,เครื่อง,house word
+พัน,thousand (1000),,number
+พัสดุ,parcel,ชิ้น,
+พา,to take someone somewhere,,
+พาไป,"to take a person to a place they don’t know, to the movies, your home, etc",,
+พาย,"paddle, pie","อัน, ชั้น",
+พายุ,storm,,weather
+พาสปอร์ต,passport (loanword),เล่ม,
+พิง,to lean ,,
+พิธี,"ceremony, rite, custom, ritual",พิธี,
+พิพิธภัณฑ์,museum,แห่ง,building
+พิมพ์,to print,,
+พิมพ์ดีด,"to type, print ",เครื่อง,
+พิเศษ,"special, extraordinary ",,
+พิษ,"poison, toxicity, toxicant",ชนิด,
+พี่,"older (he, she, you)",คน,"people, family"
+พี่เขย,brother-in-law,คน,"people, family"
+พี่ชาย,older brother,คน,"people, family"
+พี่น้อง,siblings,คน,"people, family"
+พี่สะใภ้,sister-in-law,คน,"people, family"
+พี่สาว,older sister,คน,"people, family"
+พื้น,floor,"แห่ง, ที่",house word
+พื้นฐาน,"base, bottom",,
+พุง,paunch,พุง,health
+พูด ,"to speak, talk, say ",,
+พูดเล่น,to joke,,
+เพชร,diamond,เม็ด,
+เพดาน,ceiling,"แห่ง, ที่",house word
+เพราะ ,because,,
+เพราะฉะนั้น,therefore,,
+เพลง,"song, songs (more common in place of music)",เพลง,music
+เพลีย,"to be tired, be exhausted, be weary",,
+เพศ,"gender, sex",เพศ,people
+เพิ่ง,just now,,
+เพิ่ม(ขึ้น),to increase,,
+เพิ่มเติม,"in addition, more, extra; to add, increase; to be additional, added",,
+เพียง,"just as much as, only",,
+เพียงพอ,"enough, sufficiently, adequately",,
+เพึ่ง,just (immediately before),,
+เพื่อ(ที่จะ),"in order to, in order that",,
+เพื่อน,friend,คน,people
+เพื่อนบ้าน,"neighbor, neighbour",คน,people
+เพื่อนสนิท,"to be close friend, best friend",คน,people
+แพ้,"to lose to someone (as in a game), allergic to, sensitive to",,
+แพง,expensive,,money word
+แพะ,goat,ตัว,animal
+ไพ่,cards (playing),ใบ,hobby
+ฟกช้ำ,bruised,,health
+ฟรี,"free, no charge",,money word
+ฟ้อง,"accuse, charge, sue",,
+ฟองน้ำ,sponge,อัน,"house, cleaning"
+ฟักทอง,pumpkin,ลูก,"food, vegetable"
+ฟัง,to listen,,
+ฟังเพลง,to listen to music,,
+ฟัน,"tooth, teeth",ซี่,"people, body parts"
+ฟ้า,sky,แห่ง,location
+ฟาง,straw,เส้น,
+ฟาสต์ฟู้ด ,fast-food (loanword),"ชนิด, อย่าง",food words
+ฟินแลนด์,Finland,ประเทศ,Country
+ฟิล์ม,"film, photographic film",ม้วน,
+ฟิลิปปินส์,Philippines,ประเทศ,Country
+ฟุต,foot (English system) (loanword),,
+ฟุตบาท,"sidewalk, walkway, footpath (loanword)",,
+เฟอร์นิเจอร์,furniture ,ตัว,
+แฟน,"boyfriend, girlfriend, husband, wife",คน,people
+แฟ้บ,detergent,"ถุง, ช้อน","house, cleaning"
+ไฟ,"fire, electric light, electricity",ดวง,
+ไฟจราจร,traffic light,ดวง,transportation word
+ไฟฉาย,flashlight,กระบอก,
+ไฟแช็ก,lighter,อัน,
+ไฟแดง,"traffic light (slang, common)",,
+ไฟฟ้า,electricity,,house word
+ภรรยา,"wife (formal, polite)",คน,"people, family"
+ภัตตาคาร,restaurant (large),แห่ง,building
+ภาค,"section, portion, part, region",,
+ภาคใต้,southern region,,location
+ภาคเหนือ,north,,direction
+ภาคอีสาน,northeastern region,,location
+ภาพ,"picture, image, vision","ภาผ, รูป",
+ภายในประเทศ,domestic,,
+ภายหลัง,"afterwards, later on",,
+ภาษา,"language, speech",ภาษา,
+ภาษาไทย,Thai language,,
+ภาษาอังกฤษ,English language,,
+ภาษี,tax,แบบ,
+ภูเขา,mountain,ลูก,location
+ภูมิใจ,proud,,
+เภสัช,pharmacist (informal),คน,"people, occupation"
+มกราคม,January,เดือน,"time, month"
+มด,ant,ตัว,"critter, insect"
+มนุษย์,"human being, man, human, homo sapiens","มนุษย์, คน",people
+มรสุม,monsoon,,weather
+มลายู ,Malaya ,ประเทศ,Country
+มวยไทย,Thai boxing,,
+มหาวิทยาลัย,university,แห่ง,education word
+มหาสมุทร,ocean,แห่ง,location
+มอง(ดู),"to look at, to look at closely",,
+มองหา,"to look for, look around for",,
+มองเห็น,to be able to see,,
+มอเตอร์ไซค์,motorcycle,ค้น,transportation
+มะขาม,tamarind,ฝัก,"food, fruit"
+มะเขือ,"tomato, eggplant family of vegetables",ลูก,"food, vegetable"
+มะเขือเทศ,tomato,"ใม, ผล","food, vegetable"
+มะนาว,limes,ลูก,"food, fruit"
+มะพร้าว,coconut,ลูก,"food, fruit"
+มะม่วง,mango (fruit),"ใบ, ลูก","food, fruit"
+มะรืนนี้,day after tomorrow,,time word
+มะเร็ง,cancer,,health
+มะละกอ,papaya (fruit),"ใบ, ลูก","food, fruit"
+มักจะ,"usually, likely to",,
+มังคุด,mangosteen ,"ใบ, ลูก, ผล","food, fruit"
+มัดจำ,to deposit,บาท,
+มัธยม,high school (level),,education word
+มัน,it,,
+มั่นคง,"to be secure, be stable, be firm",,
+มั่นใจ,to have confidence,,
+มันทอด,"fried potatoes, potato chips",ชิ้น,food
+มันเทศ,yam,หัว,"food, vegetable"
+มันฝรั่ง,potato,หัว,"food, vegetable"
+มัสตาร์ด,mustard (loanword),"ช้อน, ขวด",food
+มา,"to come, arrive",,
+ม้า,horse,ตัว,animal
+มาก,"very, a lot, to look at, many",,
+มากกว่า,more (than something else),,
+มากขึ้น,to increase,,
+มาก่อน,"in the past, before",,time word
+มาจาก,to come from,,
+มาตรฐาน,"standard, criterion",อย่าง,
+มาถึง,"to arrive (towards the speaker),  reach at",,
+มาเที่ยว,visit a place,,
+ม่าน,curtain,ผืน,house word
+มานาน,for a long time,,time word
+มาเยี่ยม ,to come visit a person,,
+มารยาท,"manners, behaviour",แบบ,
+มารับ,to come and pick up,,
+ม้าลาย,zebra,,
+มาลาเรีย,malaria,,health
+มาเลเซีย,Malaysia,ประเทศ,Country
+มาหา,to come to see someone,,
+มิเตอร์ ,meter (on taxi) (loanword),,transportation
+มิถุนายน,June,เดือบ,"time, month"
+มี,to have,,
+มี … อยู่,"there is, there are",,
+มีคน,someone,,people
+มีความสุข,happy,,emotion
+มีค่า,valuable,,
+มีชื่อเสียง,famous,,"people, qualification"
+มีด,knife,ด้าม,"house, kitchen"
+มีดโกน,razor,ใบ,"house, bathroom"
+มีแต่,to have only ...,,
+มีท้อง ,to be pregnant,,health
+มีธุระ,"busy, business",,
+มีนัด,"have a date, appointment",,
+มีนาคม,March,เดือน,"time, month"
+มีน้ำใจ,to be generous,,
+มีประโยชน์,useful ,,
+มีราคา,cost,,money word
+มีลูก,to have a baby,,health
+มืด,dark,,
+มือ,hand,มือ,"people, body parts"
+มือขวา,right hand,มือ,"people, body parts"
+มือถือ,mobile phone,เครื่อง,
+มือสอง,secondhand,,
+มือใหม่,beginnner,คน,
+มุ้ง,mosquito net,หลัง,
+มุ้งลวด,"screen (for window, etc.)",หลัง,house word
+มุม,corner,มุม,
+เมฆ,clouds,ก้อน,weather
+เม็ด,"seed, grain, pill; classifier for small, round objects",เม็ด,"food, classifier"
+เมตร,meter (metric system),,measurement
+เมนู,menu,ใบ,"food, restaurant"
+เมษายน,April,เดือน,"time, month"
+เมา(เหล้า),to be drunk,,"food, drink, alcohol words"
+เมาเครื่องบิน,airsick,,
+เมารถ,carsick,,
+เมาเรือ,seasick,,
+เมาส์,mouse (loanword),ตัว,computer
+เมีย,"wife, a long-term girlfriend  (informal)",คน,"people, family"
+เมียน้อย,minor wife ,คน,"people, family"
+เมียหลวง,major wife (infers having a minor wife),คน,"people, family"
+เมื่อ,"past time, when",,time word
+เมื่อก่อน,formerly,,
+เมื่อก่อนนี้,"previously, earlier, beforehand",,
+เมื่อกี้(นี้),"a moment ago, just now, short time ago",,time word
+เมื่อคืน(นี้),last night,,time word
+เมือง ,"city, town, country (nation)",เมีอง,location
+เมืองไทย,Thailand (informal),เมือง ,location
+เมืองนอก,"foreign countries, abroad","เมือง, แห่ง",location
+เมืองหลวง,"capital city, city, town, nation","เมือง, แห่ง",location
+เมื่อเช้า(นี้),this morning,,time word
+เมื่อตะกี้,just now,,time word
+เมื่อเร็วๆนี้,recently,,
+เมื่อวาน(นี้),yesterday,,time word
+เมื่อวานซืน(นี้),day before yesterday,,time word
+เมื่อไหร่,when (question word),,question word
+เมื่อไหร่ก็ได้,"anytime?, whenever it is!",,
+แม่ครัว,female cook,คน,people
+แม่ค้า,salesperson (female),คน,people
+แม่ชี,nun,คน,people
+แม้แต่,even,,
+แม่น้ำ,river,สาย,location
+แม่บ้าน,housekeeper (female),คน,people
+แม่ม่าย,widow,คน,"people, family"
+แม่ยาย,mother-in-law ,คน,"people, family"
+แมลง,"insect, bug, beetle",ตัว,"critter, insect"
+แมลงกัดต่อย,insect bite,,
+แมลงวัน,fly,ตัว,"critter, insect"
+แมลงสาบ,cockroach,ตัว,"critter, insect"
+แมว,cat,ตัว,animal
+แม้ว่า,"although, though",,
+โมง,"o'clock, time",,time word
+โมโห,"furious, angry (suddenly or violently), bad tempered",,
+ไม่,"no, not",,
+ไม้,"wood, food on sticks",แผ่น,
+ไม่ ... เลย,not ... at all (phrase),,
+ไม่ … หรอก,not at all,,
+ไม(่ค่อย) … เท่าไหร่,not very...,,
+ไม้กวาด,broom,ด้าม,"house, cleaning"
+ไมเกรน,migrain (loanword),,health
+ไม่เกี่ยว,"unrelated, irrelevant",,
+ไม้ขีด,matches,ก้าน,
+ไม้แขวนเสื้อ,coat hanger,อัน,house word
+ไม่ค่อย(จะ),"not very, hardly",,
+ไม่เคย,never,,
+ไม้จิ้มฟัน,toothpick,อัน,restaurant word
+ไม่ชอบ,to be displeased,,
+ไม่ใช่,"it is not so, it is not the one (meant), negative response",,
+ไม่ดี,bad,,
+ไม่ได้,"not, not as assumed to be, didn't, can't (at the end of sentence, after verb",,
+ไม่ต้อง,"need not,  you don’t have to",,
+ไม่ติด,"to not attach, can’t get connection",,
+ไม่ถูก,"wrong, incorrect",,
+ไม่ทัน,"not in time, to be late",,time word
+ไม่น่า,no wonder!,,expression
+ไม่นาน,not long,,
+ไม้บรรทัด,ruler,อัน,education word
+ไม่บ่อย,"seldom, not often",,
+ไม่เป็น,don't know how to,,
+ไม่เป็นไร,"it's nothing, not at all, don't mention it ",,phrase
+ไม่มี,"to not have, don't have",,
+ไม่มีความสุข,to be displeased,,
+ไม่มีใคร,nobody,,
+ไม่มีที่ไหน,nowhere,,
+ไม่มีแรง,have no strength,,
+ไม่มีวัน,never (going to happen),,
+ไม่มีอะไร,nothing,,
+ไมล์,mile,,measurement
+ไม้เลื้อย,vine,ต้น,plant
+ไม่ว่าง,"to  be busy, not free",,
+ไม่ว่าอะไร,"regardless of, no matter (what/who/where)",,
+ไม่สบาย,to be unwell,,health
+ไม่สบายใจ,"to be upset, unhappy about something",,emotion
+ไม้สัก,teak,แผ่น,plant
+ไม่สุก,"to be unripe, not done",,"food, cooking"
+ไม่ใส่,without (‘not put’),,
+ไม่เห็นด้วย,to disagree,,
+ไม่ไหว,"can't do it, unable to, is incapable of (lack of physical strength)",,
+ยก,"to lift, to raise",,
+ยกย่อง,"to honor, praise",,
+ยกเว้น,except,,
+ย้อน,"to return, come back, turn back",,
+ยอม,to be willing,,
+ยอมรับ,"to agree, accept (usually against one's wishes)",,
+ยอมให้,"to permit, allow",,
+ยัง,"still, not yet",,
+ยังงั้น,like that,,
+"ยังไง, ยังไร","how, in what way, how? (question word) (informal)",,question word
+ยังไงก็ตาม,however,,
+ยังไม่ได้,for actions you haven’t done yet but intend to,,
+ยับ,to wrinkle ,,
+ยา,"medicine, chemical compound",เม็ด,"health, drugs"
+ย่า,grandmother (father's mother),คน,"people, family"
+ยาก,"to be hard, difficult, complicated",,
+ยากจน,"destitute, penniless, difficult",,
+ยากันยุง,mosquito repellent,กระบอก,"health, drugs"
+ยาแก้ปวด,painkiller,"เม็ด, แผง",health
+ยาแก้อักเสบ,anti-inflammatory,"เม็ด, หลอด","health, medicine"
+ยาคลายกล้ามเนื้อ,muscle relaxant,"เม็ด, หลอด",health
+ยาคุม,birth control pills,เม็ด,"health, drugs"
+ยาฆ่าเชื้อ,antibiotic,"เม็ด, ขวด","health, medicine"
+ยาง,"rubber, a tire",แผ่น,
+ย่าง,"roasted, grilled, burned,charred, baked ",,
+ยางลบ,rubber eraser,อัน,education word
+ยาทา,"ointment, lotion","ขวด, ตลับ","health, drugs"
+ยาม,"guard, watchman",คน,"people, occupation"
+ยาเม็ด,"pills, capsules",เม็ด,"health, drugs"
+ย้าย,to relocate,,
+ยาย ,"grandmother, your mother’s mother and women of that age",คน,"people, family"
+ยายทวด,great grandmother (maternal) ,คน,"people, family"
+ย้ายมาอยู่,move (in),,
+ยาว,to be long,,
+ยาสีฟัน,toothpaste,หลอด,"house, bathroom"
+ยาเสพติด,addictive drugs,เม็ด,"health, drugs"
+ยาหม่อง,tiger balm,ตลับ,"health, medicine"
+ยาอม,lozenge,เม็ด,"health, medicine"
+ยำสลัด,salad,จาน,food
+ยิง,"to shoot, fire",,
+ยิ่ง,"to be extreme, excessive",,
+ยินดี,glad,,emotion
+ยิ้ม,to smile,,emotion
+ยี่,two (used only for the twenties),,number
+ยี่สิบ,twenty (20),,number
+ยี่สิบเอ็ด,twenty one (21),,number
+ยี่ห้อ,"brand, trade name",ยี่ห้อ,
+ยึด,"to seize, capture, grasp",,
+ยืน,to stand ,,
+ยืนยัน,"to maintain, confirm",,
+ยืม,to borrow,,
+ยุง,mosquito,ตัว,"critter, insect"
+ยุ่ง,busy,,
+ยุติธรรม,justice,,law
+เย็น,"evening (4 p.m. - 6 p.m.), cold (things), cool",,time
+เย็นนี้,"this afternoon, this evening (late)",,time
+เย็นวันอาทิตย์,Sunday evening,,time
+เย็บ,to sew,,
+เยอรมัน ,"Germany, German ","ประเทศ, คน","Country, nationality"
+เยอะ(แยะ),"plenty, plentifully, to be a whole lot, a great deal",,
+เยี่ยม,"to see, visit, to be the best, greatest",,
+แย่,"to be terrible, to be in a bad way ",,
+แยก,"to divide, separate, part",,
+โยน,to throw; pitch; toss; cast; hurl; fling,,
+รถ,"car, general word for transportation",คัน,transportation
+รถกระบะ,pick-up truck,คัน,transportation
+รถเข็น,trolly,คัน,
+รถเช่า,car rental,คัน,transportation
+รถด่วน,express train,ขบวน,transportation
+รถติด,traffic jam,คัน,transportation word
+รถตู้,van,คัน,transportation
+รถทัวร์,coach,คัน,transportation
+รถแท็กซี่,taxi,คัน,transportation
+รถธรรมดา,regular,คัน,
+รถนอน,sleeper (on a train),ขบวน,transportation
+รถบัส,bus,คัน,transportation
+รถพยาบาล,ambulance,คัน,transportation
+รถไฟ,train,ขบวน,transportation
+รถไฟใต้ดิน,"MRT, subway",ขบวน,transportation
+รถไฟฟ้า,"BTS, skytrain",ขบวน,transportation
+รถเมล์,bus (regular),คัน,transportation
+รถยนต์,"car, automobile",คัน,transportation
+รถแอร์,air-conditioned bus,คัน,transportation
+รบกวน,"to bother, to trouble (someone)",,
+ร่ม,umbrella,"ด้าม, อัน",
+รวม,"to include, combine, add, add up, sum up",,
+ร่วมมือ,"to cooperate, collaborate, work together",,
+รวย,"to be rich, wealthy",,money word
+รส(ชาติ),flavour,รส,food word
+รหัส,"area code, address and postal codes","เลข, เบอร์",location word
+รหัสไปรษณีย์,postal code,ตัว,location word
+รอ,to wait for,,
+ร้อง,"to cry out, yell",,
+รองเท้า,shoes,"คู่, ข้าง","clothes, accessories"
+รองเท้าแตะ,sandals,"คู่, ข้าง","clothes, accessories"
+ร้องเพลง,to sing,,
+ร้องเรียน,to petition,,
+ร้องไห้,"to cry, weep",,emotion
+ร้อน,hot (temperature),,weather
+ร้อนอบอ้าว,hot and muggy,,weather
+"รอบ, รอบๆ",around,,
+รอย,"scratch, mark, trail",,
+ร้อย,hundred (100),,number
+ร้อยละ,percent,,number word
+ระฆัง,bell," ใบ, อัน",
+ระดับ,"class, grade, level, degree, caste, row, rank",,
+ระบบ,"system, method",,
+ระบุ,"to specify, identify",,
+ระเบิด,bomb,ลุก,
+ระเบียง,corridor,ที่,house word
+ระเบียบ,"rule, order, regulation",,
+ระยะ,"phase, space; in the time of, in the period of",,
+ระยะเวลา,"period of time, session",,time word
+ระวัง,to be careful,,
+ระหว่าง,"between, in the middle of, the middle, among",,
+รัก,to love ,,emotion
+รักษา,"to take care of, treat",,
+รัง,"nest, hive","รัง, ที่","animal, bird word"
+รังนก,bird's nest,รัง,"animal, bird word"
+รัฐ,"state, nation",,location word
+รัฐบาล,government,คณะ,government
+รับ,"to receive, accept; take on, eat (something)",,
+รับประกัน,to guarantee,,
+รับผิดชอบ,"to be responsible, accountable ",,
+รับรอง,"to welcome, receive, entertain; to guarantee, certify",,
+รั่ว,to leak ,,
+รัสเซีย,Russia,ประเทศ,Country
+ราคา,price,,money word
+ร่าง,"draft, proposal",ชุด,
+ร่างกาย,body parts (elegant),ร่าง,"people, body parts"
+รางวัล,"prize, award, trophy","ชิ้น, รางวัล",
+ราชการ,"government service, civil service",คน,government
+ร้าน,"shop, store","ร้าน, แห่ง, ที่",building
+ร้านกาแฟ,coffee shop,"ร้าน, ที่",building
+ร้านขายขนม,"pastry, sweet shop, bakery",ร้าน,
+ร้านขายของ ,"shop, store",ร้าน,building
+ร้านขายปลา,fish,ร้าน,
+ร้านขายผลไม้,greengrocer,ร้าน,
+ร้านขายยา ,pharmacy,ร้าน,building
+ร้านตัดผม ,barber shop, ร้าน,building
+ร้านตัดเสื้อ,"tailor, dressmaker",ร้าน,building
+ร้านหนังสือ,bookstore,ร้าน,building
+ร้านอาหาร,restaurant,"แห่ง, ร้าน",building
+ร้าย,to be be fierce; be ferocious; be cruel; be savage; be wild; be vicious,,
+รายการ,list of items,รายการ,
+รายได้,"income, revenue",จำนวน,
+ราว,"around, about, approximately",,
+ริม,"edge, rim, bank",,
+ริมฝีปาก,lips,รูป,"people, body parts"
+รีด,to iron (cloth) ,,house word
+รีบ,"hurry, to be urgent",,
+รีสอร์ต,resort (loanword),"แห่ง, ที่",
+รื้อ,to raze,,
+รุ่น,"age, generation, period; classifier for age, period of time or generation",,time word
+รุ่นพี่,older friend,คน,people
+รุนแรง,serious,,
+รู้,to know (something) ,,
+รู้จัก,to know of (someone),,
+รูป,picture,"รูป, ใบ",art
+รูปถ่าย,photograph,รูป,art
+รูปแบบ,format,"ชนิด, อย่าง",
+รูปภาพ,picture,"รูป, ภาพ",art
+รู้เรื่อง,"to understand, see, know ",,
+รู้สึก,to feel,,
+"เร็ว, เร็วๆ","quickly, fast",,
+"เรา, พวกเรา","we, our, us",คน,people
+เริ่ม,to start ,,
+เรียก,to call,,
+เรียกว่า,to be called ,,
+เรียน(รู้),"to learn, study",,education word
+เรียบ,"smooth, even, plain",,
+เรียบร้อย,"to be in good condition, all set, to be ready",,
+เรือ,"boat, ship",ลำ,transportation
+เรื่อง,"story (about), about; classifier for story ",เรื่อง,education word
+เรื่อยๆ,"so so (as a response to a greeting), continuously, keeps going on",,
+เรือหางยาว,long-tailed boat,"ลำ, คัน",transportation
+แรก,first (not used on its own) ,,number word
+แรง,"strength, power, energy, might, strong (for liquor)",,
+แรงงาน,labor (n),,
+แรงเทียน,watt (measure of electricity),"แรงเทียน, วัตท์",
+แรม,"RAM, computer memory (loanword)",,computer
+โรค,disease,ตัว,health
+โรคหัวใจ,heart disease,,health
+โรงงาน ,factory,"แห่ง, โรง",building
+โรงพยาบาล,hospital,"หลัง, โรง, แห่ง",building
+โรงพัก,police station (informal),โรง,building
+โรงรถ,garage,"โรง, ที่",building
+โรงเรียน,school,"แห่ง, โรงเรียน",building
+โรงเรียนอนุบาล,pre-school,"แห่ง, โรงเรียน",building
+โรงแรม,hotel,"แห่ง, โรงแรม",building
+โรงละคร,theater,"แห่ง, โรง",building
+โรงหนัง,"movie house, cinema",โรง,building
+โรงอาหาร,cafeteria,"หลัง, แห่ง, โรง, ",building
+ไร่,"rai, a unit of land measure; farm","ไร่, แห่ง, ที่",
+ฤดู,season (formal),ฤดู,seasons
+ฤดูใบไม้ผลิ,spring,,seasons
+ฤดูใบไม้ร่วง,autumn,,seasons
+"ฤดูฝน, หน้าฝน",rainy season (June to September),,seasons
+"ฤดูร้อน, หน้าร้อน","hot season, summer",,seasons
+"ฤดูแล้ง, หน้าแล้ง",dry season (November to March),,seasons
+"ฤดูหนาว, หน้าหนาว","cold season, winter",,seasons
+ลง,"go down, to get off (go down)",,
+ลงทะเบียน,to register,,
+ลงทุน,to invest (finance),,
+ลงมา,down ,,
+ลด,"reduce (the price), to lower, discount",,
+ลดลง,"to become lower, subside, diminish",,
+ล้น,to overflow,,
+ลบ,to erase,,
+ลม,"wind, air (in motion or under pressure)",,weather
+ล้ม,"to die, perish; fall down",,health
+ลวก,"to scald, burn",,health
+ล่วงหน้า,advance (in),,money word
+ลวด,wire,เส้น,
+ลวดลาย,design (pattern),ลาย,
+ล้อ,wheel,ล้อ,transportation word
+ลอง,to try out,,
+ลองชิม,"to taste, try out",,food word
+ลองดู,to try on,,
+ลองใส่,to try on,,
+ลอย,"to float, to set afloat or adrift; fly (plane)",,
+ละ,"per, a, the, each",,
+ล่ะ,particle: to emphasize the finality of the information,,particle
+ละคร,play,เรื่อง,entertainment
+ละเอียด,"careful, meticulous, thorough, scrupulous ",,
+ลักษณะ,"quality, character, characteristic","ลักษณะ, แบบ",
+ลา,to say goodbye (said by person leaving) ,,
+ลาก,"to drag, tow, draw, haul, tug, pull ",,
+ลาก่อน,"goodbye, farewell",,
+ล้าง,"to wash (e.g. dishes, hands)",,"house, cleaning"
+ล้างน้ำ,to rinse,,"house, cleaning"
+ล้าน,"million (1,000,000,000)",บาท,number
+ล่าม,interpreter,คน,"people, occupation"
+ลาย,"design, pattern, mark",ลาย,
+ลายเซ็น,signature,ลาย,
+ลาละ ครับ/ค่ะ,good bye,,
+ลาว ,"Laos, Lao, Laotian ","ประเทศ, คน","Country, nationality"
+ลาออก,to quit,,
+ลำบาก,"inconvenient, difficult",,
+ลิง,monkey,ตัว,animal
+ลิตร,liter (loanword),,measurement
+ลิ้น,tongue,ลิ้น,"people, body parts"
+ลิ้นจี่,"litchi, lichee nuts",ลูก,"food, nuts"
+ลิ้นชัก,drawer,"ลิ้น, อัน","house, furniture"
+ลิฟต์,elevator,ตัว,
+ลึก,to be deep,,
+ลืม,to forget,,
+ลืมสนิท,to completely forget,,
+ลุก,to get up,,
+ลุกขึ้น,"to rise, get up ",,
+ลูก,"child (son or daughter) 'ball' of something, classifier for 'ball' like things",คน,
+ลูกกุญแจ,key,ดอก,house word
+ลูกเกด,raisin,เม็ด,food
+ลูกเขย,son-in-law,คน,"people, family"
+ลูกครึ่ง,child of two ethnic groups,คน,people
+ลูกค้า,customer,คน,people
+ลูกจ้าง,employee,คน,people
+ลูกชาย,son,คน,"people, family"
+ลูกชิ้น,meatball,ลูก,"food, dish"
+ลูกบอล,ball,ลูก,
+ลูกปืน,bullet,ลูก,
+ลูกพี่ลูกน้อง,cousin,คน,"people, family"
+ลูกเลี้ยง,"stepson, stepdaughter, foster child",คน,"people, family"
+ลูกสะใภ้,daughter-in-law,คน,"people, family"
+ลูกสาว,daughter,คน,"people, family"
+ลูกหนี้,debtor,คน,people
+ลูกอม,candy,เม็ด,
+เล็ก,"small, little (in size)",,measurement
+เล็กน้อย,"a little, a bit",,
+เล็กไป,too small,,
+เลข,math,ตัว,
+เลขที่,number used as a designation,เลข,number word
+เลขา(นุการ),secretary,คน,"people, occupation"
+เล่น,"to play (games, music, etc.)",,
+เล่นน้ำ,"play in the water, swim",,
+เลนส์,lens (loanword),"เลนส์, อัน",
+เล็บ,nail,เล็บ,
+เล็บเท้า,toenail,เล็บ,"people, body parts"
+เล็บมือ,fingernail,เล็บ,"people, body parts"
+เลย,"at all (after negative); so, then, consequently, intensifier",,
+เลยไป,"carry on, go on",,
+เลว,bad,,
+เล่า,"to tell, relate",,
+เล่า...ให้...ฟัง,tell (something) to (someone),,
+เลิก,"to end, quit, be over, discontinue, give up, break up",,
+เลี่ยน ,"oily, greasy",,food word
+เลี้ยว,to turn ,,direction word
+เลี้ยวขวา,to turn right,,direction word
+เลี้ยวซ้าย,to turn left,,direction word
+เลือก,"to choose, pick out, select, elect",,
+เลือกตั้ง,elect (as in a political election),,
+เลือด,blood,หยด,"people, body parts"
+เลือดกำเดา ,nosebleed,หยด,health
+เลือดออก,bleeding,,health
+แลก(เปลี่ยน),to exchange,,
+แล้ว,already (indicates completed action),,
+แล้ว(คุณ)ล่ะ,and you?,,
+แล้วก็,"and, and then",,
+แล้วแต่,depending on,,
+แล้วเลี้ยว,then turn,,direction word
+แล้วหรือยัง,… yet (or not)?,,
+และ,and,,
+โล,kilogram (informal),,measurement
+โลก,world,ใบ,location
+โลละเท่าไร,how much a kilo?,,
+ไล่,to chase,,
+ไล่ออก,to fire,,
+วงกลม,circle,วง,
+วงเวียน,"roundabout, traffic circle","แห่ง, ที่",transportation word
+วรรณคดี,literature,เรือง,education word
+วัง,"palace, royal ","วัง, แห่ง",building
+วัฒนธรรม,"culture, civilization, way of life","แบบ, อย่าง",
+วัด,"temple, temple compound","วัด, แห่ง",building
+วัน,day; classifier for day,วัน,"time, days"
+วันเกิด,birthday,วัน,time word
+วันที่,date,,time word
+วันธรรมดา,weekday,วัน,time word
+วันนี้,today,วัน,time word
+วันละ,per day,วัน,
+วันเว้นวัน,every other day,วัน,time word
+วันหยุด,"vacation, holiday, day off",วัน,time word
+วันหลัง,"some day (in the future), next time",,time word
+วัยรุ่น,teenager,คน,people
+วัว,"cattle, cow, bull",ตัว,animal
+วา,wa (2 meters),,measurement
+ว่า,verb + ว่า = that; (never on its own),,
+ว่า,"to think, say, criticize, have an opinion; that (as in “said that”)",,
+วาง,"to put down, set down, place",,
+ว่าง,"unoccupied, free, not busy",,
+ว่ายน้ำ,to swim,,exercise
+วิเคราะห์,"to analyze, contemplate, consider",,
+วิ่ง,to run,,exercise
+วิ่งหนี,"run away, escape",,
+วิชา,"subject, knowledge, branch of knowledge",วิชา,
+วิตก,to worry,,emotion
+วิทยุ,"radio, wireless",เครื่อง,
+วิธี(การ),"procedure, way means, method",วิธี,
+วินาที,second,,
+วิศวกร,engineer,คน,"people, occupation"
+วิสกี้,whiskey (loanword),"ขวด, ก๊ง","food, drink, alcohol"
+วีซ่า,visa (loanword),ใบ,
+เวที,stage,แห่ง,
+เว้น,"to exclude, omit, skip over",,
+เว้นแต่,except,,
+เวฟ,to microwave,,house word
+เวลา,time,เวลา,time word
+เวลาดี,auspicious,เวลา,time word
+เวลานัด,appointment,เวลา,time word
+เวลานี้,at present,เวลา,time word
+เวียดนาม ,"Vietnam, Vietnamese","ประเทศ, คน","Country, nationality"
+เวียนหัว,dizzy,,health
+แว่นตา,eyeglasses,คู่,
+แวะ,"to stop in, over ",,
+ไว,"fast, quick",,
+ไว้,for future use or reference,,
+ไว้ใจ,"to trust, rely on",,
+ไวน์,wine (loanword),"แก้ว, ขวด","food, drink, alcohol"
+ไวไฟ,flammable,,
+ศอก,elbow,"ศอก, ร้าง","people, body parts"
+ศาล,"court, law court, court of justice",แห่ง,law
+ศาลา,pavilion,หลัง,building
+ศาสนา,religion,ศาสนา,religion
+ศาสนาคริสต์,Christianity,,religion
+ศาสนาพุทธ,Buddhism,,religion
+ศาสนายิว,Judaism,,religion
+ศาสนาอิสลาม,Islam,,religion
+ศิลปะ,art,,art
+ศีรษะ,head,ศีรษะ,body parts
+ศึกษา,to educate,,education word
+ศูนย์,zero (0),ตัว,number
+ศูนย์การค้า,shopping center,"แห่ง, ที่",shopping
+เศรษฐกิจ,"economy, economic affairs",,
+เศรษฐี,millionaire; rich man; wealthy man ,คน,people
+เศร้า,"to be sad, upset, depressed",,emotion
+เศษสตางค์,change (in coin),"เหรียญ, อัน",money word
+สกปรก,dirty,,"house, cleaning"
+ส่ง (ไป),"to send or ship something, see someone off, take something somewhere ",,communication
+สงคราม,war,"ที่, แห่ง",government
+ส่งจดหมาย,to post a letter,,communication
+สงบ,peace,,
+ส่งไป,to send an object (general use),,
+สงสัย,"to be suspect, be suspicious, doubt",,
+สงสาร,to feel sorry for,,emotion
+ส่งเสริม,"to enhance, promote, encourage",,
+ส่งออก,"to export, send abroad",,
+สด,"fresh (of fruit, etc.)",,food word 
+สดใส,"bright, clear (weather)",,weather
+สตางค์,satang,เหรียญ,money
+สแตมป์,stamp (loanword),ดวง,communication
+สถานที่,"place, location","แห่ง, ที่",location
+สถานทูต,embassy,แห่ง,building
+สถานี,station,แห่ง,building
+สถานีขนส่ง,bus terminal,"สถานี, แห่ง, ที่",transportation
+สถานีตำรวจ,police station,"สถานี, แห่ง, ที่",building
+สถานีรถไฟ,"railway station, train station",สถานี,transportation
+สถานีรถไฟใต้ดิน ,subway station,สถานี,transportation
+สถานีรถไฟฟ้า,Skytrain station,สถานี,transportation
+สถาบัน,"institute, institution","สถาบัน, แห่ง",
+สนใจ,to be interested in,,
+ส้นเท้า,heel of feet,ส้น,"people, body parts"
+สนาม,"field (as in airfield, sports field, etc.)",แห่ง,location
+สนามกีฬา,sports field,"สนาม, แห่ง, ที่",location
+สนามเทนนิส,tennis court,"สนาม, แห่ง",
+สนามบิน,airport,"แห่ง, ที่",location
+สนามม้า,race track,"แห่ง, ที่",location
+สนามหญ้า,"lawn, turf, grass","สนาม, แห่ง, ที่",
+สนุก,"to amusing, to be fun, to have a good time",,emotion
+สบาย,"to be well, comfortable",,emotion
+สบายๆ ,to have a relaxed view of life,,emotion
+สบายใจ,to be contented,,emotion
+สบายดี,"to feel well, be in good health",,emotion
+สบายดีหรือ,how are you?,,
+สบู่,soap,ก้อน,"house, cleaning"
+สบูลักส์,soap (Lux) ,ก้อน,"house, cleaning"
+สบู่หอม,soap (toilet),ก้อน,"house, cleaning"
+สบู่เหลว,liquid soap,ขวด,"house, cleaning"
+สปอร์ตคลับ,sports club,"แห่ง, ที่",building
+สปา,spa (loanword),"แห่ง, ที่",building
+สเปน,Spain,ประเทศ,Country
+สภา,"council, assembly, chamber","แห่ง, ที่, สภา",
+สภาพ,"state, condition, plight",สภาพ,
+ส้ม,orange,"ใบ, ลูก","food, fruit"
+ส้ม(เขียวหวาน),green orange (fruit)," ใบ, ลูก, ผล","food, fruit"
+ส้มตำ,papaya salad,"จาน, ถุง, ครก","food, dish"
+สมอง,brain,สมอง,"people, body parts"
+ส้มโอ,pomelo,"ลูก, ใบ, ผล","food, fruit"
+สมัคร,to apply (for),,
+สมัย,"time, period, era, age, reign",สมัย,time word
+สมัยก่อน,old-fashioned times, ,time word
+สมัยนี้,nowadays, ,time word
+สมัยใหม่,modern, ,time word
+สมาคม,"association, society, organization",แห่ง,
+สมาชิก,member,คน,people
+สมุด,notebook,เส่น,education word
+สโมสร,"club, association",แห่ง,
+สร้อยคอ,necklace,เส้น,"clothes, accessories"
+สระผม,to shampoo hair,,
+สระว่ายน้ำ,swimming pool,สระ,location
+สร้าง,to build,,building words
+สรุป,"to sum up, conclude",,number word
+สลบ ,to be unconscious,จาน,health
+สลัด,salad,"จาน, ที่",food
+สลึง,twenty -five satangs; quarter of a baht,เหรียญ,
+สวดมนต์,to chant a prayer,,religion
+สวน,come in the opposite direction; (pass) in the opposite direction,,
+ส่วน,part,ส่วน,
+สวน ,"park, garden, orchard","สวน, แห่ง",location
+ส่วนตัว,"private, personal",,
+ส่วนมาก,"usually, mostly, most of the time)",,
+สวนสัตว์,zoo,แห่ง,location
+สวม,to wear (polite),,
+ส้วม,toilet,"ส้วม, ที่",house word
+สวย,"to be pretty, beautiful",,
+สวัสดี,hello (used for greeting or leavetaking),,
+สว่าง,"to be light, bright",,
+สวิตเซอร์แลนด์,Switzerland,ประเทศ,"Country, people"
+สวิส ,Switzerland (country),ประเทศ,Country
+สวีเดน,Sweden,ประเทศ,Country
+สหประชาชาติ ,United Nations ,,Country
+สอง ๒,two (2),เลข,number
+สองแถว,pick-up truck with two benches (two rows),คัน,transportation
+สองสาม,"two or three, two times, a few",,
+สอน,"to teach, to know how",,education word
+สอนหนังสือ,to teach (a subject),,education word
+สอบ,"to take a test, be tested",,education word
+สอบสวน,to investigate,,
+ส้อม,fork,คัน,"house, kitchen"
+สะดวก,"convenient, comfortable",,
+สะพาน,bridge,"สะพาน, แห่ง",transportation word
+สะพานลอย,pedestrian overpass (floating bridge),แห่ง,transportation word
+สะอาด,clean,,
+สักครู่,one moment,,
+สั่ง,"to order, to leave a message",,
+สั่ง(ขี้มูก),to blow the nose,,health
+สังเกต,to notice,,
+สังคม,"society, community",สังคม,
+สั่งซื้อ,to order,,
+สัญญา,"contract, agreement, promise",,
+สัดส่วน,"proportion, ratio","ใบ, ฉบับ",measurement
+สัตว์,animal,ชนิด,animal
+สัตว์เลี้ยง,pet,"ชนิด, ตัว",animal word 
+สั่น,"to tremble, vibrate",,
+สั้น,to be short (in length),,measurement
+สับปะรด,pineapple,ลูก,"food, fruit"
+สับสน,confused,,
+สัมภาษณ์,to interview,,
+สาขา,"branch, branch office, chain store","สาขา, แห่ง",
+สาด,to throw (liquid),,
+สาธารณะ,public (not private),"แห่ง, ที่",
+สาม ๓,three (3),,number
+สามแยก,intersection (three way),แห่ง,transportation word
+สามล้อ,"samlor, tricycle taxi",คัน,transportation
+สามสิบ,thirty (30),,number
+สามเหลี่ยม,triangle,แห่ง,
+สามี,"husband (formal, polite)",คน,"people, family"
+สาย,"late, the time (9 a.m. - 11:59 a.m); line; classifier for rivers, canals, roads…",,time
+สายตา,eyesight,ชนิด,health
+สารภาพ,to confess,,
+สาว,young woman,คน,people
+สำคัญ,to be important,,
+สำนักงาน,office (building),แห่ง,building
+สำเนา,"copy, clone, counterfeit ",สำเนา,
+สำรวจ,"to survey, explore",,"people, occupation word"
+สำรอง,"to reserve, keep back, store up ",,
+สำเร็จ,"to complete, be successful",,
+สำเร็จรูป,ready-made,,
+สำหรับ,for (to give) (formal),,
+"สิ, ซิ",particle: to show emphasis,,particle
+สิ่ง,thing,,
+สิ่งของ,thing (formal),"สิ่ง, ชิ้น",
+สิงคโปร์,Singapore,ประเทศ,Country
+สิงโต,lion,ตัว,animal
+สิ่งแวดล้อม,"surroundings, environment",,
+สิงหาคม,August,เดือน,"time, month"
+สิทธิ,"right, authority, privilege",อย่าง,
+สินค้า,"goods, merchandise, commodity",ชนิด,
+สิ้นเดือน,end of the month,,"time, month"
+สิ้นปี,end of the year,,time word
+สิบ,ten (ten),,number
+สิบล้าน,"ten million (10,000,000)",,number
+สิบเอ็ด,eleven (11),,number
+สิว,pimple,เม็ด,health
+สี,colour,สี,colour
+สี่ ๔,four (4),,number
+สีคล้ำ,dark-colored,สี,colour word
+สีเงิน,silver (colour),สี,colour
+สีตก,"faded, pale, colour runs or fades ",สี,colour
+สีทอง,gold (colour),สี,colour
+สี่ทุ่ม,10.00 p.m.,,
+สีผม,hair color,สี,"colour words, body words"
+สีฟัน,to brush teeth,,health? 
+สีฟ้า ,blue,,
+สีไม่สด,dull color,สี,colour
+สี่แยก,"corner, intersection (four way), crossroad",แห่ง,transportation word
+สีส้ม,orange,สี,colour
+สี่สิบ,forty (40),,number
+สีอ่อน,light colour (colour + อ่อน),สี,colour
+สืบ,"to detect, find out, probe into",,
+สื่อสาร,"to communicate, chat, speak",,
+สุก,"ripe, cooked until done",,food word
+สุขใจ,happy,,emotion
+สุขภาพ,health,,health
+สุขภาพดี,(in) good health,,health
+สุขภาพไม่ดี,(in) bad health,,health
+สุดซอย,end of the soi,,
+สุดท้อง,"youngest, last born",คน,people
+สุดท้าย,"last, final",สิ่ง,
+สุนัข,dog (elegant),ตัว,animal
+สุภาพ,polite,,
+สู้,"to fight, vie, oppose",,
+สูง,to be tall,,measurement
+สูงสุด,"to be highest, tallest, supreme",,measurement
+สูตร,formula,สูตร,
+สูบ,"to draw on, pump, smoke",,
+สูบบุหรี่,to smoke (cigarettes),,
+เส้น,line; classifier for string like things,,classifier
+เส้นทาง,route,"เส้น, สาย",transportation word
+เส้นหมี่,rice noodles (very fine),เส้น,food
+เส้นใหญ่,large flat rice noodles,เส้น,food
+เสมอ,"always, regularly, consistently",,
+เสมียน,clerk ,คน,"people, occupation"
+เสร็จ,"to finish, complete, succeed",,
+เสีย,"break, to be broken (machines or food that’s spoiled, to waste)",,
+เสียง,sound,,
+เสียงดัง,loud,,
+เสียงสูงต่ำ,tones,,
+เสียใจ,"sad, unhappy (general)",,emotion
+เสียดาย,"regretful, unhappy (because of lost opportunity to do something)",,emotion
+เสียเวลา,"to waste time, lose time",,
+เสียหน้า,losing face,,emotion
+เสียหาย,damaged,,
+เสือ,tiger,ต้ว,animal
+เสื่อ,mat,ผืน,house word
+เสื้อ,"top garments, such as shirts and blouses, woman’s dress",ตัว,clothes
+เสื้อกางเกง,suit of clothes,ตัว,clothes
+เสื้อแขนยาว,long-sleeved shirt,ตัว,clothes
+เสื้อชั้นใน,underwear,ตัว,clothes
+เสื้อเชิ้ต,dress shirt,ตัว,clothes
+เสือดาว,leopard,ตัว,animal
+เสื้อผ้า,"clothing, cloth","ตัว, ชุด",clothes
+เสื้อยืด,t-shirt,ตัว,clothes
+เสื้อหนาว,coat,ตัว,clothes
+แสดง,"to show, display, indicate",,
+แสน,"hundred thousand (100,000,000)",,number
+แสบ,"hurts, stings",,health
+โสด,"single, unmarried state",คน,people
+ใส,"to be clear, transparent",,
+ใส่,"to wear, to put in or on",,clothes words
+ใส่ถุง,to put in a bag,,shopping
+ไส้,innards,เส้น,"people, body parts"
+ไส้กรอก,sausage,"เส้น, อัน, แท่ง",food
+ไสตล์,style (loanword),"ไสตล์, ชนิด, แบบ",clothes words
+หก,six (6),,number
+หกสิบ,sixty (60),,number
+หญ้า,grass,"ต้น, กอ",
+หญิงโสด,"unmarried women, spinster",คน,people
+หด,to shrink ,,
+หนวด,moustache,เส้น,"people, body parts"
+หน่อย,"a little, a little bit",,measurement
+หนัก,"heavy (in weight), hard (as of work)",,measurement
+หนักใจ,"to be to serious, tense, troubled, heavy hearted ",,emotion
+หนัง,"movie, film",เรื่อง,
+หนังสือ,book,เล่ม,education word
+หนังสือพิมพ์,newspaper,ฉบับ,education word
+หนา,"heavy (of material), heavy texture",,measurement
+หน้า,"next, following, upcoming, season, face",หน้า,
+หน้าซีด,to pale,,
+หน้าต่าง,window,บาน,house word
+หน้าที่,duty,"หน้าที่, อย่าง",
+หน้าผาก,forehead,แบบ,"people, body parts"
+หน้าฝน,rainy season,หน้า,seasons
+หน้าร้อน,hot season,หน้า,seasons
+หนาว,"to be cold (feeling, weather)",,health
+หน้าหนาว,cold season,หน้า,seasons
+หน้าอก,chest,แบบ,"people, body parts"
+หนี,"to escape, avoid, flee",,
+หนี้,"debt, liability, indebtedness",อย่าง,money word
+หนีไป,"to leave, abandon, desert",,
+หนึ่ง ๑,"one (1), in front of classifier ",,number
+หนึ่งคน ,one person,คน,people
+หนึ่งร้อย,one hundred (100),บาท,number
+หนุ่ม,young male,คน,people
+หนู,"mouse, you (with children)",ตัว,"people, animal"
+หมด,"to be all gone, to the last one, used up, finished",,
+หมดสติ,unconscious,,health
+หมดอายุ,to be expired,,
+หมวก,hat,ใบ,"clothes, accessories"
+หมวกกันน็อค,helmet (hat protect against knocks),ใบ,
+หมอ,medical doctor,คน,"people, occupation"
+หม้อ,pot (cooking),ใบ,"house, kitchen"
+หมอก,dark gray,กลุ่ม,
+หมอน,pillow,ใบ,"house, bedroom"
+หมอนวด,"masseur, masseuse",คน,"people, occupation"
+หมอฟัน,dentist (informal),คน,"people, occupation"
+หมา,dog,ตัว,animal
+หมากฝรั่ง,chewing gum,"ชิ้น, อัน",
+หมายความว่า,means that...,,
+หมายความว่าอะไร,what does … mean? (phrase),,
+หมายถึง,to mean,,
+หมี,bear,ตัว,animal
+หมื่น,"ten-thousand (10,000)",บาท,number
+หมุน,"to evolve, revolve, circulate",,
+หมู,"pig, pork",ตัว,"food, animal"
+หมู่บ้าน,village,แห่ง,location
+หย่า,to divorce,,people word
+หยาบ,rough,,
+หยิบ,to pick up small objects,,
+หยุด,to stop,,transportation word
+หยุดพัก,to take a break,,
+หยุดรถ,"stop the car, stop",,
+หรอก,particle: used in the negative when making a contradiction,,particle
+หรือ,"or, question word",,question word
+"หรือเปล่า, รึเปล่า",or not (question word),,question word
+หรือไม่,or not,,question word
+หรือยัง,"yet (question word), have you... yet? ",,question word
+หลงทาง,lose the way,,
+หลงใหล,"fascinatingly, enticingly, alluringly",,
+หลวม,loose,,
+หล่อ,handsome,,people word
+หลอก,to fool,,
+หลอด,"drinking straw, tube, pipe; classifier for tube, tube of toothpaste",หลอด,
+หลอดไฟ (ฟ้า),electric light bulb,"หลอด, ดวง",house word
+หลัก,"foundation, main idea, core",ใบ,
+หลักสูตร,curriculum,ฉบับ,education word
+หลัง,classifier for houses,,classifier
+หลัง,"behind, back, classifier for houses and buildings",หลัง,"location word, bodypart"
+หลังคา,roof,หลังคา,building
+หลังจาก,after,,
+หลังจากนั้น,after that,,time word
+หลังจากนี้,"later, after this",,time word
+หลังอาหาร,after meals,,time word
+หลับ,"to close the eyes, distinguishes between sleeping and lying down",,
+หลา,yard (36 inches),,measurement
+หลาน,"nephew, niece, grandchild",คน,"people, family"
+หลานชาย,"nephew, grandson",คน,"people, family"
+หลานสาว,"niece, granddaughter",คน,"people, family"
+หลาย,"many, several, a lot (before classifier)",,measurement
+หลายปี,many years,,time word
+หลายอย่าง,many kinds,,
+หลุม,"hole, pit, hollow","หลุม, ที่",
+หวัง,to hope ,,
+หวังว่า,to hope that,,
+หวัด,common cold,,health
+หวัดดี,goodbye,,
+หวาน,sweet (in flavor),,food word
+หวี,comb,"ด้าม, อัน",bathroom: toiletries
+หวี,"bunch, classifier for bunch of bananas",,
+หวีละ...,… per bunch,,
+ห่อ,"carton, classifier for packages or things wrapped in paper",ห่อ,
+ห้อง,room,ห้อง,house word
+ห้องกินข้าว,dining room,ห้อง,house word
+ห้องเก็บของ ,"storage space, storage room",ห้อง,house word
+ห้องครัว ,kitchen,ห้อง,house word
+ห้องคู่,double room,ห้อง,house word
+ห้องเดี่ยว,single room,ห้อง,house word
+ห้องทำงาน,"work room, office",ห้อง,building
+ห้องธรรมดา,regular room (includes fan),ห้อง,house word
+ห้องนอน,bedroom,ห้อง,house word
+ห้องน้ำ,"toilet, bathroom",ห้อง,house word
+ห้องพัดลม,(regular) room with fan,ห้อง,house word
+ห้องรับแขก,living room,ห้อง,house word
+ห้องลองเสื้อ,dressing room,ห้อง,
+ห้องสมุด,library ,"ห้อง, แห่ง",building
+ห้องอาหาร ,"dining room, dining hall",ห้อง,house word
+ห้องแอร์,air-conditioned room,ห้อง,house word
+หอพัก,dormitory,แห่ง,building
+หอม,"to kiss (Thai), smell sweet",,
+หอย,mollusk,ตัว,"food, animal, seafood"
+หอยนางรม,oyster,ตัว,"food, animal, seafood"
+หัก,"break + object, to break, broken (large things such as bones)",,
+หัน,"to turn around, face about, move around",,
+หั่น,"to cut into pieces, to slice",,
+หัว,head,หัว,"people, body parts"
+หัวเข่า,knee,หัวเข่า,"people, body parts"
+หัวค่ำ,early in the evening (6 pm - 9 pm),,time word
+หัวใจ,heart,ดวง,"people, body parts"
+หัวเราะ,to laugh,,
+หัวหน้า,boss,คน,people
+หัวหอม,onion,หัว,"food, vegetable"
+หา,"to look for, to seek",,
+ห้า ๕,five (5),,number
+หาก,if,,
+หาง,"tail, end, back",หาง,
+ห่าง,"distant, far apart, separate",,
+ห้าง,"department store, business firm, commercial establishment, large store","แห่ง, ห้าง",building
+ห้างสรรพสินค้า,shopping mall (formal),"แห่ง, ห้าง",building
+หาเงิน,earn money,,money word
+หาเจอ,to find something you were looking for,,
+ห่าน,goose,ตััว,"animal, bird"
+ห้าม,to forbid,,
+ห้ามเข้า,"no entry, no admittance",,
+หาไม่เจอ,to be unable to find,,
+หาย (ไป),"to disappear, vanish, to be missing, be lost from sight ",,
+หายใจ,to breathe,,health
+หายใจไม่ออก,can’t breathe,,health
+หายป่วย,to recover ,,health
+ห้าแยก,intersection (five way)," แห่ง, ที่",transportation word
+ห้าสิบ,fifty (50),,number
+หิน,"rock, stone",ก้อน,
+หิมะ,snow,"ก้อน, เกล็ด",
+หิว(ข้าว),to be hungry,,food word
+หิวน้ำ,to be thirsty,,food word
+หุง,to cook (especially rice),,food word
+หุ้น,"share, stocks",หุ้น,money word
+หู,ears,"หู, ข้าง","people, body parts"
+เหงา,lonely,,emotion
+เหงื่อ,sweat,,health
+เหงื่อออก,to sweat,,health
+เห็ด,mushrooms,หัว,"food, vegetable"
+เหตุผล,reason,เหตุผล,
+เห็น,to see,,
+เห็นด้วย,to agree,,
+เห็นด้วย(กับ),to agree (with),,
+เหนียว,"sticky, tough",,
+เหนือ,"north, above",,direction
+เหนื่อย,"to be tired, fatigued",,health
+เหม็น,to smell bad,,health
+เหมาะ(สม),"to be appropriate, suitable",,
+เหมือน(กัน),"too, also, the same (characteristics and qualities)",,
+เหมือนกับ,"like, as, such as, as if, as though, like ",,
+"เหรอ, เหลอ","really?, particle: asking for confirmation ""am I right in assuming that?""",,question word
+เหรียญ,"coin, dollars","อัน, เหรียญ",money word
+เหล็ก,"iron, steel","เส้น, ต้น",
+เหลน,great grandchild,คน,"people, family"
+เหลวไหล,unreliable,,
+เหลอ,"or, question word",,question word
+เหล้า,liquor,ชนิด,"food, drink, alcohol"
+เหล่านั้น,"those, that group",,
+เหล่านี้,"these, this group",,
+เหลือ,"to be left over, remaining",,
+เหลือเกิน,excessively,,
+เห่า,"to bark, hiss (of a snake)",,
+แห้ง,to be dry,,
+แห้งแล้ง,to dry,,
+แหล่ง,"source, location, spot","แหล่ง, ที่",
+แหลม,"pointed, sharp point",,
+แหวน,ring (for the finger),วง,"clothes, accessories"
+โหล,dozen,,
+ให้,"to give, offer; permit, allow, consent to",,
+ให้เช่า,"let, for rent",,
+ใหญ่,"big, large",,measurement
+ใหญ่ๆ,very big,,measurement
+ใหญ่โต ,"wide, large, roomy",,
+ใหม่,"again, new",,
+ให้ยืม,"lend, to let someone borrow",,
+ไหน,which (one(s); determiner,,
+ไหนๆ,any,,
+ไหม,question word,,question word
+ไหม้,"to burn (actively burning something, cremate)",,
+ไหมไทย,Thai silk,"เส้น, ชนิด",cloth
+ไหล,to flow,,
+ไหล่,shoulder,"ไหล่, ขา้ง","people, body parts"
+ไหว,"can, be able to, to be physically able, to be up to",,
+อก,chest,อก,"people, body parts"
+องค์การ,organization,แห่ง,
+องศา,degree,,
+อด,"to refrain, go without, miss out on",,
+อดทน,"to endure, bear, stand, be patient, put up with, tolerate",,
+อธิบาย,explain,,
+อนาคต,future,,
+อนุญาต,permit,,
+อนุบาล,nursery (level),แห่ง,education word
+อบ,to roast or bake,,"food, cooking"
+อบอุ่น,warm,,weather
+อพาร์ทเมนท์,apartment (loanword),หลัง,building
+อเมริกัน ,American (loanword),คน,Country
+อเมริกา,America (loanword),ประเทศ,Country
+อย่า,don’t (for strong or urgent commands),,
+อยาก,"to want to, like to",,
+อยากได้,"need, want + noun (polite)",,
+อย่าง,"kind, type (with emphasis on quality); classifier of things",,
+อย่างน้อย,at least,,
+อย่างนี้,"like this, in this way",,
+อย่างแรง,strongly,,
+อย่างไร ,"how, in what way  (formal)(written)",,question word
+อย่างไรก็ตาม,"anyway, whichever way",,
+อย่าเพิ่ง,"wait, don't do that yet!",,
+อยู่,"live, stay; to be located at",,location word
+อยู่ๆ,Double อยู่ๆ construct,,
+อยู่ที่ไหน,where is it? ,,"question, phrase"
+อร่อย,"to taste good, delicious",,food word
+อ้วก ,to vomit,,health
+อวด,"to show off, flaunt",,emotion
+อ้วน,to be fat,,health
+อ้อ,oh!,,
+อ๋อ,oh,,
+ออก,"to exit, to go or come out, to pay out",,
+ออกกำลัง(กาย),"to exercise, keep fit",,health
+อ่อกเงิน,"pay for, put up the money for, stand good for",,money word
+ออกจาก,to leave from,,direction word
+ออกไป,go out,,
+ออกมา,come out,,direction word
+ออกลูก ,to give birth,,health
+ออกเสียง,"pronounce, voice",,
+อ่อน,"soft, tender, young, weak, light (colour)",,
+อ่อนแอ,weak,,health
+ออฟฟิศ,office  (loanword),"แห่ง, ที่",building
+ออสเตรเลีย ,"Australia, Australian (loanword)","ประเทศ, คน",Country
+ออสเตรีย,Austria (loanword),ประเทศ,Country
+"อะไร, ไร",what ,,question word
+อะไรก็ได้,anything,,
+อะไรบ้าง,what (Interrogative),,question word
+อักษร,alphabet,ตัว,education word
+อักเสบ,infected,,
+อังกฤษ,"English, England","ประเทศ, คน",location
+อัด,"to record, tape, copy ",,
+อัตโนมัติ,to be automatic,,
+อันตราย,"dangerous, danger, hazardess",,
+อันนั้น,that one,,
+อันนี้,this one,,
+อันโน้น,that one (further away),,
+อันไหน,"which, which one (question word)",,
+อา,"aunt, uncle (father's younger sibling)",คน,"people, family"
+อาการ,symptom,ชนิด,health?
+อากาศ,"weather, climate, air, or atmosphere",ชนิด,weather
+อากาศเย็น,cool weather,,
+อาคาร,building (written),หลัง,building
+อ่าง,basin,อ่าง,house word
+อ้างถึง,"to be referable, quotable, consultative",,
+อ่างล้างมือ,sink,อ่าง,house word
+อ่างล้างหน้า,wash basin,อ่าง,house word
+อ่างอาบน้ำ,bathtub,อ่าง,house
+อาจ,"may, might, maybe",,
+อาจจะ,"may, might",,
+อาจารย์,"teacher, professor",คน,"people, occupation"
+อาเจียน,"to vomit, throw up",,health
+อาชีพ,profession,อาชีพ,"people, occupation"
+อาทิตย์,week,อาทิตย์,time word
+อาทิตย์ก่อน,the week before,อาทิตย์,time word
+อาทิตย์ที่แล้ว,last week,อาทิตย์,time word
+อาทิตย์นี้,this week,อาทิตย์,time word
+อาทิตย์หน้า,next week,อาทิตย์,time word
+อ่าน,to read,,education word
+อ่านไม่ออก,"to be unable to read, be illiterate",,
+อ่านเล่น,to read for pleasure,,education word
+อ่านออก,"to be able to read, be literate",,
+อ่านออกเขียนได้,"to be able to read and write, be literate",,
+อาบแดด,to sunbathe,,
+อาบน้ำ,"to bathe, take a bath",,health ?
+อายุ,age (in years),,time word
+อายุน้อย,young,,time word
+อาร์เจนตินา,Argentina (loanword),ประเทศ,Country
+อารมณ์,feeling,แบบ,emotion
+อารมณ์ดี,to be in a good temper,,
+อารมณ์เสีย,"to be upset, have a bad temper",,
+อ่าว,gulf,แห่ง,location
+อาศัย,"to live, reside, dwell",,
+อาศัยอยู่ ,to dwell,,emotion
+อาหรับ,Arab (loanword),คน,"people, nationality"
+อาหาร,food,มื้อ,food word
+อาหารกลางวัน,"lunch, noontime meal",มื้อ,food word
+อาหารค่ำ,dinner,มื้อ,food word
+อาหารจีน,Chinese food,มื้อ,food word
+อาหารเช้า,breakfast,มื้อ,food word
+อาหารญี่ปุ่น,Japanese food,มื้อ,food word
+อาหารทะเล,seafood ,มื้อ,"food word, fish"
+อาหารเที่ยง,lunch (formal),มื้อ,food word
+อาหารไทย,Thai food,มื้อ,food word
+อาหารเป็นพิษ,food poisoning,มื้อ,"food word, health"
+อาหารฝรั่ง,western food,มื้อ,food word
+อาหารเย็น,dinner,มื้อ,food word
+อำนาจ,"power, authority",,
+อำเภอ,"district, a subdivision of a changwat","อำเภอ, แห่ง",location
+อิตาลี ,Italy,ประเทศ,Country
+อิทธิพล,influence (n),,
+อินเดีย ,"India, Indian ","ประเทศ, คน","Country, nationality"
+อินโดนีเซีย ,"Indonesia, Indonesian ","ประเทศ, คน","Country, nationality"
+อิ่ม,to be full (from eating) ,,food word
+อิสรภาพ,freedom,,
+อิสระ,"to be free, independent",,action word
+อิสราเอล,"Israel, Israelies","ประเทศ, คน","Country, nationality"
+อิหร่าน,Iran,ประเทศ,Country
+อีก,"again, once more, more",,
+อีกด้วย,"also, as well",,
+อีกที,again,,
+อีกนาน,"for a lot longer, in a long time",,time word
+อีกหน่อย,a little more,,measurement
+อีกอันหนึ่ง,another,,
+อีเมล ,email (loanword),ฉบับ,communication
+อียิปต์,Egypt,ประเทศ,Country
+อีสาน,northeast (in Thailand),"ภาด, คน",location
+อึดอัด,uneasy,,
+อื่น,"other, a different…",,
+อื่นๆ,"other, others, other ones",,
+อุณหภูมิ,temperature,องศา,weather 
+อุดฟัน,"to get a filling (dental), to fill teeth",,health word
+อุดหนุน,"to support, assist (financially), to patronize",,
+อุตสาหกรรม,industry,ชนิด อย่าง,business
+อุ่น,to heat,,food word
+อุบัติเหตุ,accident; mishap; crash,,
+อุปกรณ์,equipment,"ชิ้น, ชนิด",
+อุ้ม,to hold (in one's arms),,action word
+อู่,"garage, workshop","อู่, แห่ง",building
+เอกชน,"person, individual",,people
+เอกสาร,document,ฉบับ,
+เอกอัครราชทูต,"ambassador (from a monarchy, formal)",คน,"people, occupation"
+เอง,"by himself, herself, themselves, etc., without outside help of influence",,people word
+เอเซีย ,Asia (loanword),"ทวีป, คน","Continent, people"
+เอ็ด,"one (used in combinations like 21, 31)",,number word
+"เอดส์, โรคเอดส์",AIDS,,health
+เอว,waist,เอว,"people, body parts"
+เออ,by the way,,
+เอา,"to get, take, want (to have) ",,action word
+เอา … มาให้,bring,,action word
+เอา ...ไป,to take,,action word
+เอา ...ไปให้,take,,action word
+เอาไป,"to take away, to take",,action word
+เอามา,to bring,,action word
+เอาไหม,question word (will you accept?),,question word
+เอาออก,to take out,,action word
+แอบ,"to hide (intransitive), secretly (put before verbs)",,
+แอบดู,to peek at,,action word
+แอปเปิล,apple (loanword),"ลูก, ใบ, ผล","food, fruit, name"
+แอฟริกา,Africa (loanword),ทวีป,Continent
+แอร์,"a/c (informal), air hostess","ตัว, คน","house word, occupation"
+โอกาส,"opportunity, chance",โอกาส,
+โอเค,o.k. (loanword),,
+โอน,to transfer,,action word
+โอเลี้ยง,iced coffee (black),แก้ว,"food, drink"
+โอ้โห้,oh oh (exclamation),,
+ไอ,"to cough, have a cough",,health
+ไอสครีม,ice-cream (loanword),ก้อน,food
+ฮ่องกง ,Hong Kong ,"คน, เกาะ",City …
+ฮอลันดา,Holland,ประเทศ,Country
+ฮะ,polite particle: used in statements and questions by males,,particle
+ฮ่ะ,polite particle: used by male and female,,particle
+ฮัลโหล,hello (loanword),,
+แฮม,ham (loanword),ชิ้น,food

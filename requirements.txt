@@ -1,0 +1,6 @@
+Flask
+sys
+bs4
+pandas
+sqlalchemy
+codecs

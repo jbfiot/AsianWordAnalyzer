@@ -27,7 +27,7 @@ body {
   line-height: 24px;
   color: #fff;
   background: #e74c3c;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   border-top: 0;
   text-align: center; 
 }
@@ -35,7 +35,7 @@ body {
   border-radius: 0px 0px 0 0;
   padding: 10px;
   font-size: 12px;
-  line-height: 0px;
+  line-height: 10px;
   color: #fff;
   background: #e74c3c;
   margin-bottom: 30px;

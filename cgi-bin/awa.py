@@ -43,7 +43,7 @@ else:
     _uu8 = lambda *tt: tuple(_u8(t) for t in tt)
 
 
-DEBUG = True
+DEBUG = False
 
 #==============================================================================
 # AWA MAIN

@@ -110,6 +110,12 @@ def render_block(block, words):
     utf8print("""
                     </li> """)
 
+    if block.get_name():
+        utf8print("""
+                    <li class="block-name">
+                        """ + block.get_name() + """
+                    </li>""")
+
     if block.get_meaning():
         utf8print("""
                     <li class="block-meaning">

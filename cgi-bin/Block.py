@@ -17,17 +17,20 @@ class Block(object):
     Block 1:
         block_str: 안
         ethymology: 安
-        meaning:
+        name: 편안할 안, 어찌 안
+        meaning: ?
     Block 2:
         block_str: 녕
         ethymology: 寧
-        meaning:
+        name: 편안할 녕
+        meaning: ?
     """
 
-    def __init__(self, string, ethym=None, meaning=None):
+    def __init__(self, string, ethym=None, name=None, meaning=None):
         """ Constructor """
         self.string = string
         self.ethym = ethym
+        self.name = name
         self.meaning = meaning
 
     def get_string(self):
@@ -37,6 +40,10 @@ class Block(object):
     def get_ethym(self):
         """ Ethymology getter """
         return self.ethym
+
+    def get_name(self):
+        """ Name getter """
+        return self.name
 
     def get_meaning(self):
         """ Menaing getter """

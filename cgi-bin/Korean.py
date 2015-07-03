@@ -220,8 +220,10 @@ class KoreanWord(object):
             ethym = get_hanja(body)
             if DEBUG:
                 UI.render_info(ethym)
+
             blocks = [Block(body[i], ethym=ethym[i], \
-                        meaning=get_hanja_meaning(ethym[i])) \
+                        meaning=get_hanja_meaning(ethym[i]), \
+                        name=get_hanja_name(ethym[i])) \
                         for i in range(len(body)) if body[i] != ' ']
 
         if detected_suffix:
@@ -234,7 +236,6 @@ class KoreanWord(object):
 
 # EXPERIMENTAL
 
-
 def get_hanja_meaning(hanja):
     query = "SELECT meaning from Korean_ethym WHERE ethym='" + hanja + "'"
     engine = create_engine(login.connection_string, echo=False)
@@ -245,6 +246,15 @@ def get_hanja_meaning(hanja):
     else:
         return None
 
+def get_hanja_name(hanja):
+    query = "SELECT name from Korean_ethym WHERE ethym='" + hanja + "'"
+    engine = create_engine(login.connection_string, echo=False)
+    results = pd.io.sql.execute(query, engine)
+    results = results.fetchall()
+    if results:
+        return results[0][0]
+    else:
+        return None
 
 
 def get_hanja(hangul):

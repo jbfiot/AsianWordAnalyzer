@@ -29,7 +29,18 @@ body {
   background: #e74c3c;
   margin-bottom: 0px;
   border-top: 0;
-  text-align: center; 
+  text-align: center;
+}
+.flat .plan li.block-name {
+  border-radius: 0px 0px 0 0;
+  padding: 10px;
+  font-size: 12px;
+  line-height: 10px;
+  color: #fff;
+  background: #e74c3c;
+  margin-bottom: 0px;
+  border-top: 0;
+  text-align: center;
 }
 .flat .plan li.block-meaning {
   border-radius: 0px 0px 0 0;
@@ -40,7 +51,7 @@ body {
   background: #e74c3c;
   margin-bottom: 30px;
   border-top: 0;
-  text-align: center; 
+  text-align: center;
 }
 .flat .plan li > strong {
   color: #e74c3c;
@@ -62,6 +73,10 @@ body {
 }
 .flat .plan:hover li.plan-name {
   background: #000;
+}
+.flat .plan:hover li.block-name {
+  background: #000;
+  color: #CCC;
 }
 .flat .plan:hover li.block-meaning {
   background: #000;

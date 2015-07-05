@@ -18,7 +18,7 @@ import sys
 # CGI debugging
 import cgitb
 cgitb.enable()
-DEBUG = True
+DEBUG = False
 
 # AWA components
 from Block import Block
@@ -37,9 +37,6 @@ from bs4 import BeautifulSoup
 from sqlalchemy import create_engine
 import pandas as pd
 
-# For opening files in python2 with UTF8 encoding
-import codecs
-
 
 # Handy functions when dealing with UTF8 strings
 if sys.version_info.major == 2:
@@ -56,16 +53,6 @@ else:
     # guarantee byte string in UTF8 encoding
     _u8 = lambda t: t.encode('UTF-8', 'replace') if isinstance(t, str) else t
     _uu8 = lambda *tt: tuple(_u8(t) for t in tt)
-
-
-# Method
-METHOD = 'db' # available methods: 'dic', 'db'
-
-# Dictionnary
-#FILE = '/home/jbfiot/www/cgi-bin/data/mini.txt'
-FILE = '/home/jbfiot/www/data/korean2.txt'
-#TODO: remove the use of this dictionnary (we want to use only the database in
-# the online setting)
 
 
 
@@ -89,6 +76,7 @@ class KoreanWord(object):
             self.selected_meaning = 0 # the word is clearly defined
 
         else:
+            self.compute_suffix()
             self.blocks = self.compute_blocks(compute_ethym)
             self.meanings = self.compute_meanings() # Different meanings in English
             self.selected_meaning = 0 # index of the selected meaning
@@ -141,17 +129,47 @@ class KoreanWord(object):
     #   LANGUAGE METHODS
     #==========================================================================
 
-    def compute_meanings(self):
-        """ Find the meaning.
-        Note:
+    def compute_suffix(self):
+        """ This method computes:
+        self.suffix
+        self.suffix_meaning
+        self.string_without_suffix
         """
-        f = codecs.open(FILE, 'r', encoding='utf-8')
-        lines = f.readlines()
-        f.close()
-        for line in lines:
-            if line.split(',')[0].strip() == self.string:
-                return [line.split(',')[1].strip()]
-        return ['']
+        suffixes = {u'하다':u'하다 verb particule', \
+                    u'합니다': u'formal 하다 ending', \
+                    u'하세요': u'formal imperative form of 하다', \
+                    u'요': u'politeness particle',\
+                    u'님': u'honorific particle'}
+        # TODO: store the suffixes in the database instead of hardcoding them here
+
+        detected_suffix = ''
+        for suffix in suffixes.keys():
+            if self.string.endswith(suffix):
+                detected_suffix = suffix
+                continue
+        self.string_without_suffix = self.string[0:len(self.string)-len(detected_suffix)]
+        self.suffix = detected_suffix
+
+        if detected_suffix:
+            self.suffix_meaning = suffixes[detected_suffix]
+        else:
+            self.suffix_meaning = None
+
+
+
+
+    def compute_meanings(self):
+        """ Find the possible meanings based on the input string by the user"""
+        query = "SELECT meaning from Korean WHERE word='" + \
+                                               self.string_without_suffix + "'"
+        engine = create_engine(login.connection_string, echo=False)
+        results = pd.io.sql.execute(query, engine)
+        results = results.fetchall()
+        if results:
+            return results[0]
+        else:
+            return ['']
+
 
 
     def compute_blocks(self, compute_ethym=False):
@@ -164,43 +182,29 @@ class KoreanWord(object):
             input string.
 
         Note:
-            In this CSV dictionnary based implemenation, only one meaning is
-            available.
+            In this implemenation, only one meaning is available.
         """
         if DEBUG:
             UI.render_info('compute_blocks(...) called for word ' + self.string)
 
-        suffixes = {u'하다':u'하다 verb particule', \
-            u'합니다': u'formal 하다 ending', \
-            u'하세요': u'formal imperative form of 하다', \
-              u'요': u'politeness particle',\
-              u'님': u'honorific particle'}
-        # TODO: store the suffixes in the database instead of hardcoding them here
-
-        detected_suffix = ''
-        for suffix in suffixes.keys():
-            if self.string.endswith(suffix):
-                detected_suffix = suffix
-                continue
-        body = self.string[0:len(self.string)-len(detected_suffix)]
-        if DEBUG:
-            UI.render_info(body)
-
         if not compute_ethym:
-            blocks = [Block(body[i]) for i in range(len(body)) if body[i] != ' ']
+            blocks = [Block(self.string_without_suffix[i]) \
+                            for i in range(len(self.string_without_suffix)) \
+                            if self.string_without_suffix[i] != ' ']
         else:
-            ethym = get_hanja(body)
+            ethym = get_hanja(self.string_without_suffix)
             if DEBUG:
                 UI.render_info(ethym)
 
-            blocks = [Block(body[i], ethym=ethym[i], \
+            blocks = [Block(self.string_without_suffix[i], ethym=ethym[i], \
                         meaning=get_hanja_meaning(ethym[i]), \
                         name=get_hanja_name(ethym[i])) \
-                        for i in range(len(body)) if body[i] != ' ']
+                        for i in range(len(self.string_without_suffix)) \
+                        if self.string_without_suffix[i] != ' ']
 
-        if detected_suffix:
-            suffix_desc = 'Suffix: ' + suffixes[detected_suffix]
-            blocks.append(Block(detected_suffix, meaning=suffix_desc))
+        if self.suffix:
+            suffix_desc = 'Suffix: ' + self.suffix_meaning
+            blocks.append(Block(self.suffix, meaning=suffix_desc))
 
         return [blocks]
 

@@ -4,7 +4,7 @@
 Created on Wed Apr 22 11:31:22 2015
 
 @author:    Jean-Baptiste Fiot < jean-baptiste.fiot@centraliens.net >
-@version:   June 2015
+@version:   July 2015
 """
 
 
@@ -18,7 +18,7 @@ import sys
 # CGI debugging
 import cgitb
 cgitb.enable()
-DEBUG = 0
+DEBUG = True
 
 # AWA components
 from Block import Block
@@ -26,21 +26,22 @@ import UI
 import login
 import tools
 
-# Web requests
+# Web requests and parsing
 if sys.version_info.major == 2:
     import urllib2
 else:
     import urllib
-
-
 from bs4 import BeautifulSoup
 
-import pandas as pd
+# For interacting with the database
 from sqlalchemy import create_engine
+import pandas as pd
+
+# For opening files in python2 with UTF8 encoding
+import codecs
 
 
-import codecs # for opening files in python2 with UTF8 encoding
-
+# Handy functions when dealing with UTF8 strings
 if sys.version_info.major == 2:
     # guarantee unicode string
     _u = lambda t: t.decode('UTF-8', 'replace') if isinstance(t, str) else t
@@ -63,51 +64,14 @@ METHOD = 'db' # available methods: 'dic', 'db'
 # Dictionnary
 #FILE = '/home/jbfiot/www/cgi-bin/data/mini.txt'
 FILE = '/home/jbfiot/www/data/korean2.txt'
+#TODO: remove the use of this dictionnary (we want to use only the database in
+# the online setting)
+
 
 
 #==============================================================================
-# LANGUAGE METHODS
+# KoreanWord CLASS
 #==============================================================================
-
-def get_words_with_block(block, exclude=None):
-    """
-    This functions returns a list of Korean words that rely on the same block.
-    """
-
-    # DICTIONNARY IMPLEMENTATION
-    if METHOD == 'dic':
-        f = codecs.open(FILE, 'r', encoding='utf-8')
-        lines = f.readlines()
-        f.close()
-        words = []
-        for line in lines:
-            # Implementation 1: using hangul syllables
-            if block.get_string() in line.split(',')[0]:
-                word = line.split(',')[0].strip()
-                if word != exclude:
-                    words.append(KoreanWord(string=word, \
-                                            meaning=line.split(',')[1].strip()))
-
-
-    # DATABASE IMPLEMENTATION
-    if METHOD == 'db':
-        if block.get_ethym():
-            query = """SELECT * FROM `Korean` WHERE INSTR( ethym, '""" + block.get_ethym() + """') >0"""
-            engine = create_engine(login.connection_string, echo=False)
-            results = pd.io.sql.execute(query, engine)
-            results = results.fetchall()
-            words = [KoreanWord(string=r[0], ethym=r[1], meaning=r[2]) \
-                        for r in results if r[0] != exclude and \
-                        len(r[0]) == len(r[1]) and tools.detect_language(r[1]) is not 'korean']
-                        # len check and ethym check to avoid some corrupted data from the database to be displayed
-        else:
-            # For example, we do not return a list of words for suffixes
-            words = []
-
-    return words
-
-
-
 
 class KoreanWord(object):
     """ This class is used to manipulate Korean words. """
@@ -116,7 +80,11 @@ class KoreanWord(object):
         self.language = 'Korean'
 
         if ethym and meaning:
-            self.blocks = [[Block(string[i], ethym=ethym[i]) for i in range(len(string))]] # assuming hangul and hanja have the same length
+            assert(len(string) == len(ethym)) # to the best of my knowledge a
+                                              # Korean word and its hanja
+                                              # representation (when existing)
+                                              # have the same lengths
+            self.blocks = [[Block(string[i], ethym=ethym[i]) for i in range(len(string))]]
             self.meanings = [meaning]
             self.selected_meaning = 0 # the word is clearly defined
 
@@ -164,7 +132,7 @@ class KoreanWord(object):
 
         Example:
         --------
-            For the word '안녕', the blocks will be ['안', '녕']
+            For the word '안녕', the printed blocks will be ['안', '녕']
         """
         return [block.get_str() for block in self.blocks[self.selected_meaning]]
 
@@ -200,12 +168,14 @@ class KoreanWord(object):
             available.
         """
         if DEBUG:
-            UI.render_info('compute_blocks() called for word ' + self.string)
+            UI.render_info('compute_blocks(...) called for word ' + self.string)
 
         suffixes = {u'하다':u'하다 verb particule', \
             u'합니다': u'formal 하다 ending', \
             u'하세요': u'formal imperative form of 하다', \
-              u'요': u'politeness particle'}
+              u'요': u'politeness particle',\
+              u'님': u'honorific particle'}
+        # TODO: store the suffixes in the database instead of hardcoding them here
 
         detected_suffix = ''
         for suffix in suffixes.keys():
@@ -213,6 +183,8 @@ class KoreanWord(object):
                 detected_suffix = suffix
                 continue
         body = self.string[0:len(self.string)-len(detected_suffix)]
+        if DEBUG:
+            UI.render_info(body)
 
         if not compute_ethym:
             blocks = [Block(body[i]) for i in range(len(body)) if body[i] != ' ']
@@ -233,10 +205,54 @@ class KoreanWord(object):
         return [blocks]
 
 
+#==============================================================================
+# LANGUAGE METHODS
+#==============================================================================
 
-# EXPERIMENTAL
+def get_words_with_block(block, exclude=None):
+    """
+    This functions returns a list of Korean words that rely on the same block.
+    """
+
+    # DICTIONNARY IMPLEMENTATION
+    if METHOD == 'dic':
+        f = codecs.open(FILE, 'r', encoding='utf-8')
+        lines = f.readlines()
+        f.close()
+        words = []
+        for line in lines:
+            # Implementation 1: using hangul syllables
+            if block.get_string() in line.split(',')[0]:
+                word = line.split(',')[0].strip()
+                if word != exclude:
+                    words.append(KoreanWord(string=word, \
+                                            meaning=line.split(',')[1].strip()))
+
+
+    # DATABASE IMPLEMENTATION
+    if METHOD == 'db':
+        if block.get_ethym():
+            query = """SELECT * FROM `Korean` WHERE INSTR( ethym, '""" + \
+                                                block.get_ethym() + """') >0"""
+            engine = create_engine(login.connection_string, echo=False)
+            results = pd.io.sql.execute(query, engine)
+            results = results.fetchall()
+            words = [KoreanWord(string=r[0], ethym=r[1], meaning=r[2]) \
+                        for r in results if r[0] != exclude and \
+                        len(r[0]) == len(r[1]) and \
+                        tools.detect_language(r[1]) is not 'korean']
+                        # len check and ethym check to avoid some corrupted
+                        # data from the database to be displayed
+        else:
+            # For example, we do not return a list of words for suffixes
+            words = []
+
+    return words
 
 def get_hanja_meaning(hanja):
+    """ Get the meaning of a hanja character from the database """
+    if DEBUG:
+        UI.render_info('get_hanja_meaning(...) called with hanja=' + hanja)
     query = "SELECT meaning from Korean_ethym WHERE ethym='" + hanja + "'"
     engine = create_engine(login.connection_string, echo=False)
     results = pd.io.sql.execute(query, engine)
@@ -247,6 +263,7 @@ def get_hanja_meaning(hanja):
         return None
 
 def get_hanja_name(hanja):
+    """ Get the name of a hanja character from the database """
     query = "SELECT name from Korean_ethym WHERE ethym='" + hanja + "'"
     engine = create_engine(login.connection_string, echo=False)
     results = pd.io.sql.execute(query, engine)
@@ -258,12 +275,13 @@ def get_hanja_name(hanja):
 
 
 def get_hanja(hangul):
-
+    """ Get the hanja representation of a Korean word by querying and parsing
+    Naver.
+    """
     if sys.version_info.major == 2: # Python 2
         search = ''.join('%' + format(ord(a), 'x') for a in hangul.encode('utf8'))
     elif sys.version_info.major == 3: # Python 3
         search = ''.join('%' + "{:02x}".format(a) for a in hangul.encode('utf8'))
-
 
 #    url = u"http://hanja.naver.com/search?query=휴업" # not supported by urllib
     url='http://hanja.naver.com/search?query=' + search
@@ -276,8 +294,6 @@ def get_hanja(hangul):
     else:
         contents = urllib.request.urlopen(url).read() #Python 3
         contents.decode('utf8')
-
-
 
     soup = BeautifulSoup(contents)
     first = soup.find('dt', {'class':'first'})

@@ -211,41 +211,26 @@ class KoreanWord(object):
 
 def get_words_with_block(block, exclude=None):
     """
-    This functions returns a list of Korean words that rely on the same block.
+    This functions returns a list of Korean words which also contains blocks
+    with the same ethymology.
+
+    When the ethymology is not available, an empty list is returned. This
+    typically happens when the input block is a suffix.
     """
-
-    # DICTIONNARY IMPLEMENTATION
-    if METHOD == 'dic':
-        f = codecs.open(FILE, 'r', encoding='utf-8')
-        lines = f.readlines()
-        f.close()
+    if block.get_ethym():
+        query = """SELECT * FROM `Korean` WHERE INSTR( ethym, '""" + \
+                                            block.get_ethym() + """') >0"""
+        engine = create_engine(login.connection_string, echo=False)
+        results = pd.io.sql.execute(query, engine)
+        results = results.fetchall()
+        words = [KoreanWord(string=r[0], ethym=r[1], meaning=r[2]) \
+                    for r in results if r[0] != exclude and \
+                    len(r[0]) == len(r[1]) and \
+                    tools.detect_language(r[1]) is not 'korean']
+                    # len check and ethym check to avoid some corrupted
+                    # data from the database to be displayed
+    else:
         words = []
-        for line in lines:
-            # Implementation 1: using hangul syllables
-            if block.get_string() in line.split(',')[0]:
-                word = line.split(',')[0].strip()
-                if word != exclude:
-                    words.append(KoreanWord(string=word, \
-                                            meaning=line.split(',')[1].strip()))
-
-
-    # DATABASE IMPLEMENTATION
-    if METHOD == 'db':
-        if block.get_ethym():
-            query = """SELECT * FROM `Korean` WHERE INSTR( ethym, '""" + \
-                                                block.get_ethym() + """') >0"""
-            engine = create_engine(login.connection_string, echo=False)
-            results = pd.io.sql.execute(query, engine)
-            results = results.fetchall()
-            words = [KoreanWord(string=r[0], ethym=r[1], meaning=r[2]) \
-                        for r in results if r[0] != exclude and \
-                        len(r[0]) == len(r[1]) and \
-                        tools.detect_language(r[1]) is not 'korean']
-                        # len check and ethym check to avoid some corrupted
-                        # data from the database to be displayed
-        else:
-            # For example, we do not return a list of words for suffixes
-            words = []
 
     return words
 

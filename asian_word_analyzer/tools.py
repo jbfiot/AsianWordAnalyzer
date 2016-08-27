@@ -15,10 +15,9 @@ def detect_language(word):
         Unicode string (type 'unicode' in Python2, 'str' in Python3)
 
     Output:
-        'korean', 'thai', 'unknown'
+        'korean', 'thai'
 
     """
-
 
     if (ord(word[0]) >= int('0xAC00', 0) and ord(word[0]) <= int('0xD7AF', 0)) or \
        (ord(word[0]) >= int('0x1100', 0) and ord(word[0]) <= int('0x11FF', 0)) or \
@@ -32,6 +31,6 @@ def detect_language(word):
          (ord(word[0]) >= int('0x0E01', 0) and ord(word[0]) <= int('0x0E5B', 0)):
         return 'thai'
     else:
-        return 'unknown'
+        raise ValueError('Unknown or unsupported language')
 
 

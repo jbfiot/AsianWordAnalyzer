@@ -1,4 +1,6 @@
-# AsianWordAnalyzer
+# AsianWordAnalyzer 
+[![Build Status](https://travis-ci.org/jbfiot/AsianWordAnalyzer.svg?branch=master)](https://travis-ci.org/jbfiot/AsianWordAnalyzer)
+
 Tool to "hack" Asian languages and discover words that are somehow related. Designed by language learners for language learners.
 
 Supported languages: Korean, Thai

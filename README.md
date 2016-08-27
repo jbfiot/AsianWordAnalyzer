@@ -1,5 +1,6 @@
 # AsianWordAnalyzer 
-[![Build Status](https://travis-ci.org/jbfiot/AsianWordAnalyzer.svg?branch=master)](https://travis-ci.org/jbfiot/AsianWordAnalyzer)
+[![Build Status](https://travis-ci.org/jbfiot/AsianWordAnalyzer.svg?branch=master)](https://travis-ci.org/jbfiot/AsianWordAnalyzer) 
+[![Coverage Status](https://coveralls.io/repos/github/jbfiot/AsianWordAnalyzer/badge.svg?branch=master)](https://coveralls.io/github/jbfiot/AsianWordAnalyzer?branch=master)
 
 Tool to "hack" Asian languages and discover words that are somehow related. Designed by language learners for language learners.
 

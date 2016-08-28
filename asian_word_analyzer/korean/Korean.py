@@ -4,16 +4,12 @@
 Created on Wed Apr 22 11:31:22 2015
 
 @author:    Jean-Baptiste Fiot < jean-baptiste.fiot@centraliens.net >
-@version:   July 2015
 """
 
 
 #==============================================================================
 # MODULES
 #==============================================================================
-
-
-import sys
 
 # CGI debugging
 import cgitb
@@ -26,20 +22,13 @@ import UI
 import login
 import tools
 
-# Web requests and parsing
-if sys.version_info.major == 2:
-    import urllib2
-else:
-    import urllib
-from bs4 import BeautifulSoup
-
 # For interacting with the database
 from sqlalchemy import create_engine
 import pandas as pd
 
 
 from asian_word_analyzer.utf8 import _u
-
+from asian_word_analyzer.korean.naver import get_hanja
 
 
 #==============================================================================
@@ -249,33 +238,3 @@ def get_hanja_name(hanja):
         return None
 
 
-def get_hanja(hangul):
-    """ Get the hanja representation of a Korean word by querying and parsing
-    Naver.
-    """
-    if sys.version_info.major == 2: # Python 2
-        search = ''.join('%' + format(ord(a), 'x') for a in hangul.encode('utf8'))
-    elif sys.version_info.major == 3: # Python 3
-        search = ''.join('%' + "{:02x}".format(a) for a in hangul.encode('utf8'))
-
-#    url = u"http://hanja.naver.com/search?query=휴업" # not supported by urllib
-    url='http://hanja.naver.com/search?query=' + search
-    url='http://endic.naver.com/search.nhn?sLn=kr&query=' + search
-
-
-    if sys.version_info.major == 2:
-        contents = urllib2.urlopen(url)
-        contents = contents.read()
-    else:
-        contents = urllib.request.urlopen(url).read() #Python 3
-        contents.decode('utf8')
-
-    soup = BeautifulSoup(contents)
-    first = soup.find('dt', {'class':'first'})
-    strings = [s for s in first.stripped_strings]
-    hanja = strings[-1]
-
-    if hanja is not '.':
-        return hanja
-    else:
-        return None

@@ -7,34 +7,20 @@ This file is the main CGI script for the AsianWordAnalyzer.
 
 
 @author     Jean-Baptiste Fiot < jean-baptiste.fiot@centraliens.net >
-@version    June 2015
 """
 
-
-#==============================================================================
-# MODULES
-#==============================================================================
-
-
-# CGI and CGI debugging
-import cgi
-import cgitb
-#cgitb.enable()
-
-# AWA components
-import UI
-from tools import detect_language
-
 import sys
+import cgi
+#import cgitb
 
 from asian_word_analyzer.utf8 import _u
+import asian_word_analyzer.UI as UI
+from asian_word_analyzer.tools import detect_language
 
 
+#cgitb.enable()
 DEBUG = False
 
-#==============================================================================
-# AWA MAIN
-#==============================================================================
 
 #UI.render_empty()
 
@@ -49,19 +35,18 @@ if DEBUG:
 form = cgi.FieldStorage()
 if 'word' in form.keys():
     input_str = form["word"].value
-    language = detect_language(_u(input_str))
-    if DEBUG:
-        UI.render_info(language)
-
+    try:    
+        language = detect_language(_u(input_str))
+    except ValueError:
+        UI.render_error('Language not supported')
+        
 
     if language == 'korean':
-        from Korean import get_words_with_block
-        from Korean import KoreanWord as Word
+        from asian_word_analyzer.korean.db import get_words_with_block
+        from asian_word_analyzer.korean.word import KoreanWord as Word
     elif language == 'thai':
-        from Thai import get_words_with_block
-        from Thai import ThaiWord as Word
-    else:
-        UI.render_error('Language not supported')
+        from asian_word_analyzer.thai.Thai import get_words_with_block
+        from asian_word_analyzer.thai.Thai import ThaiWord as Word
 
     if 'Word' in locals():
         word = Word(input_str, compute_ethym=True)

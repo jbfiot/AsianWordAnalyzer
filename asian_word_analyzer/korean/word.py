@@ -7,33 +7,18 @@ Created on Wed Apr 22 11:31:22 2015
 """
 
 
-#==============================================================================
-# MODULES
-#==============================================================================
-
-# CGI debugging
 import cgitb
-cgitb.enable()
-DEBUG = False
-
-# AWA components
-from Block import Block
-import UI
-import login
-import tools
-
-# For interacting with the database
-from sqlalchemy import create_engine
-import pandas as pd
-
 
 from asian_word_analyzer.utf8 import _u
 from asian_word_analyzer.korean.naver import get_hanja
+from asian_word_analyzer.korean.db import get_hanja_name, get_hanja_meaning, compute_meanings
+from asian_word_analyzer.block import Block
+import asian_word_analyzer.ui as UI
 
 
-#==============================================================================
-# KoreanWord CLASS
-#==============================================================================
+cgitb.enable()
+DEBUG = False
+
 
 class KoreanWord(object):
     """ This class is used to manipulate Korean words. """
@@ -53,7 +38,7 @@ class KoreanWord(object):
         else:
             self.compute_suffix()
             self.blocks = self.compute_blocks(compute_ethym)
-            self.meanings = self.compute_meanings() # Different meanings in English
+            self.meanings = compute_meanings(self.string_without_suffix) # Different meanings in English
             self.selected_meaning = 0 # index of the selected meaning
 
 
@@ -131,22 +116,6 @@ class KoreanWord(object):
             self.suffix_meaning = None
 
 
-
-
-    def compute_meanings(self):
-        """ Find the possible meanings based on the input string by the user"""
-        query = "SELECT meaning from Korean WHERE word='" + \
-                                               self.string_without_suffix + "'"
-        engine = create_engine(login.connection_string, echo=False)
-        results = pd.io.sql.execute(query, engine)
-        results = results.fetchall()
-        if results:
-            return results[0]
-        else:
-            return ['']
-
-
-
     def compute_blocks(self, compute_ethym=False):
         """ Compute the blocks given the input string.
 
@@ -182,59 +151,5 @@ class KoreanWord(object):
             blocks.append(Block(self.suffix, meaning=suffix_desc))
 
         return [blocks]
-
-
-#==============================================================================
-# LANGUAGE METHODS
-#==============================================================================
-
-def get_words_with_block(block, exclude=None):
-    """
-    This functions returns a list of Korean words which also contains blocks
-    with the same ethymology.
-
-    When the ethymology is not available, an empty list is returned. This
-    typically happens when the input block is a suffix.
-    """
-    if block.get_ethym():
-        query = """SELECT * FROM `Korean` WHERE INSTR( ethym, '""" + \
-                                            block.get_ethym() + """') >0"""
-        engine = create_engine(login.connection_string, echo=False)
-        results = pd.io.sql.execute(query, engine)
-        results = results.fetchall()
-        words = [KoreanWord(string=r[0], ethym=r[1], meaning=r[2]) \
-                    for r in results if r[0] != exclude and \
-                    len(r[0]) == len(r[1]) and \
-                    tools.detect_language(r[1]) is not 'korean']
-                    # len check and ethym check to avoid some corrupted
-                    # data from the database to be displayed
-    else:
-        words = []
-
-    return words
-
-def get_hanja_meaning(hanja):
-    """ Get the meaning of a hanja character from the database """
-    if DEBUG:
-        UI.render_info('get_hanja_meaning(...) called with hanja=' + hanja)
-    query = "SELECT meaning from Korean_ethym WHERE ethym='" + hanja + "'"
-    engine = create_engine(login.connection_string, echo=False)
-    results = pd.io.sql.execute(query, engine)
-    results = results.fetchall()
-    if results:
-        return results[0][0]
-    else:
-        return None
-
-def get_hanja_name(hanja):
-    """ Get the name of a hanja character from the database """
-    query = "SELECT name from Korean_ethym WHERE ethym='" + hanja + "'"
-    engine = create_engine(login.connection_string, echo=False)
-    results = pd.io.sql.execute(query, engine)
-    results = results.fetchall()
-    if results:
-        return results[0][0]
-    else:
-        return None
 
 

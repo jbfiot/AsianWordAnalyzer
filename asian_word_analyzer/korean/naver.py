@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 if sys.version_info.major == 2:
     import urllib2
 else:
-    import urllib
+    import urllib.request
 
 
 def get_hanja(hangul):

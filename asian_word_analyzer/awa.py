@@ -13,8 +13,10 @@ import sys
 import cgi
 #import cgitb
 
+sys.path.append('..') # TODO: investigate cleaner solution
+
 from asian_word_analyzer.utf8 import _u
-import asian_word_analyzer.UI as UI
+import asian_word_analyzer.ui as UI
 from asian_word_analyzer.tools import detect_language
 
 
@@ -38,11 +40,12 @@ if 'word' in form.keys():
     try:    
         language = detect_language(_u(input_str))
     except ValueError:
+        language = None
         UI.render_error('Language not supported')
         
 
     if language == 'korean':
-        from asian_word_analyzer.korean.db import get_words_with_block
+        from asian_word_analyzer.korean.db import DbUtil
         from asian_word_analyzer.korean.word import KoreanWord as Word
     elif language == 'thai':
         from asian_word_analyzer.thai.Thai import get_words_with_block
@@ -53,10 +56,10 @@ if 'word' in form.keys():
         UI.render_main(word)
         blocks = word.get_blocks_for_selected_meaning()
         for block in blocks:
-            words = get_words_with_block(block, exclude=word)
+            words = DbUtil().get_words_with_block(block, exclude=word)
             UI.render_block(block, words)
 else:
-    from EmptyWord import EmptyWord
+    from asian_word_analyzer.empty_word import EmptyWord
     UI.render_main(EmptyWord())
 
 # Desert

@@ -11,28 +11,14 @@ This file handles the generation of the html code
 
 from __future__ import print_function
 
+from functools import partial
 import sys
 import locale                                  # Ensures that subsequent open()s
 locale.getpreferredencoding = lambda: 'UTF-8'  # are UTF-8 encoded.
+import cgitb
 
 
-from functools import partial
-
-if sys.version_info.major == 2:
-    # guarantee unicode string
-    _u = lambda t: t.decode('UTF-8', 'replace') if isinstance(t, str) else t
-    _uu = lambda *tt: tuple(_u(t) for t in tt)
-    # guarantee byte string in UTF8 encoding
-    _u8 = lambda t: t.encode('UTF-8', 'replace') if isinstance(t, unicode) else t
-    _uu8 = lambda *tt: tuple(_u8(t) for t in tt)
-else:
-    # guarantee unicode string
-    _u = lambda t: t.decode('UTF-8', 'replace') if isinstance(t, bytes) else t
-    _uu = lambda *tt: tuple(_u(t) for t in tt)
-    # guarantee byte string in UTF8 encoding
-    _u8 = lambda t: t.encode('UTF-8', 'replace') if isinstance(t, str) else t
-    _uu8 = lambda *tt: tuple(_u8(t) for t in tt)
-
+from asian_word_analyzer.utf8 import _u8
 
 
 
@@ -44,9 +30,6 @@ elif sys.version_info.major == 2:
         sys.stdout.write(_u8(text))
 
 
-
-# CGI debugging
-import cgitb
 cgitb.enable()
 
 
@@ -60,32 +43,34 @@ def render_top(search_box=''):
     utf8print("""<!DOCTYPE html>
 <html>
     <!-- Bootstrap core CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="../css/main.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
     <center>
     <h1> Asian Word Analyzer</h1>
     </center>
+    
+    <div class="container">
+
     """)
 
 
 def render_main(word):
     utf8print("""
-        <div class="container">
         <center>
-        <form name="input" action="/cgi-bin/awa.py" method="get"  accept-charset="utf-8">
+        <form name="input" action="/awa.py" method="get"  accept-charset="utf-8">
         <input type="text" name="word" maxlength="2048" value = '""" +  \
-        word.get_string() + """'>
+        word.string + """'>
         <input type="submit" value="Go!">
         </form>
-        Detected language: """ + word.get_language() + """
+        Detected language: """ + word.language + """
 
         </center>
 
-        <h1 class="page-header">""" + word.get_string() + """</h1>""" + \
-        word.get_meaning() + """
+        <h1 class="page-header">""" + word.string + ' ('+ word.ethym + """)</h1>""" + \
+        word.meaning + """
 
         <p>&nbsp;</p>
 
@@ -100,50 +85,50 @@ def render_block(block, words):
     """
     utf8print("""
 
-            <div class="row flat">
             <div class="col-lg-3 col-md-3 col-xs-6">
                 <ul class="plan plan1">
                     <li class="plan-name">
-                        """ + block.get_string())
-    if block.get_ethym():
-        utf8print('(' + block.get_ethym() + ')')
+                        """ + block.string)
+    if block.ethym:
+        utf8print('(' + block.ethym + ')')
     utf8print("""
                     </li> """)
 
-    if block.get_name():
+    if block.name:
         utf8print("""
                     <li class="block-name">
-                        """ + block.get_name() + """
+                        """ + block.name + """
                     </li>""")
 
-    if block.get_meaning():
+    if block.meaning:
         utf8print("""
                     <li class="block-meaning">
-                        """ + block.get_meaning() + """
+                        """ + block.meaning + """
                     </li>""")
 
-    for word in words:
+    for word_idx in range(len(words)):
+        word = words.ix[word_idx]
         utf8print("""
                     <li class="plan-price">
-                        <strong> <a href="/cgi-bin/awa.py?word=""" + \
-                        word.get_string() + """">""" + word.get_string())
+                        <strong> <a href="/awa.py?word=""" + \
+                        word.word + """">""" + word.word)
 
-        if word.get_ethym():
-            utf8print(' (' + word.get_ethym() + ')')
+        if word.ethym:
+            utf8print(' (' + word.ethym + ')')
 
-        utf8print("""</a> </strong>&nbsp;&nbsp;""" + word.get_meaning() \
+        utf8print("""</a> </strong>&nbsp;&nbsp;""" + word.meaning \
                         +  """
                     </li>""")
     utf8print("""
                 </ul>
             </div>
+
     """)
 
 
 def render_bottom():
-    utf8print("""
-    </div>
-
+    utf8print("""      
+        </div>
     </div> <!-- /container -->
 </html>""")
 

@@ -1,4 +1,2 @@
-Flask
 bs4
 pandas
-sqlalchemy

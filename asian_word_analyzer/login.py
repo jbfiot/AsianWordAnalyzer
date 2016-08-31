@@ -10,5 +10,4 @@ Update the sqlite path
 @author     Jean-Baptiste Fiot < jean-baptiste.fiot@centraliens.net >
 """
 
-connection_string='/home/jbfiot/source/AsianWordAnalyzer/korean.sqlite'
-
+connection_string = 'data/korean.sqlite'

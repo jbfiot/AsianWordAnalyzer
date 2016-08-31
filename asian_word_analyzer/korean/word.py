@@ -11,7 +11,7 @@ import cgitb
 
 from asian_word_analyzer.utf8 import _u
 from asian_word_analyzer.korean.naver import get_hanja
-from asian_word_analyzer.korean.db import get_hanja_name, get_hanja_meaning, compute_meanings
+from asian_word_analyzer.korean.db import DbUtil
 from asian_word_analyzer.block import Block
 import asian_word_analyzer.ui as UI
 
@@ -25,6 +25,7 @@ class KoreanWord(object):
     def __init__(self, string='', ethym=None, meaning=None, compute_ethym=False):
         self.string = _u(string)  # e.g. user input string
         self.language = 'Korean'
+        self.db_util = DbUtil()
 
         if ethym and meaning:
             assert(len(string) == len(ethym)) # to the best of my knowledge a
@@ -38,28 +39,12 @@ class KoreanWord(object):
         else:
             self.compute_suffix()
             self.blocks = self.compute_blocks(compute_ethym)
-            self.meanings = compute_meanings(self.string_without_suffix) # Different meanings in English
+            self.meanings = self.db_util.compute_meanings(self.string_without_suffix) # Different meanings in English
             self.selected_meaning = 0 # index of the selected meaning
 
 
-
-    #==========================================================================
-    #  GETTERS
-    #==========================================================================
-
-    def get_string(self):
-        """ String getter """
-        return self.string
-
-    def get_language(self):
-        """ Language getter """
-        return self.language
-
-    def get_blocks(self):
-        """ Blocks getter """
-        return self.blocks
-
-    def get_meaning(self):
+    @property
+    def meaning(self):
         """ Meaning getter """
         return self.meanings[self.selected_meaning]
 
@@ -67,9 +52,10 @@ class KoreanWord(object):
         """ Getter for the blocks corresponding to the selected meaning """
         return self.blocks[self.selected_meaning]
 
-    def get_ethym(self):
-        return ''.join([block.get_ethym() for block in \
-                    self.blocks[self.selected_meaning] if block.get_ethym()])
+    @property    
+    def ethym(self):
+        return ''.join([block.ethym for block in \
+                    self.blocks[self.selected_meaning] if block.ethym])
 
     #==========================================================================
     #  PRINT METHODS
@@ -82,7 +68,7 @@ class KoreanWord(object):
         --------
             For the word '안녕', the printed blocks will be ['안', '녕']
         """
-        return [block.get_str() for block in self.blocks[self.selected_meaning]]
+        return [block.string for block in self.blocks[self.selected_meaning]]
 
 
     #==========================================================================
@@ -109,12 +95,7 @@ class KoreanWord(object):
                 continue
         self.string_without_suffix = self.string[0:len(self.string)-len(detected_suffix)]
         self.suffix = detected_suffix
-
-        if detected_suffix:
-            self.suffix_meaning = suffixes[detected_suffix]
-        else:
-            self.suffix_meaning = None
-
+        self.suffix_meaning = suffixes.get(detected_suffix, None)
 
     def compute_blocks(self, compute_ethym=False):
         """ Compute the blocks given the input string.
@@ -141,8 +122,8 @@ class KoreanWord(object):
                 UI.render_info(ethym)
 
             blocks = [Block(self.string_without_suffix[i], ethym=ethym[i], \
-                        meaning=get_hanja_meaning(ethym[i]), \
-                        name=get_hanja_name(ethym[i])) \
+                        meaning=self.db_util.get_hanja_meaning(ethym[i]), \
+                        name=self.db_util.get_hanja_name(ethym[i])) \
                         for i in range(len(self.string_without_suffix)) \
                         if self.string_without_suffix[i] != ' ']
 

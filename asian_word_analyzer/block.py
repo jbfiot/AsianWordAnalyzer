@@ -32,19 +32,3 @@ class Block(object):
         self.ethym = ethym
         self.name = name
         self.meaning = meaning
-
-    def get_string(self):
-        """ Block string getter """
-        return self.string
-
-    def get_ethym(self):
-        """ Ethymology getter """
-        return self.ethym
-
-    def get_name(self):
-        """ Name getter """
-        return self.name
-
-    def get_meaning(self):
-        """ Menaing getter """
-        return self.meaning

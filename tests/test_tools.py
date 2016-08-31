@@ -19,7 +19,13 @@ def test_detect_language(word, expected):
     
     
 @pytest.mark.parametrize('word', (u'مرحبا', u'Χαίρετε'))
-def test_detect_language_failure(word):
+def test_detect_language_unknown(word):
     with pytest.raises(ValueError):
-        detect_language(word)
+        detect_language(word, raise_if_unknown=True)
+
+
+@pytest.mark.parametrize('word', (u'مرحبا', u'Χαίρετε'))
+def test_detect_language_failure(word):
+    assert 'unknown' == detect_language(word, raise_if_unknown=False)
+
     

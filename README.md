@@ -39,8 +39,6 @@ Here is an example to install local version of the AsianWordAnalyzer.
 
 * Install python and required packages
 
-* Set up database and connection string (see `AsianWordAnalyzer/asian_word_analyzer/login_example.py`)
-
 ## Run
 
 * Open `http://localhost/awa.py` in your browser

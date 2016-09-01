@@ -6,7 +6,6 @@ Created on Wed Apr 22 11:31:22 2015
 This file handles the generation of the html code
 
 @author     Jean-Baptiste Fiot < jean-baptiste.fiot@centraliens.net >
-@version    June 2015
 """
 
 from __future__ import print_function
@@ -58,6 +57,14 @@ def render_top(search_box=''):
 
 
 def render_main(word):
+    if word.ethym:
+        ethym_str = ' ({})'.format(word.ethym)
+    else:
+        ethym_str = ''
+    if word.language:
+        language_str = 'Detected language: {}'.format(word.language)
+    else:
+        language_str = ''
     utf8print("""
         <center>
         <form name="input" action="/awa.py" method="get"  accept-charset="utf-8">
@@ -65,11 +72,11 @@ def render_main(word):
         word.string + """'>
         <input type="submit" value="Go!">
         </form>
-        Detected language: """ + word.language + """
+        """ + language_str + """
 
         </center>
 
-        <h1 class="page-header">""" + word.string + ' ('+ word.ethym + """)</h1>""" + \
+        <h1 class="page-header">""" + word.string + ethym_str + """</h1>""" + \
         word.meaning + """
 
         <p>&nbsp;</p>

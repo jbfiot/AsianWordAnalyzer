@@ -8,40 +8,18 @@ Created on Wed Apr 22 11:31:22 2015
 """
 
 
-#==============================================================================
-# MODULES
-#==============================================================================
-
-# Encoding
-#import locale                                  # Ensures that subsequent open()s 
-#locale.getpreferredencoding = lambda: 'UTF-8'  # are UTF-8 encoded.
-#utf8stdout = open(1, 'w', encoding='utf-8', closefd=False) # fd 1 is stdout
-#from functools import partial
-#utf8print = partial(print, end='\r\n', file=utf8stdout)
-#utf8print = partial(print, end='\n', file=utf8stdout)
 import codecs
-
-# CGI debugging
 import cgitb
-cgitb.enable()
-DEBUG = 0
 
-# AWA components
-from Block import Block
-import UI
-
-# Web requests
-#import urllib.request
-#import urllib2
-
-# Method 
-METHOD = 'dic' # available methods: 'dic', 'Naver' (to be implemented)
+from asian_word_analyzer.block import Block
+import asian_word_analyzer.ui as UI
+from asian_word_analyzer.utf8 import _u
 
 # Dictionnary
 FILE = '../data/thai.txt'
 
+cgitb.enable()
 
-from asian_word_analyzer.utf8 import _u
 
 #==============================================================================
 # SYMBOL CLASSES
@@ -81,36 +59,30 @@ S = '{c}({u}|{l})?{t}?์{{1}}'.format(c=C,u=U,l=L,t=T)
 def get_words_with_block(block, exclude=None):
     """
     This functions returns a list of Thai words that rely on the same block.
-    """
-    
-    # DICTIONNARY IMPLEMENTATION
-    if METHOD == 'dic':
-        f = codecs.open(FILE, 'r', encoding='utf-8')
-        lines = f.readlines()
-        f.close()
-        words = []
-        for line in lines:
-            # Implementation 1: using hangul syllables
-            if _u(block.get_string()) in line.split(',')[0]:
-                word = line.split(',')[0].strip()
-                if word != exclude:
-                    words.append(ThaiWord(string=word, \
-                                            meaning=line.split(',')[1].strip()))
+    """    
+    f = codecs.open(FILE, 'r', encoding='utf-8')
+    lines = f.readlines()
+    f.close()
+    words = []
+    for line in lines:
+        if _u(block.string) in line.split(',')[0]:
+            word = line.split(',')[0].strip()
+            if word != exclude:
+                words.append(ThaiWord(string=word, \
+                                        meaning=line.split(',')[1].strip()))
 
-        return words
+    return words
 
 def compute_block_meanings(blocks):
-    # DICTIONNARY IMPLEMENTATION
-    if METHOD == 'dic':
-        f = codecs.open(FILE, 'r', encoding='utf-8')
-        lines = f.readlines()
-        f.close()
-        for line in lines:
-            for block in blocks:
-                if _u(block.get_string()) == line.split(',')[0]:
-                    meaning = line.split(',')[1].strip()
-                    block.meaning = meaning
-        return blocks
+    f = codecs.open(FILE, 'r', encoding='utf-8')
+    lines = f.readlines()
+    f.close()
+    for line in lines:
+        for block in blocks:
+            if _u(block.string) == line.split(',')[0]:
+                meaning = line.split(',')[1].strip()
+                block.meaning = meaning
+    return blocks
 
 def compute_blocks_re(txt):
     """Compute blocks for word based on regular expressions
@@ -171,26 +143,10 @@ class ThaiWord(object):
         self.selected_meaning = 0 # index of the selected meaning
         self.meanings = self.compute_meanings() # Different meanings in English
         
-        
-    #==========================================================================
-    #  GETTERS
-    #==========================================================================
 
-    def get_string(self):
-        """ String getter """
-        return self.string
-
-    def get_language(self):
-        """ Language getter """
-        return self.language
-
-    def get_blocks(self):
-        """ Blocks getter """
-        return self.blocks
-
-    def get_meaning(self):
+    @property
+    def meaning(self):
         """ Meaning getter """
-        #UI.render_info(self.meanings[self.selected_meaning])
         return self.meanings[self.selected_meaning]
 
     def get_blocks_for_selected_meaning(self):
@@ -198,19 +154,16 @@ class ThaiWord(object):
         return self.blocks[self.selected_meaning]
 
     def get_ethym(self):
-        return ''.join([block.get_ethym() for block in \
-                    self.blocks[self.selected_meaning] if block.get_ethym()])
+        return ''.join([block.ethym for block in \
+                    self.blocks[self.selected_meaning] if block.ethym])
 
     #==========================================================================
     #  PRINT METHODS
     #==========================================================================
 
     def print_blocks_for_selected_meaning(self):
-        """ This methods prints the block strings for the selected meaning. 
-        
-        Example:
-        --------
-            For the word '안녕', the blocks will be ['안', '녕']
+        """ 
+        This methods prints the block strings for the selected meaning. 
         """
         UI.render_info('print blocks for selected meaning')
         UI.render_info([block.get_str() for block in self.blocks[self.selected_meaning]])
@@ -222,16 +175,14 @@ class ThaiWord(object):
     #==========================================================================
         
     def compute_meanings(self):
-        """ Find the meaning.
-        Note:         
+        """ 
+        Find the meaning.
         """
         f = codecs.open(FILE, 'r', encoding='utf-8')
         lines = f.readlines()
         f.close()
-        for line in lines:
-            
+        for line in lines:            
             if line.split(',')[0] == self.string:
-                #UI.render_info(line.split(',')[0])
                 return [line.split(',')[1].strip()]
         return ['']
         
@@ -249,38 +200,9 @@ class ThaiWord(object):
             In this CSV dictionnary based implemenation, only one meaning is 
             available.            
         """
-        if DEBUG:
-            UI.render_info('compute_blocks() called for word ' + self.string)        
-        
-        suffixes = {'하다':'하다 verb particule', \
-            '합니다': 'formal 하다 ending', \
-            '하세요': 'formal imperative form of 하다', \
-              '요': 'politeness particle'}
               
         detected_suffix = ''
-        # for suffix in suffixes.keys():
-        #     if self.string.endswith(suffix):
-        #         detected_suffix = suffix
-        #         continue
         body = self.string[0:len(self.string)-len(detected_suffix)]
-        #if not compute_ethym:
-            #blocks = [Block(body[i]) for i in range(len(body)) if body[i] != ' ']
         blocks = compute_blocks_re(body)
-        # else:
-        #     hanja = get_hanja(body)
-        #     if DEBUG:
-        #         UI.render_info(hanja)
-        #     blocks = [Block(body[i], ethym=hanja[i]) for i in range(len(body)) if body[i] != ' ']
-
-        # if detected_suffix:
-        #     suffix_desc = 'Suffix: ' + suffixes[detected_suffix]
-        #     blocks.append(Block(detected_suffix, ethym=suffix_desc))
-
-        if DEBUG:
-            for block in blocks:
-                UI.render_info(block.get_string())
-
         return [blocks]
         
-
-

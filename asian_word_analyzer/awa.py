@@ -21,16 +21,11 @@ from asian_word_analyzer.tools import detect_language
 
 
 #cgitb.enable()
-DEBUG = False
-
 
 #UI.render_empty()
 
 # Entree
 UI.render_top()
-
-if DEBUG:
-    UI.render_info('Python version ' + str(sys.version_info.major))
 
 
 # Main
@@ -48,8 +43,8 @@ if 'word' in form.keys():
         from asian_word_analyzer.korean.db import DbUtil
         from asian_word_analyzer.korean.word import KoreanWord as Word
     elif language == 'thai':
-        from asian_word_analyzer.thai.Thai import get_words_with_block
-        from asian_word_analyzer.thai.Thai import ThaiWord as Word
+        from asian_word_analyzer.thai.word import get_words_with_block
+        from asian_word_analyzer.thai.word import ThaiWord as Word
 
     if 'Word' in locals():
         word = Word(input_str, compute_ethym=True)

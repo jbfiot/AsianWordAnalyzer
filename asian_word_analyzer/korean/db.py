@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import os
 import pandas as pd
 import sqlite3
 from functools import partialmethod
@@ -10,6 +11,8 @@ from asian_word_analyzer.tools import detect_language
 
 class DbUtil:
     def __init__(self):
+        if not os.path.isfile(connection_string):
+            raise FileNotFoundError('Missing Korean database')
         self.connection = sqlite3.connect(connection_string)        
         
     def compute_meanings(self, word):

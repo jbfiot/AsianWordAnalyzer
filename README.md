@@ -43,4 +43,3 @@ Here is an example to install local version of the AsianWordAnalyzer.
 
 * Open `http://localhost/awa.py` in your browser
 
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/jbfiot/AsianWordAnalyzer.git)

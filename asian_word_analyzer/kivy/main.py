@@ -71,30 +71,40 @@ def emphasize_part(input_str, idx, color='3333ff'):
 class Columns(GridLayout):
     def __init__(self, text, **kwargs):
         super(Columns, self).__init__(size_hint_x=1, rows=2)
-        self.carousel = Carousel(direction='right', size_hint_x=1, size_hint_y=1)        
+        self.current_block = 0
+        self.carousel = Carousel(direction='right', size_hint_x=1, size_hint_y=1)
+        self.carousel.bind(index=self.update_title)
+        
+        self.title_label = Label(font_name=FONT, markup=True,
+                              font_size=30, size_hint_y=0.1)
+
         self.update_content(text)
+        
+        
+    def update_title(self, *kwargs):
+        if len(kwargs) > 0:
+            self.current_block = kwargs[1] or 0
+        title = emphasize_part(self.word.string, idx=self.current_block)
+        ethym_str = ' ({})'.format(emphasize_part(self.word.ethym, idx=self.current_block)) if self.word.ethym else ''
+        title += ethym_str 
+        self.title_label.text = title
+        
+    def analyze(self, text):
+        self.word = Word(text, compute_ethym=True)
+        self.blocks = self.word.get_blocks_for_selected_meaning()
+
     
     def update_content(self, text):
         self.clear_widgets()
         self.carousel.clear_widgets()
-        
-        word = Word(text, compute_ethym=True)
-        blocks = word.get_blocks_for_selected_meaning()
-                
-
-        
-        for block in blocks:
-            words = DbUtil().get_words_with_block(block, exclude=word)
+        self.analyze(text)
+        self.update_title()        
+                        
+        for block in self.blocks:
+            words = DbUtil().get_words_with_block(block, exclude=self.word)
             self.carousel.add_widget(BlockColumn(block, words))
 
-        title = emphasize_part(word.string, idx=0)
-        ethym_str = ' ({})'.format( emphasize_part(word.ethym, idx=0)) if word.ethym else ''
-        title += ethym_str        
-
-        self.add_widget(Label(text=title,
-                                 font_name=FONT, markup=True,
-                              font_size=20, size_hint_y=0.1))
-        
+        self.add_widget(self.title_label)
         self.add_widget(self.carousel)
 
 

@@ -3,3 +3,5 @@
 db_admin.txt
 .coverage
 .cache
+*/bin
+*/.*

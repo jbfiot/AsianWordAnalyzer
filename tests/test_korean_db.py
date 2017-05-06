@@ -1,10 +1,17 @@
 # -*- coding: utf-8 -*-
 
+import pytest
+
 from asian_word_analyzer.korean.db import DbUtil
 from asian_word_analyzer.korean.word import KoreanWord
 
 
 class TestDbUtil:
+
+    def test_no_db(self, monkeypatch):
+        monkeypatch.setattr('asian_word_analyzer.korean.db.connection_string', 'dummy')
+        with pytest.raises(FileNotFoundError):
+            DbUtil()
 
     def test_get_hanja_name(self):
         util = DbUtil()

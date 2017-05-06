@@ -1,3 +1,4 @@
+word,meaning,,
 (ก็)เป็นได้ ,"possibly, likely, maybe, perhaps",,
 (คุณ)พ่อ,"father, papa, daddy",คน,"people, family"
 (คุณ)แม่,mother,คน,"people, family"

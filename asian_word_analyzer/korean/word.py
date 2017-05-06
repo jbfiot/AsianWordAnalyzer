@@ -22,9 +22,10 @@ DEBUG = False
 
 class KoreanWord(object):
     """ This class is used to manipulate Korean words. """
+    language = 'Korean'
+
     def __init__(self, string='', ethym=None, meaning=None, compute_ethym=False):
         self.string = _u(string)  # e.g. user input string
-        self.language = 'Korean'
         self.db_util = DbUtil()
 
         if ethym is not None:

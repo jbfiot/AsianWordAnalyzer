@@ -11,23 +11,13 @@ This file handles the generation of the html code
 from __future__ import print_function
 
 from functools import partial
-import sys
 import locale                                  # Ensures that subsequent open()s
 locale.getpreferredencoding = lambda: 'UTF-8'  # are UTF-8 encoded.
 import cgitb
 
 
-from asian_word_analyzer.utf8 import _u8
-
-
-
-if sys.version_info.major == 3:
-    utf8stdout = open(1, 'w', encoding='utf-8', closefd=False) # fd 1 is stdout
-    utf8print = partial(print , end='\r\n', file=utf8stdout)
-elif sys.version_info.major == 2:
-    def utf8print(text):
-        sys.stdout.write(_u8(text))
-
+utf8stdout = open(1, 'w', encoding='utf-8', closefd=False) # fd 1 is stdout
+utf8print = partial(print , end='\r\n', file=utf8stdout)
 
 cgitb.enable()
 

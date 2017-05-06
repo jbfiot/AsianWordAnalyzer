@@ -7,6 +7,7 @@ Created on Mon Jun  1 11:35:59 2015
 @version:   June 2015
 """
 
+
 class Block(object):
     """ This class is used to manipulate the word blocks.
 

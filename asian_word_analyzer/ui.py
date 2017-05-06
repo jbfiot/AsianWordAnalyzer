@@ -112,7 +112,7 @@ def render_block(block, words):
         if word.ethym:
             utf8print(' (' + word.ethym + ')')
 
-        utf8print("""</a> </strong>&nbsp;&nbsp;""" + word.meaning +  """
+        utf8print("""</a> </strong>&nbsp;&nbsp;""" + word.meaning + """
                     </li>""")
     utf8print("""
                 </ul>

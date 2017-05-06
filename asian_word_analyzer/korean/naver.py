@@ -7,8 +7,8 @@ from bs4 import BeautifulSoup
 
 
 def get_hanja(hangul):
-    """ Get the hanja representation of a Korean word by querying and parsing
-    Naver.
+    """ 
+    Get the hanja representation of a Korean word by querying and parsing Naver.
     """
     search = ''.join('%' + "{:02x}".format(a) for a in hangul.encode('utf8'))
 

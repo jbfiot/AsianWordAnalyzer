@@ -32,7 +32,7 @@ def detect_language(word, raise_if_unknown=False):
         return 'thai'
     else:
         if raise_if_unknown:
-            raise ValueError('Uknown or unsupported language')
+            raise ValueError('Unknown or unsupported language')
         else:
             return 'unknown'
 

@@ -11,7 +11,7 @@ from asian_word_analyzer.tools import detect_language
 
 
 @pytest.mark.parametrize('word, expected',
-                         ((u'안녕하세요', 'korean'), 
+                         ((u'안녕하세요', 'korean'),
                           (u'เป็นได้ ', 'thai') 
                          ))
 def test_detect_language(word, expected):

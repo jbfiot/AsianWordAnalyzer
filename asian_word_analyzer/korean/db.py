@@ -2,9 +2,10 @@
 # -*- coding: utf-8 -*-
 
 import os
-import pandas as pd
 import sqlite3
 from functools import partialmethod
+
+import pandas as pd
 
 from asian_word_analyzer.login import connection_string
 from asian_word_analyzer.tools import detect_language
@@ -25,7 +26,6 @@ class DbUtil:
         else:
             return ['']
 
-
     def get_hanja_x(self, hanja, x):
         query = "SELECT {} from Korean_ethym WHERE ethym='{}'".format(x, hanja)
         df = pd.read_sql(query, self.connection)
@@ -37,7 +37,6 @@ class DbUtil:
     get_hanja_meaning = partialmethod(get_hanja_x, x='meaning')
 
     get_hanja_name = partialmethod(get_hanja_x, x='name')
-
 
     def get_words_with_block(self, block, exclude=None):
         """

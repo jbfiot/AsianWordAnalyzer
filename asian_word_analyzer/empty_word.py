@@ -7,7 +7,6 @@ Created on Mon Jun  1 15:53:28 2015
 """
 
 
-
 import cgitb
 cgitb.enable()
 
@@ -18,4 +17,3 @@ class EmptyWord(object):
         self.language = ''
         self.meaning = ''
         self.ethym = ''
-

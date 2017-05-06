@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: UTF-8 -*-# enable debugging
 """
 Created on Wed Apr 22 11:31:22 2015

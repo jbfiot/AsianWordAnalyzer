@@ -14,13 +14,14 @@ from asian_word_analyzer.korean.naver import get_hanja
 from asian_word_analyzer.korean.db import DbUtil
 from asian_word_analyzer.block import Block
 import asian_word_analyzer.ui as ui
+from asian_word_analyzer.words import AsianWord
 
 
 cgitb.enable()
 DEBUG = False
 
 
-class KoreanWord(object):
+class KoreanWord(AsianWord):
     """ This class is used to manipulate Korean words. """
     language = 'Korean'
 
@@ -47,28 +48,6 @@ class KoreanWord(object):
                 # to the best of my knowledge a Korean word and its hanja
                 # representation (when existing) have the same lengths
                 raise ValueError('string and ethym must have the same lengths')
-
-    @property
-    def meaning(self):
-        """ Meaning getter """
-        return self.meanings[self.selected_meaning]
-
-    def get_blocks_for_selected_meaning(self):
-        """ Getter for the blocks corresponding to the selected meaning """
-        return self.blocks[self.selected_meaning]
-
-    @property    
-    def ethym(self):
-        return ''.join([block.ethym for block in self.blocks[self.selected_meaning] if block.ethym])
-
-    def print_blocks_for_selected_meaning(self):
-        """ This methods prints the block strings for the selected meaning.
-
-        Example:
-        --------
-            For the word '안녕', the printed blocks will be ['안', '녕']
-        """
-        return [block.string for block in self.blocks[self.selected_meaning]]
 
     def compute_suffix(self):
         """ This method computes:

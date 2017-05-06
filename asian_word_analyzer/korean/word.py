@@ -25,14 +25,9 @@ class KoreanWord(object):
     language = 'Korean'
 
     def __init__(self, string='', ethym=None, meaning=None, compute_ethym=False):
+        self.check_init_parameters(string, ethym, meaning)
         self.string = _u(string)  # e.g. user input string
         self.db_util = DbUtil()
-
-        if ethym is not None:
-            if len(string) != len(ethym):
-                # to the best of my knowledge a Korean word and its hanja
-                # representation (when existing) have the same lengths
-                raise ValueError('string and ethym must have the same lengths')
 
         if ethym and meaning:
             self.blocks = [[Block(string[i], ethym=ethym[i]) for i in range(len(string))]]
@@ -44,6 +39,14 @@ class KoreanWord(object):
             self.blocks = self.compute_blocks(compute_ethym)
             self.meanings = self.db_util.compute_meanings(self.string_without_suffix) # Different meanings in English
             self.selected_meaning = 0  # index of the selected meaning
+
+    @staticmethod
+    def check_init_parameters(string, ethym, meaning):
+        if ethym is not None:
+            if len(string) != len(ethym):
+                # to the best of my knowledge a Korean word and its hanja
+                # representation (when existing) have the same lengths
+                raise ValueError('string and ethym must have the same lengths')
 
     @property
     def meaning(self):
@@ -124,5 +127,4 @@ class KoreanWord(object):
             blocks.append(Block(self.suffix, meaning=suffix_desc))
 
         return [blocks]
-
 

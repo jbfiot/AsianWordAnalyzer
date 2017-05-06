@@ -19,8 +19,8 @@ def get_hanja(hangul):
     contents = urllib.request.urlopen(url).read()
     contents.decode('utf8')
 
-    soup = BeautifulSoup(contents)
-    first = soup.find('dt', {'class':'first'})
+    soup = BeautifulSoup(contents, 'html.parser')
+    first = soup.find('dt', {'class': 'first'})
     strings = [s for s in first.stripped_strings]
     hanja = strings[-1]
 

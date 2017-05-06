@@ -11,22 +11,24 @@ This file handles the generation of the html code
 from __future__ import print_function
 
 from functools import partial
-import locale                                  # Ensures that subsequent open()s
-locale.getpreferredencoding = lambda: 'UTF-8'  # are UTF-8 encoded.
+import locale
+
 import cgitb
 
+# Ensures that subsequent open()s are UTF-8 encoded.
+locale.getpreferredencoding = lambda: 'UTF-8'
 
-utf8stdout = open(1, 'w', encoding='utf-8', closefd=False) # fd 1 is stdout
-utf8print = partial(print , end='\r\n', file=utf8stdout)
+utf8stdout = open(1, 'w', encoding='utf-8', closefd=False)  # fd 1 is stdout
+utf8print = partial(print, end='\r\n', file=utf8stdout)
 
 cgitb.enable()
 
 
-#==============================================================================
-# STANDARD RENDERING FUNCTIONS
-#==============================================================================
+# ==============================================================================
+#                    STANDARD RENDERING FUNCTIONS
+# ==============================================================================
 
-def render_top(search_box=''):
+def render_top():
     utf8print("Content-Type: text/html;  charset=utf8\r\n\n")
     utf8print("")
     utf8print("""<!DOCTYPE html>
@@ -58,16 +60,14 @@ def render_main(word):
     utf8print("""
         <center>
         <form name="input" action="/awa.py" method="get"  accept-charset="utf-8">
-        <input type="text" name="word" maxlength="2048" value = '""" +  \
-        word.string + """'>
+        <input type="text" name="word" maxlength="2048" value = '""" + word.string + """'>
         <input type="submit" value="Go!">
         </form>
         """ + language_str + """
 
         </center>
 
-        <h1 class="page-header">""" + word.string + ethym_str + """</h1>""" + \
-        word.meaning + """
+        <h1 class="page-header">""" + word.string + ethym_str + """</h1>""" + word.meaning + """
 
         <p>&nbsp;</p>
 
@@ -107,14 +107,12 @@ def render_block(block, words):
         word = words.ix[word_idx]
         utf8print("""
                     <li class="plan-price">
-                        <strong> <a href="/awa.py?word=""" + \
-                        word.word + """">""" + word.word)
+                        <strong> <a href="/awa.py?word=""" + word.word + """">""" + word.word)
 
         if word.ethym:
             utf8print(' (' + word.ethym + ')')
 
-        utf8print("""</a> </strong>&nbsp;&nbsp;""" + word.meaning \
-                        +  """
+        utf8print("""</a> </strong>&nbsp;&nbsp;""" + word.meaning +  """
                     </li>""")
     utf8print("""
                 </ul>
@@ -130,19 +128,13 @@ def render_bottom():
 </html>""")
 
 
-#==============================================================================
-# SPECIAL RENDERING FUNCTIONS
-#==============================================================================
+# ==============================================================================
+#                      SPECIAL RENDERING FUNCTIONS
+# ==============================================================================
 
 def render_error(error):
     utf8print("<div class='alert-box error'><span>error: </span>" + error + "</div>")
-#    utf8print("<b>Error:</b> ")
-#    utf8print(error)
 
-#def render_info(info):
-#    utf8print("<b>Info:</b> ")
-#    utf8print(info)
-#    utf8print("<br>")
 
 def render_info(info):
     utf8print("<div class='alert-box notice'><span>info: </span>" + info + "</div>")

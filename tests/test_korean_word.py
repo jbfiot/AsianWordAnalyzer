@@ -13,8 +13,14 @@ from asian_word_analyzer.korean.word import KoreanWord
 
 class TestKoreanWord:
     
-    def test_init(self):
-        KoreanWord(u'안녕', u'安寧')
+    @pytest.mark.parametrize('string, ethym, meaning', 
+                             [
+                                 [u'안녕', u'安寧', None],
+                                 [u'남대문', u'南大門',
+                                  u'(건축물) Namdaemun, the (Great) South Gate (of Seoul)']
+                             ])
+    def test_init(self, string, ethym, meaning):
+        KoreanWord(string, ethym, meaning)
     
     def test_init_incorrect_ethym(self):
         with pytest.raises(ValueError):

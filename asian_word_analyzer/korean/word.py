@@ -13,7 +13,7 @@ from asian_word_analyzer.utf8 import _u
 from asian_word_analyzer.korean.naver import get_hanja
 from asian_word_analyzer.korean.db import DbUtil
 from asian_word_analyzer.block import Block
-import asian_word_analyzer.ui as UI
+import asian_word_analyzer.ui as ui
 
 
 cgitb.enable()
@@ -27,21 +27,22 @@ class KoreanWord(object):
         self.language = 'Korean'
         self.db_util = DbUtil()
 
+        if ethym is not None:
+            if len(string) != len(ethym):
+                # to the best of my knowledge a Korean word and its hanja
+                # representation (when existing) have the same lengths
+                raise ValueError('string and ethym must have the same lengths')
+
         if ethym and meaning:
-            assert(len(string) == len(ethym)) # to the best of my knowledge a
-                                              # Korean word and its hanja
-                                              # representation (when existing)
-                                              # have the same lengths
             self.blocks = [[Block(string[i], ethym=ethym[i]) for i in range(len(string))]]
             self.meanings = [meaning]
-            self.selected_meaning = 0 # the word is clearly defined
+            self.selected_meaning = 0  # the word is clearly defined
 
         else:
             self.compute_suffix()
             self.blocks = self.compute_blocks(compute_ethym)
             self.meanings = self.db_util.compute_meanings(self.string_without_suffix) # Different meanings in English
-            self.selected_meaning = 0 # index of the selected meaning
-
+            self.selected_meaning = 0  # index of the selected meaning
 
     @property
     def meaning(self):
@@ -54,12 +55,7 @@ class KoreanWord(object):
 
     @property    
     def ethym(self):
-        return ''.join([block.ethym for block in \
-                    self.blocks[self.selected_meaning] if block.ethym])
-
-    #==========================================================================
-    #  PRINT METHODS
-    #==========================================================================
+        return ''.join([block.ethym for block in self.blocks[self.selected_meaning] if block.ethym])
 
     def print_blocks_for_selected_meaning(self):
         """ This methods prints the block strings for the selected meaning.
@@ -70,21 +66,16 @@ class KoreanWord(object):
         """
         return [block.string for block in self.blocks[self.selected_meaning]]
 
-
-    #==========================================================================
-    #   LANGUAGE METHODS
-    #==========================================================================
-
     def compute_suffix(self):
         """ This method computes:
         self.suffix
         self.suffix_meaning
         self.string_without_suffix
         """
-        suffixes = {u'하다':u'하다 verb particule', \
-                    u'합니다': u'formal 하다 ending', \
-                    u'하세요': u'formal imperative form of 하다', \
-                    u'요': u'politeness particle',\
+        suffixes = {u'하다': u'하다 verb particle',
+                    u'합니다': u'formal 하다 ending',
+                    u'하세요': u'formal imperative form of 하다',
+                    u'요': u'politeness particle',
                     u'님': u'honorific particle'}
         # TODO: store the suffixes in the database instead of hardcoding them here
 
@@ -107,25 +98,25 @@ class KoreanWord(object):
             input string.
 
         Note:
-            In this implemenation, only one meaning is available.
+            In this implementation, only one meaning is available.
         """
         if DEBUG:
-            UI.render_info('compute_blocks(...) called for word ' + self.string)
+            ui.render_info('compute_blocks(...) called for word ' + self.string)
 
         if not compute_ethym:
-            blocks = [Block(self.string_without_suffix[i]) \
-                            for i in range(len(self.string_without_suffix)) \
-                            if self.string_without_suffix[i] != ' ']
+            blocks = [Block(self.string_without_suffix[i])
+                      for i in range(len(self.string_without_suffix))
+                      if self.string_without_suffix[i] != ' ']
         else:
             ethym = get_hanja(self.string_without_suffix)
             if DEBUG:
-                UI.render_info(ethym)
+                ui.render_info(ethym)
 
-            blocks = [Block(self.string_without_suffix[i], ethym=ethym[i], \
-                        meaning=self.db_util.get_hanja_meaning(ethym[i]), \
-                        name=self.db_util.get_hanja_name(ethym[i])) \
-                        for i in range(len(self.string_without_suffix)) \
-                        if self.string_without_suffix[i] != ' ']
+            blocks = [Block(self.string_without_suffix[i], ethym=ethym[i],
+                            meaning=self.db_util.get_hanja_meaning(ethym[i]),
+                            name=self.db_util.get_hanja_name(ethym[i]))
+                      for i in range(len(self.string_without_suffix))
+                      if self.string_without_suffix[i] != ' ']
 
         if self.suffix:
             suffix_desc = 'Suffix: ' + self.suffix_meaning

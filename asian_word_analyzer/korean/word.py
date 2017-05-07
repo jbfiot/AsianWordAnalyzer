@@ -24,29 +24,29 @@ class KoreanWord(AsianWord):
     """ This class is used to manipulate Korean words. """
     language = 'Korean'
 
-    def __init__(self, string='', ethym=None, meaning=None, compute_ethym=False):
-        self.check_init_parameters(string, ethym, meaning)
+    def __init__(self, string='', etymology=None, meaning=None, compute_etymology=False):
+        self.check_init_parameters(string, etymology, meaning)
         self.string = _u(string)  # e.g. user input string
         self.db_util = DbUtil()
 
-        if ethym and meaning:
-            self.blocks = [[Block(string[i], ethym=ethym[i]) for i in range(len(string))]]
+        if etymology and meaning:
+            self.blocks = [[Block(string[i], etymology=etymology[i]) for i in range(len(string))]]
             self.meanings = [meaning]
             self.selected_meaning = 0  # the word is clearly defined
 
         else:
             self.compute_suffix()
-            self.blocks = self.compute_blocks(compute_ethym)
+            self.blocks = self.compute_blocks(compute_etymology)
             self.meanings = self.db_util.compute_meanings(self.string_without_suffix) # Different meanings in English
             self.selected_meaning = 0  # index of the selected meaning
 
     @staticmethod
-    def check_init_parameters(string, ethym, meaning):
-        if ethym is not None:
-            if len(string) != len(ethym):
+    def check_init_parameters(string, etymology, meaning):
+        if etymology is not None:
+            if len(string) != len(etymology):
                 # to the best of my knowledge a Korean word and its hanja
                 # representation (when existing) have the same lengths
-                raise ValueError('string and ethym must have the same lengths')
+                raise ValueError('string and etymology must have the same lengths')
 
     def compute_suffix(self):
         """ This method computes:
@@ -70,7 +70,7 @@ class KoreanWord(AsianWord):
         self.suffix = detected_suffix
         self.suffix_meaning = suffixes.get(detected_suffix, None)
 
-    def compute_blocks(self, compute_ethym=False):
+    def compute_blocks(self, compute_etymology=False):
         """ Compute the blocks given the input string.
 
         Output:
@@ -84,17 +84,17 @@ class KoreanWord(AsianWord):
         """
         ui.render_debug('compute_blocks(...) called for word ' + self.string)
 
-        if not compute_ethym:
+        if not compute_etymology:
             blocks = [Block(self.string_without_suffix[i])
                       for i in range(len(self.string_without_suffix))
                       if self.string_without_suffix[i] != ' ']
         else:
-            ethym = get_hanja(self.string_without_suffix)
-            ui.render_debug(ethym)
+            etymology = get_hanja(self.string_without_suffix)
+            ui.render_debug(etymology)
 
-            blocks = [Block(self.string_without_suffix[i], ethym=ethym[i],
-                            meaning=self.db_util.get_hanja_meaning(ethym[i]),
-                            name=self.db_util.get_hanja_name(ethym[i]))
+            blocks = [Block(self.string_without_suffix[i], etymology=etymology[i],
+                            meaning=self.db_util.get_hanja_meaning(etymology[i]),
+                            name=self.db_util.get_hanja_name(etymology[i]))
                       for i in range(len(self.string_without_suffix))
                       if self.string_without_suffix[i] != ' ']
 

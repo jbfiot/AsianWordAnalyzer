@@ -50,10 +50,10 @@ def render_top():
 
 
 def render_main(word):
-    if word.ethym:
-        ethym_str = ' ({})'.format(word.ethym)
+    if word.etymology:
+        etymology_str = ' ({})'.format(word.etymology)
     else:
-        ethym_str = ''
+        etymology_str = ''
     if word.language:
         language_str = 'Detected language: {}'.format(word.language)
     else:
@@ -68,7 +68,7 @@ def render_main(word):
 
         </center>
 
-        <h1 class="page-header">""" + word.string + ethym_str + """</h1>""" + word.meaning + """
+        <h1 class="page-header">""" + word.string + etymology_str + """</h1>""" + word.meaning + """
 
         <p>&nbsp;</p>
 
@@ -87,8 +87,8 @@ def render_block(block, words):
                 <ul class="plan plan1">
                     <li class="plan-name">
                         """ + block.string)
-    if block.ethym:
-        utf8print('(' + block.ethym + ')')
+    if block.etymology:
+        utf8print('(' + block.etymology + ')')
     utf8print("""
                     </li> """)
 
@@ -110,8 +110,8 @@ def render_block(block, words):
                     <li class="plan-price">
                         <strong> <a href="/awa.py?word=""" + word.word + """">""" + word.word)
 
-        if word.ethym:
-            utf8print(' (' + word.ethym + ')')
+        if word.etymology:
+            utf8print(' (' + word.etymology + ')')
 
         utf8print("""</a> </strong>&nbsp;&nbsp;""" + word.meaning + """
                     </li>""")

@@ -18,19 +18,19 @@ class Block(object):
     We can represent the word 안녕 as a list of two blocks:
     Block 1:
         block_str: 안
-        ethymology: 安
+        etymology: 安
         name: 편안할 안, 어찌 안
         meaning: ?
     Block 2:
         block_str: 녕
-        ethymology: 寧
+        etymology: 寧
         name: 편안할 녕
         meaning: ?
     """
 
-    def __init__(self, string, ethym=None, name=None, meaning=None):
+    def __init__(self, string, etymology=None, name=None, meaning=None):
         """ Constructor """
         self.string = string
-        self.ethym = ethym
+        self.etymology = etymology
         self.name = name
         self.meaning = meaning

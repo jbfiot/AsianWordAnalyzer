@@ -33,4 +33,4 @@ class TestUi:
         ui.render_block(self.block(),
                         pd.DataFrame([[u'남대문', u'南大門',
                                        u'(건축물) Namdaemun, the (Great) South Gate (of Seoul)']],
-                                     columns=['word', 'ethym', 'meaning']))
+                                     columns=['word', 'etymology', 'meaning']))

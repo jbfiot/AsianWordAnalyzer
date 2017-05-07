@@ -12,6 +12,7 @@ class AsianWord(object):
         return self.blocks[self.selected_meaning]
 
     @property
-    def ethym(self):
-        return ''.join([block.ethym for block in self.blocks[self.selected_meaning] if block.ethym])
+    def etymology(self):
+        return ''.join([block.etymology for block in self.blocks[self.selected_meaning]
+                        if block.etymology])
 

@@ -47,7 +47,7 @@ if 'word' in form.keys():
 
     if 'language' in locals():
         DbUtil, Word = get_word_and_db_util_classes(language)
-        word = Word(input_str, compute_ethym=True)
+        word = Word(input_str, compute_etymology=True)
         UI.render_main(word)
         blocks = word.get_blocks_for_selected_meaning()
         for block in blocks:

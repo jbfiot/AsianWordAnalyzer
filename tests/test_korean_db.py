@@ -27,7 +27,7 @@ class TestDbUtil:
 
     def test_get_words_with_block(self):
         input_str = u'안녕'
-        word = KoreanWord(input_str, compute_ethym=True)
+        word = KoreanWord(input_str, compute_etymology=True)
         block = word.get_blocks_for_selected_meaning()[0]
         words = DbUtil().get_words_with_block(block)
         assert len(words) > 0

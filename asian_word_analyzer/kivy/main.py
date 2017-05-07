@@ -36,8 +36,8 @@ class BlockColumn(GridLayout):
         super(BlockColumn, self).__init__(cols=1)
         
         column_title = '[b][color=3333ff]{}[/color][/b]'.format(block.string)
-        if block.ethym:
-            column_title += '([color=3333ff]{}[/color])'.format(block.ethym)
+        if block.etymology:
+            column_title += '([color=3333ff]{}[/color])'.format(block.etymology)
         if block.name:
             column_title += ' - ' + block.name
         if block.meaning:
@@ -85,8 +85,8 @@ class Columns(GridLayout):
         if len(kwargs) > 0:
             self.current_block = kwargs[1] or 0
         title = emphasize_part(self.word.string, idx=self.current_block)
-        ethym_str = ' ({})'.format(emphasize_part(self.word.ethym, idx=self.current_block)) if self.word.ethym else ''
-        title += ethym_str 
+        etymology_str = ' ({})'.format(emphasize_part(self.word.etymology, idx=self.current_block)) if self.word.etymology else ''
+        title += etymology_str
         self.title_label.text = title
         
     def analyze(self, text):

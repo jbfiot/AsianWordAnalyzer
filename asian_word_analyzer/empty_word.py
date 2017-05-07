@@ -16,4 +16,4 @@ class EmptyWord(object):
         self.string = ''
         self.language = ''
         self.meaning = ''
-        self.ethym = ''
+        self.etymology = ''

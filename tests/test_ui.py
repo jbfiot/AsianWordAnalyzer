@@ -1,4 +1,5 @@
 import pandas as pd
+import pytest
 
 from asian_word_analyzer.korean.word import KoreanWord
 from asian_word_analyzer.block import Block
@@ -17,6 +18,10 @@ class TestUi:
 
     def test_render_error(self):
         ui.render_error('some error')
+
+    def test_render_debug(self, monkeypatch):
+        monkeypatch.setattr('asian_word_analyzer.ui.DEBUG', True)
+        ui.render_debug('some debug msg')
 
     def test_render_empty(self):
         ui.render_empty()

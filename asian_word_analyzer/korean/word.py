@@ -18,7 +18,6 @@ from asian_word_analyzer.words import AsianWord
 
 
 cgitb.enable()
-DEBUG = False
 
 
 class KoreanWord(AsianWord):
@@ -83,8 +82,7 @@ class KoreanWord(AsianWord):
         Note:
             In this implementation, only one meaning is available.
         """
-        if DEBUG:
-            ui.render_info('compute_blocks(...) called for word ' + self.string)
+        ui.render_debug('compute_blocks(...) called for word ' + self.string)
 
         if not compute_ethym:
             blocks = [Block(self.string_without_suffix[i])
@@ -92,8 +90,7 @@ class KoreanWord(AsianWord):
                       if self.string_without_suffix[i] != ' ']
         else:
             ethym = get_hanja(self.string_without_suffix)
-            if DEBUG:
-                ui.render_info(ethym)
+            ui.render_debug(ethym)
 
             blocks = [Block(self.string_without_suffix[i], ethym=ethym[i],
                             meaning=self.db_util.get_hanja_meaning(ethym[i]),

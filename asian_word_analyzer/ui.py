@@ -23,6 +23,7 @@ utf8print = partial(print, end='\r\n', file=utf8stdout)
 
 cgitb.enable()
 
+DEBUG = False
 
 # ==============================================================================
 #                    STANDARD RENDERING FUNCTIONS
@@ -138,6 +139,11 @@ def render_error(error):
 
 def render_info(info):
     utf8print("<div class='alert-box notice'><span>info: </span>" + info + "</div>")
+
+
+def render_debug(msg):
+    if DEBUG:
+        utf8print("<div class='alert-box notice'><span>debug: </span>" + msg + "</div>")
 
 
 def render_empty():

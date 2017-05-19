@@ -4,6 +4,7 @@ import pytest
 
 from asian_word_analyzer.korean.db import DbUtil
 from asian_word_analyzer.korean.word import KoreanWord
+from asian_word_analyzer.block import Block
 
 
 class TestDbUtil:
@@ -46,3 +47,7 @@ class TestDbUtil:
         words = DbUtil().get_words_with_block(block, exclude=exclude)
         assert len(words) > 0
         assert input_str_expected == (input_str in [word[0] for word in words])
+
+    def test_get_words_with_block_no_etymology(self):
+        block = Block(u'하세요')
+        assert [] == DbUtil().get_words_with_block(block)

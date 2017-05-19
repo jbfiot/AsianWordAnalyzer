@@ -22,9 +22,14 @@ class TestDbUtil:
         util = DbUtil()
         assert expected == util.get_hanja_name(hanja)
 
-    def test_get_hanja_meaning(self):
+    @pytest.mark.parametrize('hanja, expected',
+                             [
+                                 [u'大', 'big'],
+                                 ['dummy', None]
+                             ])
+    def test_get_hanja_meaning(self, hanja, expected):
         util = DbUtil()
-        assert 'big' == util.get_hanja_meaning(u'大')
+        assert expected == util.get_hanja_meaning(hanja)
 
     def test_compute_meanings(self):
         util = DbUtil()

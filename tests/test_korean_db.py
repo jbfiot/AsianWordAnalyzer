@@ -13,9 +13,14 @@ class TestDbUtil:
         with pytest.raises(FileNotFoundError):
             DbUtil()
 
-    def test_get_hanja_name(self):
+    @pytest.mark.parametrize('hanja, expected',
+                             [
+                                 [u'大', u'클 대 / 큰 대'],
+                                 ['dummy', None]
+                             ])
+    def test_get_hanja_name(self, hanja, expected):
         util = DbUtil()
-        assert u'클 대 / 큰 대' == util.get_hanja_name(u'大')
+        assert expected == util.get_hanja_name(hanja)
 
     def test_get_hanja_meaning(self):
         util = DbUtil()

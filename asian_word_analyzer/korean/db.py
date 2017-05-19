@@ -15,7 +15,8 @@ class DbUtil:
     def __init__(self):
         if not os.path.isfile(connection_string):
             raise FileNotFoundError('Missing Korean database: {}'.format(connection_string))
-        self.connection = sqlite3.connect(connection_string)        
+        self.connection = sqlite3.connect(connection_string)
+        self.cursor = self.connection.cursor()
         
     def compute_meanings(self, word):
         """ Find the possible meanings based on the input string by the user"""

@@ -21,11 +21,9 @@ class DbUtil:
     def compute_meanings(self, word):
         """ Find the possible meanings based on the input string by the user"""
         query = "SELECT meaning from Korean WHERE word='{}'".format(word)
-        df = pd.read_sql(query, self.connection)
-        if not df.empty:
-            return df.meaning
-        else:
-            return ['']
+        self.cursor.execute(query)
+        meanings = self.cursor.fetchall()
+        return [meaning[0] for meaning in meanings] if meanings else ['']
 
     def get_hanja_x(self, hanja, x):
         query = "SELECT {} from Korean_etymology WHERE etymology='{}'".format(x, hanja)

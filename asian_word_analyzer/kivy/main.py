@@ -89,7 +89,7 @@ class Columns(GridLayout):
         self.title_label.text = title
         
     def analyze(self, text):
-        self.word = Word(text, compute_ethym=True)
+        self.word = Word(text, compute_etymology=True)
         self.blocks = self.word.get_blocks_for_selected_meaning()
     
     def update_content(self, text):

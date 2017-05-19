@@ -27,11 +27,9 @@ class DbUtil:
 
     def get_hanja_x(self, hanja, x):
         query = "SELECT {} from Korean_etymology WHERE etymology='{}'".format(x, hanja)
-        df = pd.read_sql(query, self.connection)
-        if not df.empty:
-            return df[x][0]
-        else:
-            return None
+        self.cursor.execute(query)
+        hanja_x = self.cursor.fetchone()
+        return hanja_x[0] if hanja_x else None
 
     get_hanja_meaning = partialmethod(get_hanja_x, x='meaning')
 

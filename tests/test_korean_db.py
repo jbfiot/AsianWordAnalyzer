@@ -35,10 +35,14 @@ class TestDbUtil:
         util = DbUtil()
         assert '(평안) (public) peace (안정) stability, well' in util.compute_meanings(u'안녕')
 
-    def test_get_words_with_block(self):
-        input_str = u'안녕'
+    @pytest.mark.parametrize('input_str, exclude, input_str_expected',
+                             [
+                                 [u'안녕', None, True],
+                                 [u'안녕', u'안녕', False],
+                             ])
+    def test_get_words_with_block(self, input_str, exclude, input_str_expected):
         word = KoreanWord(input_str, compute_etymology=True)
         block = word.get_blocks_for_selected_meaning()[0]
-        words = DbUtil().get_words_with_block(block)
+        words = DbUtil().get_words_with_block(block, exclude=exclude)
         assert len(words) > 0
-        assert input_str in words.word.values
+        assert input_str_expected == (input_str in [word[0] for word in words])

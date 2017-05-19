@@ -35,7 +35,7 @@ class DbUtil:
 
     get_hanja_name = partialmethod(get_hanja_x, x='name')
 
-    def get_words_with_block(self, block, exclude=None):
+    def get_words_with_block(self, block, exclude=None) -> [tuple]:
         """
         This functions returns a list of Korean words which also contains blocks
         with the same etymology.
@@ -44,25 +44,17 @@ class DbUtil:
         typically happens when the input block is a suffix.
         """
         if block.etymology:
-            query = """SELECT * FROM `Korean` WHERE etymology LIKE '%{}%'""".format(block.etymology)
-            df = pd.read_sql(query, self.connection)
-            # TODO: add the exclude filter (+ filters for corrupted rows)
-            return df
+            query = """SELECT word, etymology, meaning FROM `Korean` 
+                       WHERE etymology LIKE '%{}%'
+                       AND length(word) = length(etymology)
+                       """.format(block.etymology)
+            if exclude:
+                query += """ AND word != '{}'""".format(exclude)
+            self.cursor.execute(query)
+            results = self.cursor.fetchall()
+            words = [r for r in results if detect_language(r[1]) is not 'korean']
 
-#            results = pd.io.sql.execute(query, self.connection)
-#            results = results.fetchall()
-#            words = [KoreanWord(string=r[0], etymology=r[1], meaning=r[2]) \
-#                        for r in results if r[0] != exclude and \
-#                        len(r[0]) == len(r[1]) and \
-#                        detect_language(r[1]) is not 'korean']
-#                        # len check and etymology check to avoid some corrupted
-#                        # data from the database to be displayed
         else:
             words = []
     
         return words
-
-
-
-
-

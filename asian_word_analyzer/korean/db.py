@@ -5,8 +5,6 @@ import os
 import sqlite3
 from functools import partialmethod
 
-import pandas as pd
-
 from asian_word_analyzer.login import connection_string
 from asian_word_analyzer.tools import detect_language
 

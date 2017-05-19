@@ -45,8 +45,7 @@ class BlockColumn(GridLayout):
         self.add_widget(Label(text=column_title, font_name=FONT, font_size=30, size_hint_y=0.1,
                               markup=True))
                 
-        data = ['{} {}'.format(words.ix[word_idx].word, words.ix[word_idx].meaning)
-                for word_idx in range(len(words))]
+        data = ['{} {}'.format(word[0], word[2]) for word in words]
                     
         def args_converter(row_index, data_item):
             return {'text': data_item, 'font_name': FONT, 'size_hint_y': None, 'height': 30}

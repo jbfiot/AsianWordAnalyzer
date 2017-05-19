@@ -51,7 +51,8 @@ if 'word' in form.keys():
         UI.render_main(word)
         blocks = word.get_blocks_for_selected_meaning()
         for block in blocks:
-            words = DbUtil().get_words_with_block(block, exclude=word)
+            word_tuples = DbUtil().get_words_with_block(block, exclude=word)
+            words = [Word(string=r[0], etymology=r[1], meaning=r[2]) for r in word_tuples]
             UI.render_block(block, words)
 else:
     UI.render_main(EmptyWord())

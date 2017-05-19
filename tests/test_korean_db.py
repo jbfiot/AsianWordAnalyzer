@@ -33,7 +33,7 @@ class TestDbUtil:
 
     def test_compute_meanings(self):
         util = DbUtil()
-        assert '(평안) (public) peace (안정) stability, well' in util.compute_meanings(u'안녕').values
+        assert '(평안) (public) peace (안정) stability, well' in util.compute_meanings(u'안녕')
 
     def test_get_words_with_block(self):
         input_str = u'안녕'

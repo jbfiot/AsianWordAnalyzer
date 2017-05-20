@@ -23,6 +23,12 @@ class DbUtil:
         meanings = self.cursor.fetchall()
         return [meaning[0] for meaning in meanings] if meanings else ['']
 
+    def get_hanja(self, word):
+        query = "SELECT etymology from Korean WHERE word='{}'".format(word)
+        self.cursor.execute(query)
+        hanja = self.cursor.fetchone()
+        return hanja[0] if hanja else None
+
     def get_hanja_x(self, hanja, x):
         query = "SELECT {} from Korean_etymology WHERE etymology='{}'".format(x, hanja)
         self.cursor.execute(query)

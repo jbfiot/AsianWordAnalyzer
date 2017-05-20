@@ -30,7 +30,6 @@ class TestUi:
         ui.render_main(self.korean_word())
 
     def test_render_block(self):
-        ui.render_block(self.block(),
-                        pd.DataFrame([[u'남대문', u'南大門',
-                                       u'(건축물) Namdaemun, the (Great) South Gate (of Seoul)']],
-                                     columns=['word', 'etymology', 'meaning']))
+        words = [KoreanWord(string=u'남대문', etymology=u'南大門',
+                            meaning=u'(건축물) Namdaemun, the (Great) South Gate (of Seoul)')]
+        ui.render_block(self.block(), words)

@@ -30,8 +30,7 @@ folder = os.path.split(os.path.realpath(__file__))[0]
 FONT = os.path.join(folder, 'fonts/wqy-microhei/wqy-microhei.ttc')
 
 
-
-class BlockColumn(GridLayout):    
+class BlockColumn(GridLayout):
     def __init__(self, block, words):
         super(BlockColumn, self).__init__(cols=1)
         
@@ -43,13 +42,13 @@ class BlockColumn(GridLayout):
         if block.meaning:
             column_title += ' - [color=3333ff]{}[/color]'.format(block.meaning)
 
-        self.add_widget(Label(text=column_title, font_name=FONT, font_size=30, size_hint_y=0.1, markup=True))
+        self.add_widget(Label(text=column_title, font_name=FONT, font_size=30, size_hint_y=0.1,
+                              markup=True))
                 
-        data = ['{} {}'.format(words.ix[word_idx].word, words.ix[word_idx].meaning)
-                for word_idx in range(len(words))]
+        data = ['{} {}'.format(word[0], word[2]) for word in words]
                     
         def args_converter(row_index, data_item):
-            return {'text': data_item, 'font_name': FONT, 'size_hint_y': None, 'height' : 30}
+            return {'text': data_item, 'font_name': FONT, 'size_hint_y': None, 'height': 30}
                                                 
         simple_list_adapter = SimpleListAdapter(data=data,
                                                 args_converter=args_converter,
@@ -67,7 +66,6 @@ def emphasize_part(input_str, idx, color='3333ff'):
                                              input_str[idx+1:])
     
 
-
 class Columns(GridLayout):
     def __init__(self, text, **kwargs):
         super(Columns, self).__init__(size_hint_x=1, rows=2)
@@ -76,23 +74,23 @@ class Columns(GridLayout):
         self.carousel.bind(index=self.update_title)
         
         self.title_label = Label(font_name=FONT, markup=True,
-                              font_size=30, size_hint_y=0.1)
+                                 font_size=30, size_hint_y=0.1)
 
         self.update_content(text)
-        
-        
+
     def update_title(self, *kwargs):
         if len(kwargs) > 0:
             self.current_block = kwargs[1] or 0
         title = emphasize_part(self.word.string, idx=self.current_block)
-        etymology_str = ' ({})'.format(emphasize_part(self.word.etymology, idx=self.current_block)) if self.word.etymology else ''
+        etymology_str = (' ({})'.format(emphasize_part(self.word.etymology,
+                                                       idx=self.current_block))
+                         if self.word.etymology else '')
         title += etymology_str
         self.title_label.text = title
         
     def analyze(self, text):
-        self.word = Word(text, compute_ethym=True)
+        self.word = Word(text, compute_etymology=True)
         self.blocks = self.word.get_blocks_for_selected_meaning()
-
     
     def update_content(self, text):
         self.clear_widgets()
@@ -106,7 +104,6 @@ class Columns(GridLayout):
 
         self.add_widget(self.title_label)
         self.add_widget(self.carousel)
-
 
 
 class AwaApp(App):

@@ -29,6 +29,7 @@ DEBUG = False
 #                    STANDARD RENDERING FUNCTIONS
 # ==============================================================================
 
+
 def render_top():
     utf8print("Content-Type: text/html;  charset=utf8\r\n\n")
     utf8print("")
@@ -104,11 +105,10 @@ def render_block(block, words):
                         """ + block.meaning + """
                     </li>""")
 
-    for word_idx in range(len(words)):
-        word = words.ix[word_idx]
+    for word in words:
         utf8print("""
                     <li class="plan-price">
-                        <strong> <a href="/awa.py?word=""" + word.word + """">""" + word.word)
+                        <strong> <a href="/awa.py?word=""" + word.string + """">""" + word.string)
 
         if word.etymology:
             utf8print(' (' + word.etymology + ')')

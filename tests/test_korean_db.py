@@ -4,6 +4,7 @@ import pytest
 
 from asian_word_analyzer.korean.db import DbUtil
 from asian_word_analyzer.korean.word import KoreanWord
+from asian_word_analyzer.block import Block
 
 
 class TestDbUtil:
@@ -13,22 +14,40 @@ class TestDbUtil:
         with pytest.raises(FileNotFoundError):
             DbUtil()
 
-    def test_get_hanja_name(self):
+    @pytest.mark.parametrize('hanja, expected',
+                             [
+                                 [u'大', u'클 대 / 큰 대'],
+                                 ['dummy', None]
+                             ])
+    def test_get_hanja_name(self, hanja, expected):
         util = DbUtil()
-        assert u'클 대 / 큰 대' == util.get_hanja_name(u'大')
+        assert expected == util.get_hanja_name(hanja)
 
-    def test_get_hanja_meaning(self):
+    @pytest.mark.parametrize('hanja, expected',
+                             [
+                                 [u'大', 'big'],
+                                 ['dummy', None]
+                             ])
+    def test_get_hanja_meaning(self, hanja, expected):
         util = DbUtil()
-        assert 'big' == util.get_hanja_meaning(u'大')
+        assert expected == util.get_hanja_meaning(hanja)
 
     def test_compute_meanings(self):
         util = DbUtil()
-        assert '(평안) (public) peace (안정) stability, well' in util.compute_meanings(u'안녕').values
+        assert '(평안) (public) peace (안정) stability, well' in util.compute_meanings(u'안녕')
 
-    def test_get_words_with_block(self):
-        input_str = u'안녕'
+    @pytest.mark.parametrize('input_str, exclude, input_str_expected',
+                             [
+                                 [u'안녕', None, True],
+                                 [u'안녕', u'안녕', False],
+                             ])
+    def test_get_words_with_block(self, input_str, exclude, input_str_expected):
         word = KoreanWord(input_str, compute_etymology=True)
         block = word.get_blocks_for_selected_meaning()[0]
-        words = DbUtil().get_words_with_block(block)
+        words = DbUtil().get_words_with_block(block, exclude=exclude)
         assert len(words) > 0
-        assert input_str in words.word.values
+        assert input_str_expected == (input_str in [word[0] for word in words])
+
+    def test_get_words_with_block_no_etymology(self):
+        block = Block(u'하세요')
+        assert [] == DbUtil().get_words_with_block(block)

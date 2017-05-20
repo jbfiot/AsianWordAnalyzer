@@ -10,7 +10,6 @@ Created on Wed Apr 22 11:31:22 2015
 import cgitb
 
 from asian_word_analyzer.utf8 import _u
-from asian_word_analyzer.korean.naver import get_hanja
 from asian_word_analyzer.korean.db import DbUtil
 from asian_word_analyzer.block import Block
 import asian_word_analyzer.ui as ui
@@ -85,7 +84,7 @@ class KoreanWord(AsianWord):
         ui.render_debug('compute_blocks(...) called for word ' + self.string)
 
         if compute_etymology:
-            etymology = get_hanja(self.string_without_suffix)
+            etymology = self.db_util.get_hanja(self.string_without_suffix)
             ui.render_debug(etymology)
 
             blocks = [Block(self.string_without_suffix[i], etymology=etymology[i],

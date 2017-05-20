@@ -84,17 +84,17 @@ class KoreanWord(AsianWord):
         """
         ui.render_debug('compute_blocks(...) called for word ' + self.string)
 
-        if not compute_etymology:
-            blocks = [Block(self.string_without_suffix[i])
-                      for i in range(len(self.string_without_suffix))
-                      if self.string_without_suffix[i] != ' ']
-        else:
+        if compute_etymology:
             etymology = get_hanja(self.string_without_suffix)
             ui.render_debug(etymology)
 
             blocks = [Block(self.string_without_suffix[i], etymology=etymology[i],
                             meaning=self.db_util.get_hanja_meaning(etymology[i]),
                             name=self.db_util.get_hanja_name(etymology[i]))
+                      for i in range(len(self.string_without_suffix))
+                      if self.string_without_suffix[i] != ' ']
+        else:
+            blocks = [Block(self.string_without_suffix[i])
                       for i in range(len(self.string_without_suffix))
                       if self.string_without_suffix[i] != ' ']
 

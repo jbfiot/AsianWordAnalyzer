@@ -51,3 +51,11 @@ class TestDbUtil:
     def test_get_words_with_block_no_etymology(self):
         block = Block(u'하세요')
         assert [] == DbUtil().get_words_with_block(block)
+
+    @pytest.mark.parametrize('hanja, expected',
+                             [
+                                 [u'안녕', u'安寧'],
+                                 ['DUMMY', None],
+                             ])
+    def test_get_hanja(self, hanja, expected):
+        assert expected == DbUtil().get_hanja(hanja)

@@ -85,13 +85,19 @@ class KoreanWord(AsianWord):
 
         if compute_etymology:
             etymology = self.db_util.get_hanja(self.string_without_suffix)
-            ui.render_debug(etymology)
+            if etymology:
+                ui.render_debug('Found hanja={}'.format(etymology))
 
-            blocks = [Block(self.string_without_suffix[i], etymology=etymology[i],
-                            meaning=self.db_util.get_hanja_meaning(etymology[i]),
-                            name=self.db_util.get_hanja_name(etymology[i]))
-                      for i in range(len(self.string_without_suffix))
-                      if self.string_without_suffix[i] != ' ']
+                blocks = [Block(self.string_without_suffix[i], etymology=etymology[i],
+                                meaning=self.db_util.get_hanja_meaning(etymology[i]),
+                                name=self.db_util.get_hanja_name(etymology[i]))
+                          for i in range(len(self.string_without_suffix))
+                          if self.string_without_suffix[i] != ' ']
+            else:
+                ui.render_error('Hanja not found for {}.'
+                                'Please check the spelling or populate the `Korean` table '
+                                'with more data.'.format(self.string_without_suffix))
+                blocks = []
         else:
             blocks = [Block(self.string_without_suffix[i])
                       for i in range(len(self.string_without_suffix))
